@@ -8,7 +8,7 @@ The national gazetteer; the stable key is 'uuid'.
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissnames3d/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissnames3d/`
 - S3: `s3://ch-geodata/topography/swissnames3d/`
 - CRS: EPSG:4326 (WGS84) (source EPSG:2056 (CH1903+ / LV95)).
 
@@ -17,13 +17,13 @@ The national gazetteer; the stable key is 'uuid'.
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissnames3d/swissnames3d.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissnames3d/swissnames3d.parquet')").show()
 ```
 
 **Find a peak by name**
 
 ```sql
-SELECT name, geometry FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissnames3d/swissnames3d.parquet') WHERE objektart LIKE '%Gipfel%' AND name = 'Matterhorn';
+SELECT name, geometry FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissnames3d/swissnames3d.parquet') WHERE objektart LIKE '%Gipfel%' AND name = 'Matterhorn';
 ```
 
 ## Quirks and caveats

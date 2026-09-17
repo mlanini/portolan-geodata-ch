@@ -4,9 +4,9 @@ Cloud-native mirror of Swiss federal geodata. Query the data directly from objec
 
 ## Access
 
-- HTTPS base: `https://ch-geodata.s3.eu-central-2.amazonaws.com`
+- HTTPS base: `https://ch-geodata.s3.eu-north-1.amazonaws.com`
 - S3 base: `s3://ch-geodata`
-- Root STAC: `https://ch-geodata.s3.eu-central-2.amazonaws.com/catalog.json`
+- Root STAC: `https://ch-geodata.s3.eu-north-1.amazonaws.com/catalog.json`
 - Vector and tabular data are GeoParquet/Parquet (query with DuckDB spatial or GeoPandas over HTTP range requests). Raster is Cloud-Optimized GeoTIFF with a STAC-GeoParquet item mirror per collection.
 
 ## Collections
@@ -37,7 +37,7 @@ Vector/tabular data is published in EPSG:4326 (WGS84). The Swiss source CRS is E
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.parquet')").show()
 ```
 
 _Generated from `tools/manifest/`._

@@ -8,7 +8,7 @@ Use for national overviews; drop to swisstlm3d when detail matters.
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlmregio/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlmregio/`
 - S3: `s3://ch-geodata/topography/swisstlmregio/`
 - CRS: EPSG:4326 (WGS84) (source EPSG:2056 (CH1903+ / LV95)).
 
@@ -17,13 +17,13 @@ Use for national overviews; drop to swisstlm3d when detail matters.
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet')").show()
 ```
 
 **National river network**
 
 ```sql
-SELECT * FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet') WHERE objektart LIKE '%Fluss%';
+SELECT * FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet') WHERE objektart LIKE '%Fluss%';
 ```
 
 ## Quirks and caveats

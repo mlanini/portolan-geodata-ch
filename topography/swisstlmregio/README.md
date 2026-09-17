@@ -16,7 +16,7 @@ swissTLMRegio is the small-scale (≈1:200,000) generalized derivative of swissT
 import duckdb
 con = duckdb.connect()
 con.sql("INSTALL spatial; LOAD spatial;")
-df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet') LIMIT 100").df()
+df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet') LIMIT 100").df()
 ```
 
 ## Original source formats

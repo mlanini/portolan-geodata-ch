@@ -8,7 +8,7 @@ RGB orthophoto COG tiles, one STAC item per tile, already cloud-optimized at the
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/terrain-imagery/swissimage-dop10/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/terrain-imagery/swissimage-dop10/`
 - S3: `s3://ch-geodata/terrain-imagery/swissimage-dop10/`
 - CRS: EPSG:2056 (CH1903+ / LV95) COG tiles (source EPSG:2056 (CH1903+ / LV95)).
 

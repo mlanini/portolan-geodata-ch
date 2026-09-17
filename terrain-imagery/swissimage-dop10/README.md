@@ -16,7 +16,7 @@ SWISSIMAGE 10 cm (DOP10) is the seamless orthorectified aerial-image mosaic of S
 # Query every scene from the STAC-GeoParquet item mirror, then open a tile.
 import duckdb, rioxarray as rxr
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-items = con.sql("SELECT id, assets FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/terrain-imagery/swissimage-dop10/items.parquet') LIMIT 10").df()
+items = con.sql("SELECT id, assets FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/terrain-imagery/swissimage-dop10/items.parquet') LIMIT 10").df()
 # da = rxr.open_rasterio(<cog url from items.assets>)
 ```
 

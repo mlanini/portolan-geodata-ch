@@ -8,7 +8,7 @@ Non-spatial key table. bfs_nummer is the join key to swissboundaries3d geometry.
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/municipality-register/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/municipality-register/`
 - S3: `s3://ch-geodata/boundaries/municipality-register/`
 - CRS: n/a (non-spatial) (source n/a (non-spatial)).
 
@@ -17,13 +17,13 @@ Non-spatial key table. bfs_nummer is the join key to swissboundaries3d geometry.
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/municipality-register/municipality-register.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/municipality-register/municipality-register.parquet')").show()
 ```
 
 **Join register to geometry**
 
 ```sql
-SELECT r.gemeindename, b.geometry FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/municipality-register/municipality-register.parquet') r JOIN read_parquet('../swissboundaries3d/swissboundaries3d.parquet') b USING (bfs_nummer) WHERE r.gueltig_bis IS NULL;
+SELECT r.gemeindename, b.geometry FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/municipality-register/municipality-register.parquet') r JOIN read_parquet('../swissboundaries3d/swissboundaries3d.parquet') b USING (bfs_nummer) WHERE r.gueltig_bis IS NULL;
 ```
 
 ## Quirks and caveats

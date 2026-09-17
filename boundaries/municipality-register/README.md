@@ -16,7 +16,7 @@ The official register of the communes of Switzerland maintained by the Federal S
 import duckdb
 con = duckdb.connect()
 con.sql("INSTALL spatial; LOAD spatial;")
-df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/municipality-register/municipality-register.parquet') LIMIT 100").df()
+df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/municipality-register/municipality-register.parquet') LIMIT 100").df()
 ```
 
 ## Original source formats

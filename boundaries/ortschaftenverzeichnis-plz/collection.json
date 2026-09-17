@@ -87,7 +87,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "Official Register of Localities with Postal Codes (PLZ) (GeoParquet)",
       "description": "GeoParquet 1.1, zstd-compressed, spatially ordered, with a bbox covering column and per-row-group statistics. Produced by the geodata.ch build pipeline.",
@@ -102,7 +102,7 @@
       }
     },
     "visual": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "Official Register of Localities with Postal Codes (PLZ) (PMTiles)",
       "roles": [
@@ -162,7 +162,7 @@
     },
     {
       "rel": "pmtiles",
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "Web map tiles",
       "pmtiles:layers": [

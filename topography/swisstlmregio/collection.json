@@ -77,7 +77,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlmregio/swisstlmregio.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "swissTLMRegio — Generalized Topographic Model (GeoParquet)",
       "description": "GeoParquet 1.1, zstd-compressed, spatially ordered, with a bbox covering column and per-row-group statistics. Produced by the geodata.ch build pipeline.",
@@ -92,7 +92,7 @@
       }
     },
     "visual": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlmregio/swisstlmregio.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlmregio/swisstlmregio.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "swissTLMRegio — Generalized Topographic Model (PMTiles)",
       "roles": [
@@ -152,7 +152,7 @@
     },
     {
       "rel": "pmtiles",
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlmregio/swisstlmregio.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlmregio/swisstlmregio.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "Web map tiles",
       "pmtiles:layers": [

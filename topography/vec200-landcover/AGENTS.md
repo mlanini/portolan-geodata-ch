@@ -8,7 +8,7 @@ Coarse national land cover; pair with swissboundaries3d for per-canton statistic
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/vec200-landcover/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/`
 - S3: `s3://ch-geodata/topography/vec200-landcover/`
 - CRS: EPSG:4326 (WGS84) (source EPSG:2056 (CH1903+ / LV95)).
 
@@ -17,13 +17,13 @@ Coarse national land cover; pair with swissboundaries3d for per-canton statistic
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/vec200-landcover/vec200-landcover.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.parquet')").show()
 ```
 
 **Forest area by class**
 
 ```sql
-SELECT objval, SUM(ST_Area(ST_Transform(geometry,'EPSG:4326','EPSG:2056')))/1e6 AS km2 FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/vec200-landcover/vec200-landcover.parquet') GROUP BY objval;
+SELECT objval, SUM(ST_Area(ST_Transform(geometry,'EPSG:4326','EPSG:2056')))/1e6 AS km2 FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.parquet') GROUP BY objval;
 ```
 
 ## Quirks and caveats

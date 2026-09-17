@@ -8,7 +8,7 @@ Building footprints keyed by EGID; the 3D model is in the source.
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissbuildings3d/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissbuildings3d/`
 - S3: `s3://ch-geodata/topography/swissbuildings3d/`
 - CRS: EPSG:4326 (WGS84), 2D footprints (source EPSG:2056 (CH1903+ / LV95), LN02 heights).
 
@@ -17,13 +17,13 @@ Building footprints keyed by EGID; the 3D model is in the source.
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.parquet')").show()
 ```
 
 **Buildings by roof type**
 
 ```sql
-SELECT dachtyp, count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissbuildings3d/**/*.parquet') GROUP BY dachtyp ORDER BY 2 DESC;
+SELECT dachtyp, count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissbuildings3d/**/*.parquet') GROUP BY dachtyp ORDER BY 2 DESC;
 ```
 
 ## Quirks and caveats

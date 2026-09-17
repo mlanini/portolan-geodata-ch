@@ -16,7 +16,7 @@ swissNAMES3D is the complete set of geographical names of Switzerland: settlemen
 import duckdb
 con = duckdb.connect()
 con.sql("INSTALL spatial; LOAD spatial;")
-df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissnames3d/swissnames3d.parquet') LIMIT 100").df()
+df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissnames3d/swissnames3d.parquet') LIMIT 100").df()
 ```
 
 ## Original source formats

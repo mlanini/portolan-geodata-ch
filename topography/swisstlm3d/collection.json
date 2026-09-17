@@ -83,7 +83,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlm3d/swisstlm3d.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlm3d/swisstlm3d.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "swissTLM3D — Topographic Landscape Model (GeoParquet)",
       "description": "GeoParquet 1.1, zstd-compressed, spatially ordered, with a bbox covering column and per-row-group statistics. Produced by the geodata.ch build pipeline.",
@@ -98,7 +98,7 @@
       }
     },
     "visual": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlm3d/swisstlm3d.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlm3d/swisstlm3d.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "swissTLM3D — Topographic Landscape Model (PMTiles)",
       "roles": [
@@ -158,7 +158,7 @@
     },
     {
       "rel": "pmtiles",
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlm3d/swisstlm3d.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlm3d/swisstlm3d.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "Web map tiles",
       "pmtiles:layers": [

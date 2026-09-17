@@ -8,7 +8,7 @@ The national topographic reference. Every other geodata.ch vector layer can be s
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlm3d/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlm3d/`
 - S3: `s3://ch-geodata/topography/swisstlm3d/`
 - CRS: EPSG:4326 (WGS84) (source EPSG:2056 (CH1903+ / LV95, with LN02 heights)).
 
@@ -17,13 +17,13 @@ The national topographic reference. Every other geodata.ch vector layer can be s
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlm3d/swisstlm3d.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlm3d/swisstlm3d.parquet')").show()
 ```
 
 **Roads within a bbox**
 
 ```sql
-SELECT * FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swisstlm3d/**/*.parquet') WHERE objektart LIKE 'Strasse%' AND ST_Intersects(geometry, ST_MakeEnvelope(7.4,46.9,7.5,47.0));
+SELECT * FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swisstlm3d/**/*.parquet') WHERE objektart LIKE 'Strasse%' AND ST_Intersects(geometry, ST_MakeEnvelope(7.4,46.9,7.5,47.0));
 ```
 
 ## Quirks and caveats

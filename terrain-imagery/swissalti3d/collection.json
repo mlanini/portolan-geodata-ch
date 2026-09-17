@@ -57,7 +57,7 @@
   },
   "assets": {
     "item-mirror": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/terrain-imagery/swissalti3d/items.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/terrain-imagery/swissalti3d/items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "STAC-GeoParquet item mirror",
       "description": "Spatially ordered STAC-GeoParquet copy of every scene item, so all tiles can be queried in one range request. Produced by the pipeline.",

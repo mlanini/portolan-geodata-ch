@@ -16,7 +16,7 @@ swissBOUNDARIES3D holds the administrative boundaries of Switzerland at four lev
 import duckdb
 con = duckdb.connect()
 con.sql("INSTALL spatial; LOAD spatial;")
-df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.parquet') LIMIT 100").df()
+df = con.sql("SELECT * FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.parquet') LIMIT 100").df()
 ```
 
 ## Original source formats

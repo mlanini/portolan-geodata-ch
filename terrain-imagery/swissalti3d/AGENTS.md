@@ -8,7 +8,7 @@ Bare-earth DTM COG tiles, one STAC item per tile. Read the item mirror to query 
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/terrain-imagery/swissalti3d/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/terrain-imagery/swissalti3d/`
 - S3: `s3://ch-geodata/terrain-imagery/swissalti3d/`
 - CRS: EPSG:2056 (CH1903+ / LV95) COG tiles (source EPSG:2056 (CH1903+ / LV95), LN02 heights).
 

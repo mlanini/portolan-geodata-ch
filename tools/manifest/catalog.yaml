@@ -24,9 +24,9 @@ catalog:
     with no server in between. Every collection links back to the authoritative
     swisstopo source and its original FileGDB, GeoPackage, and INTERLIS (XTF)
     downloads.
-  # Canonical hosting location. AWS Zurich region (eu-central-2) sits closest to
-  # the data's audience; adjust if the ch-geodata bucket is created elsewhere.
-  base_url: "https://ch-geodata.s3.eu-central-2.amazonaws.com"
+  # Canonical hosting location. The ch-geodata bucket lives in AWS eu-north-1
+  # (Stockholm); the HTTPS base is the S3 virtual-hosted URL for that region.
+  base_url: "https://ch-geodata.s3.eu-north-1.amazonaws.com"
   s3_base: "s3://ch-geodata"
   s3_arn: "arn:aws:s3:::ch-geodata"
   updated: "2026-09-17T00:00:00Z"

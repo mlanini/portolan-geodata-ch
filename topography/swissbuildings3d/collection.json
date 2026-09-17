@@ -82,7 +82,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "swissBUILDINGS3D — 3D Building Models (GeoParquet)",
       "description": "GeoParquet 1.1, zstd-compressed, spatially ordered, with a bbox covering column and per-row-group statistics. Produced by the geodata.ch build pipeline.",
@@ -97,7 +97,7 @@
       }
     },
     "visual": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "swissBUILDINGS3D — 3D Building Models (PMTiles)",
       "roles": [
@@ -157,7 +157,7 @@
     },
     {
       "rel": "pmtiles",
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/swissbuildings3d/swissbuildings3d.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "Web map tiles",
       "pmtiles:layers": [

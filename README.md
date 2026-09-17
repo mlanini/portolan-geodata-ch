@@ -6,7 +6,7 @@ geodata.ch is a cloud-native mirror of open geodata from the Swiss Federal Spati
 
 geodata.ch is a **mirror**: the datasets are produced by swisstopo and the Federal Statistical Office and republished here in cloud-native formats (GeoParquet, PMTiles, Cloud-Optimized GeoTIFF). Every collection links back to its authoritative source and original downloads.
 
-- **Storage:** `s3://ch-geodata` (`arn:aws:s3:::ch-geodata`), served over HTTPS at `https://ch-geodata.s3.eu-central-2.amazonaws.com`.
+- **Storage:** `s3://ch-geodata` (`arn:aws:s3:::ch-geodata`), served over HTTPS at `https://ch-geodata.s3.eu-north-1.amazonaws.com`.
 - **License:** all data under `other` — [swisstopo — free geodata, free use with source citation](https://www.swisstopo.admin.ch/en/terms-of-use-free-geodata).
 - **Spec:** Portolan `https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json` (STAC 1.1.0).
 

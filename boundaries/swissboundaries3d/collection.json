@@ -93,7 +93,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "swissBOUNDARIES3D — Administrative Boundaries (GeoParquet)",
       "description": "GeoParquet 1.1, zstd-compressed, spatially ordered, with a bbox covering column and per-row-group statistics. Produced by the geodata.ch build pipeline.",
@@ -108,7 +108,7 @@
       }
     },
     "visual": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "swissBOUNDARIES3D — Administrative Boundaries (PMTiles)",
       "roles": [
@@ -168,7 +168,7 @@
     },
     {
       "rel": "pmtiles",
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "Web map tiles",
       "pmtiles:layers": [

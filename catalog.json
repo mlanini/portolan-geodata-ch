@@ -16,7 +16,7 @@
     },
     {
       "rel": "self",
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/catalog.json",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     {

@@ -72,7 +72,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/vec200-landcover/vec200-landcover.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "VECTOR200 — Land Cover (GeoParquet)",
       "description": "GeoParquet 1.1, zstd-compressed, spatially ordered, with a bbox covering column and per-row-group statistics. Produced by the geodata.ch build pipeline.",
@@ -87,7 +87,7 @@
       }
     },
     "visual": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/vec200-landcover/vec200-landcover.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "VECTOR200 — Land Cover (PMTiles)",
       "roles": [
@@ -147,7 +147,7 @@
     },
     {
       "rel": "pmtiles",
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/topography/vec200-landcover/vec200-landcover.pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.pmtiles",
       "type": "application/vnd.pmtiles",
       "title": "Web map tiles",
       "pmtiles:layers": [

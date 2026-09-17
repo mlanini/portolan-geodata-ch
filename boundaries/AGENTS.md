@@ -8,6 +8,6 @@ Administrative boundaries, localities and postal codes, and the official registe
 - `boundaries/ortschaftenverzeichnis-plz` — Official Register of Localities with Postal Codes (PLZ)
 - `boundaries/municipality-register` — Official Register of Swiss Municipalities (BFS)
 
-All assets live under `https://ch-geodata.s3.eu-central-2.amazonaws.com/<collection-id>/` (S3: `s3://ch-geodata/<collection-id>/`).
+All assets live under `https://ch-geodata.s3.eu-north-1.amazonaws.com/<collection-id>/` (S3: `s3://ch-geodata/<collection-id>/`).
 
 See each collection's AGENTS.md for keys, quirks, and query recipes.

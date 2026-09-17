@@ -91,7 +91,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/municipality-register/municipality-register.parquet",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/municipality-register/municipality-register.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "Official Register of Swiss Municipalities (BFS) (Parquet)",
       "description": "Non-geospatial Parquet table produced by the geodata.ch build pipeline.",

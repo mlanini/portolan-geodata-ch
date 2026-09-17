@@ -8,7 +8,7 @@ Bridges postal codes (plz) to administrative geography (bfs_nummer).
 
 ## Access
 
-- Base URL: `https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/`
+- Base URL: `https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/`
 - S3: `s3://ch-geodata/boundaries/ortschaftenverzeichnis-plz/`
 - CRS: EPSG:4326 (WGS84) (source EPSG:2056 (CH1903+ / LV95)).
 
@@ -17,13 +17,13 @@ Bridges postal codes (plz) to administrative geography (bfs_nummer).
 ```python
 import duckdb
 con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.parquet')").show()
+con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.parquet')").show()
 ```
 
 **Localities in a postal code**
 
 ```sql
-SELECT ortschaftsname, bfs_nummer FROM read_parquet('https://ch-geodata.s3.eu-central-2.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.parquet') WHERE plz = 3011;
+SELECT ortschaftsname, bfs_nummer FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/ortschaftenverzeichnis-plz/ortschaftenverzeichnis-plz.parquet') WHERE plz = 3011;
 ```
 
 ## Quirks and caveats

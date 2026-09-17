@@ -473,7 +473,7 @@ def collection_agents(cat, ds):
 def collections_toc(cat, datasets):
     rows = ["| Collection | Type | Geometry | Description |", "| --- | --- | --- | --- |"]
     for d in datasets:
-        link = f"[{d['title']}](./{'/'.join(d['id'].split('/')[1:])}/README.md)"
+        link = f"[{d['title']}](./{d['id']}/README.md)"
         rows.append(f"| {link} | {d['data_type']} | {d.get('geometry') or '—'} | {d['description'].strip().split('.')[0]}. |")
     return "\n".join(rows)
 
@@ -550,6 +550,12 @@ def root_readme(cat, subs, datasets):
         "are produced by a repeatable pipeline. See [tools/README.md](./tools/README.md). "
         "Integration of cantonal data via geodienste.ch is assessed in "
         "[docs/geodienste-integration.md](./docs/geodienste-integration.md).",
+        "",
+        "This is a spec-compliant scaffold: the STAC structure, documentation, and "
+        "pipeline are complete, and the data assets are produced when the pipeline "
+        "runs inside the Swiss Federal network. See "
+        "[docs/known-gaps.md](./docs/known-gaps.md) for exactly what is real versus "
+        "pipeline-produced.",
         "",
         "_This page is generated from `tools/manifest/`. Edit the manifest, not this file._",
         "",

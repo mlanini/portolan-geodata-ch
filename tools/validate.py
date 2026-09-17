@@ -146,6 +146,21 @@ def check_collection(path: Path, obj):
             err(f"{path.relative_to(ROOT)}: pmtiles link has empty pmtiles:layers")
 
 
+def check_markdown_links():
+    import re
+    pattern = re.compile(r"\[[^\]]+\]\((\.[^)]+)\)")
+    for md in ROOT.rglob("*.md"):
+        if ".git" in md.parts or "/tmp" in str(md):
+            continue
+        for m in pattern.finditer(md.read_text()):
+            href = m.group(1).split("#")[0]
+            if not href:
+                continue
+            target = (md.parent / href).resolve()
+            if not target.exists():
+                err(f"{md.relative_to(ROOT)}: markdown link -> {href} does not resolve")
+
+
 def main():
     n_cat = n_col = 0
     for path in sorted(ROOT.rglob("catalog.json")):
@@ -164,6 +179,8 @@ def main():
             err(f"{path.relative_to(ROOT)}: type must be Collection")
         check_collection(path, obj)
         n_col += 1
+
+    check_markdown_links()
 
     print(f"Checked {n_cat} catalogs and {n_col} collections.")
     for w in warnings:

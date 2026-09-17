@@ -1,0 +1,490 @@
+# geodata.ch — dataset manifest (single source of truth)
+#
+# One entry per collection. The generator turns each entry into a collection.json,
+# README.md, AGENTS.md, and (for vector) a MapLibre style. See catalog.yaml for
+# shared configuration and the honesty rules that govern placeholder values.
+#
+# Field notes:
+#   id            POSIX path from the catalog root == directory == STAC id.
+#   data_type     vector | raster | tabular  (drives format requirements).
+#   source_stac   swisstopo STAC collection id on data.geo.admin.ch. Marked
+#                 "verify: pipeline" because it cannot be confirmed from this
+#                 sandbox; harvest_stac.py checks each id against the live API.
+#   originals     the authoritative upstream downloads (FileGDB / GeoPackage /
+#                 INTERLIS XTF / CSV) that geodata.ch mirrors. Enumerated for the
+#                 README/AGENTS and data-sources.md; concrete per-release hrefs
+#                 are resolved by the pipeline from the source STAC items.
+
+datasets:
+
+  # ------------------------------------------------------------------ topography
+  - id: topography/swisstlm3d
+    subcatalog: topography
+    data_type: vector
+    geometry: "Multiple (points, lines, polygons across ~70 layers)"
+    title: "swissTLM3D — Topographic Landscape Model"
+    description: >-
+      swissTLM3D is the large-scale topographic landscape model of Switzerland:
+      the most detailed and precise vector reference of roads, railways,
+      buildings, watercourses, land cover, and more, with 3D geometry. Published
+      here as a partitioned GeoParquet dataset per feature theme with PMTiles for
+      the web.
+    keywords: ["topography", "landscape model", "TLM", "roads", "hydrography", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/landscape-model-swisstlm3d"
+    source_stac: "ch.swisstopo.swisstlm3d"   # verify: pipeline
+    geocat_search: "swissTLM3D"
+    crs_source: "EPSG:2056 (CH1903+ / LV95, with LN02 heights)"
+    crs_published: "EPSG:4326 (WGS84)"
+    temporal: ["2016-01-01T00:00:00Z", null]
+    temporal_note: "Biannual update cycle; interval start is the first integrated release, indicative."
+    partitioned: true
+    pmtiles_layers: ["tlm_strasse", "tlm_gewaesser", "tlm_bodenbedeckung"]
+    originals:
+      - {format: "FileGDB", media_type: "application/x-filegdb", title: "swissTLM3D (Esri File Geodatabase)"}
+      - {format: "GeoPackage", media_type: "application/geopackage+sqlite3", title: "swissTLM3D (GeoPackage)"}
+      - {format: "INTERLIS/XTF", media_type: "application/interlis+xml", title: "swissTLM3D (INTERLIS 2 transfer, XTF)"}
+    table_columns:
+      - {name: "objektart", type: "string", description: "Feature class / object type code within the TLM theme."}
+      - {name: "objektursprung", type: "string", description: "Origin of the object (surveyed, derived, etc.)."}
+      - {name: "revision_jahr", type: "int", description: "Year of last revision of the feature."}
+      - {name: "geometry", type: "binary", description: "Feature geometry as WKB, EPSG:4326 (3D collapsed to 2D in GeoParquet; Z retained in source)."}
+    readme:
+      numbers: "~70 feature layers covering the whole of Switzerland and Liechtenstein at reference scale ~1:10,000."
+      suggested_uses:
+        - "Authoritative base map for cartography, routing, and hydrological network analysis."
+        - "Reference geometry for snapping and conflating other vector datasets."
+      limitations:
+        - "swissTLM3D is a landscape model, not a cadastre: building footprints are generalized and are not legal parcel boundaries."
+        - "Z values in the source are dropped in the 2D GeoParquet; use the source FileGDB/XTF when 3D geometry is required."
+      definitions:
+        - "'objektart' codes follow the swissTLM3D data model; see the swisstopo object catalogue."
+    agents:
+      context: "The national topographic reference. Every other geodata.ch vector layer can be snapped to it."
+      key_columns: "No single national key; join thematically by geometry (spatial join) or by objektart within a theme."
+      quirks:
+        - "This is a partitioned collection: read the whole theme with the partition glob, not a single file."
+        - "Geometry is delivered in EPSG:4326; the source model is EPSG:2056 (metres). For area/length use a projected CRS."
+      recipes:
+        - {title: "Roads within a bbox", sql: "SELECT * FROM read_parquet('{glob}') WHERE objektart LIKE 'Strasse%' AND ST_Intersects(geometry, ST_MakeEnvelope(7.4,46.9,7.5,47.0));"}
+
+  - id: topography/swisstlmregio
+    subcatalog: topography
+    data_type: vector
+    geometry: "Lines and polygons (generalized)"
+    title: "swissTLMRegio — Generalized Topographic Model"
+    description: >-
+      swissTLMRegio is the small-scale (≈1:200,000) generalized derivative of
+      swissTLM3D, covering Switzerland and neighbouring regions. It suits
+      country-wide overview maps and analyses that do not need full TLM detail.
+    keywords: ["topography", "generalized", "overview", "1:200000", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/landscape-model-swisstlmregio"
+    source_stac: "ch.swisstopo.swisstlmregio"   # verify: pipeline
+    geocat_search: "swissTLMRegio"
+    crs_source: "EPSG:2056 (CH1903+ / LV95)"
+    crs_published: "EPSG:4326 (WGS84)"
+    temporal: ["2013-01-01T00:00:00Z", null]
+    temporal_note: "Annual update; interval start indicative."
+    partitioned: false
+    pmtiles_layers: ["tlmregio_transport", "tlmregio_hydro"]
+    originals:
+      - {format: "FileGDB", media_type: "application/x-filegdb", title: "swissTLMRegio (File Geodatabase)"}
+      - {format: "GeoPackage", media_type: "application/geopackage+sqlite3", title: "swissTLMRegio (GeoPackage)"}
+      - {format: "INTERLIS/XTF", media_type: "application/interlis+xml", title: "swissTLMRegio (INTERLIS 2, XTF)"}
+    table_columns:
+      - {name: "objektart", type: "string", description: "Generalized feature class code."}
+      - {name: "name", type: "string", description: "Feature name where carried (e.g. main roads, rivers)."}
+      - {name: "geometry", type: "binary", description: "Generalized geometry as WKB, EPSG:4326."}
+    readme:
+      numbers: "Country-wide generalized topography at reference scale ~1:200,000."
+      suggested_uses:
+        - "Small-scale overview and print maps of Switzerland."
+        - "Fast national-extent analyses where full TLM detail is unnecessary."
+      limitations:
+        - "Geometry is generalized: do not use for local measurement or precise overlay against large-scale data."
+      definitions:
+        - "Feature classes are a generalized subset of the swissTLM3D object catalogue."
+    agents:
+      context: "Use for national overviews; drop to swisstlm3d when detail matters."
+      key_columns: "objektart for thematic filtering; no stable national feature id."
+      quirks:
+        - "Generalized geometry — nearby features from swisstlm3d will not overlay exactly."
+      recipes:
+        - {title: "National river network", sql: "SELECT * FROM read_parquet('{data}') WHERE objektart LIKE '%Fluss%';"}
+
+  - id: topography/swissnames3d
+    subcatalog: topography
+    data_type: vector
+    geometry: "Points, lines, polygons (named features)"
+    title: "swissNAMES3D — Geographical Names"
+    description: >-
+      swissNAMES3D is the complete set of geographical names of Switzerland:
+      settlements, terrain features, waters, and named objects, each as a 3D
+      point, line, or polygon. It is the authoritative gazetteer for the country.
+    keywords: ["names", "gazetteer", "toponyms", "places", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/geographical-names-swissnames3d"
+    source_stac: "ch.swisstopo.swissnames3d"   # verify: pipeline
+    geocat_search: "swissNAMES3D"
+    crs_source: "EPSG:2056 (CH1903+ / LV95)"
+    crs_published: "EPSG:4326 (WGS84)"
+    temporal: ["2016-01-01T00:00:00Z", null]
+    temporal_note: "Continuous maintenance; interval start indicative."
+    partitioned: false
+    pmtiles_layers: ["swissnames_points"]
+    originals:
+      - {format: "GeoPackage", media_type: "application/geopackage+sqlite3", title: "swissNAMES3D (GeoPackage)"}
+      - {format: "INTERLIS/XTF", media_type: "application/interlis+xml", title: "swissNAMES3D (INTERLIS 2, XTF)"}
+      - {format: "CSV", media_type: "text/csv", title: "swissNAMES3D (CSV, point names)"}
+    table_columns:
+      - {name: "uuid", type: "string", description: "Stable identifier of the named feature."}
+      - {name: "name", type: "string", description: "Official geographical name."}
+      - {name: "objektart", type: "string", description: "Feature category (e.g. Ortschaft, Gipfel, Fluss)."}
+      - {name: "sprachcode", type: "string", description: "Language of the name (de/fr/it/rm)."}
+      - {name: "geometry", type: "binary", description: "Feature geometry as WKB, EPSG:4326."}
+    readme:
+      numbers: "Several hundred thousand named features across all four national languages."
+      suggested_uses:
+        - "Geocoding and map labelling."
+        - "Linking place names in text to coordinates."
+      limitations:
+        - "Names are multilingual and region-dependent; a feature may carry different names per language."
+      definitions:
+        - "'objektart' categorizes the named feature; 'sprachcode' gives the language of the specific name record."
+    agents:
+      context: "The national gazetteer; the stable key is 'uuid'."
+      key_columns: "uuid is stable per feature; filter language with sprachcode."
+      quirks:
+        - "A place can appear multiple times with different sprachcode values — filter or group by language."
+      recipes:
+        - {title: "Find a peak by name", sql: "SELECT name, geometry FROM read_parquet('{data}') WHERE objektart LIKE '%Gipfel%' AND name = 'Matterhorn';"}
+
+  - id: topography/vec200-landcover
+    subcatalog: topography
+    data_type: vector
+    geometry: "Polygons"
+    title: "VECTOR200 — Land Cover"
+    description: >-
+      The land-cover layer of VECTOR200, the vectorized national map at
+      1:200,000. Polygons classify the country into land-cover types (forest,
+      settlement, water, glacier, and more) for national-scale thematic mapping.
+    keywords: ["land cover", "vector200", "1:200000", "landuse", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/landscape-model-vector200"
+    source_stac: "ch.swisstopo.vec200-landcover"   # verify: pipeline
+    geocat_search: "VECTOR200 landcover"
+    crs_source: "EPSG:2056 (CH1903+ / LV95)"
+    crs_published: "EPSG:4326 (WGS84)"
+    temporal: ["2000-01-01T00:00:00Z", null]
+    temporal_note: "Periodic update; interval start indicative."
+    partitioned: false
+    pmtiles_layers: ["vec200_landcover"]
+    originals:
+      - {format: "FileGDB", media_type: "application/x-filegdb", title: "VECTOR200 (File Geodatabase)"}
+      - {format: "GeoPackage", media_type: "application/geopackage+sqlite3", title: "VECTOR200 (GeoPackage)"}
+      - {format: "Shapefile", media_type: "application/x-shapefile", title: "VECTOR200 land cover (Shapefile)"}
+    table_columns:
+      - {name: "objval", type: "string", description: "Land-cover class code (e.g. Wald, Siedl, Fels)."}
+      - {name: "geometry", type: "binary", description: "Land-cover polygon as WKB, EPSG:4326."}
+    readme:
+      numbers: "National land-cover polygons at reference scale 1:200,000."
+      suggested_uses:
+        - "National land-cover context and cartographic backdrops."
+        - "Coarse masking (e.g. forest vs. settlement) for national analyses."
+      limitations:
+        - "1:200,000 generalization: unsuitable for parcel- or field-level land-cover work; use swissTLM3D land cover for detail."
+      definitions:
+        - "'objval' codes follow the VECTOR200 land-cover classification."
+    agents:
+      context: "Coarse national land cover; pair with swissboundaries3d for per-canton statistics."
+      key_columns: "objval is the class; aggregate area by it."
+      quirks:
+        - "Areas must be computed in a projected CRS (EPSG:2056), not the published EPSG:4326."
+      recipes:
+        - {title: "Forest area by class", sql: "SELECT objval, SUM(ST_Area(ST_Transform(geometry,'EPSG:4326','EPSG:2056')))/1e6 AS km2 FROM read_parquet('{data}') GROUP BY objval;"}
+
+  - id: topography/swissbuildings3d
+    subcatalog: topography
+    data_type: vector
+    geometry: "Polygons / multipolygons (3D building models)"
+    title: "swissBUILDINGS3D — 3D Building Models"
+    description: >-
+      swissBUILDINGS3D contains the buildings of Switzerland as 3D models with
+      roof shapes, derived from the swisstopo stereo-photogrammetric workflow and
+      the cadastral footprint. Republished as 2D footprints in GeoParquet with
+      the full 3D model available from the source.
+    keywords: ["buildings", "3D", "roofs", "LoD2", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/landscape-model-swissbuildings3d-3-0"
+    source_stac: "ch.swisstopo.swissbuildings3d_3_0"   # verify: pipeline
+    geocat_search: "swissBUILDINGS3D"
+    crs_source: "EPSG:2056 (CH1903+ / LV95), LN02 heights"
+    crs_published: "EPSG:4326 (WGS84), 2D footprints"
+    temporal: ["2019-01-01T00:00:00Z", null]
+    temporal_note: "Rolling update by region; interval start indicative."
+    partitioned: true
+    pmtiles_layers: ["buildings"]
+    originals:
+      - {format: "FileGDB", media_type: "application/x-filegdb", title: "swissBUILDINGS3D 3.0 (File Geodatabase, 3D)"}
+      - {format: "INTERLIS/XTF", media_type: "application/interlis+xml", title: "swissBUILDINGS3D 3.0 (INTERLIS 2, XTF)"}
+      - {format: "Citygml", media_type: "application/citygml+xml", title: "swissBUILDINGS3D (CityGML, where offered)"}
+    table_columns:
+      - {name: "uuid", type: "string", description: "Stable building object identifier."}
+      - {name: "egid", type: "string", description: "Federal building identifier (EGID) where linked; joins to the building & dwelling register."}
+      - {name: "dachtyp", type: "string", description: "Roof type classification."}
+      - {name: "geometry", type: "binary", description: "2D building footprint as WKB, EPSG:4326 (full 3D model in the source)."}
+    readme:
+      numbers: "Millions of building models covering Switzerland, updated region by region."
+      suggested_uses:
+        - "Urban analysis, solar-potential context, and 3D city visualization (via the source 3D model)."
+        - "Joining buildings to the building & dwelling register through EGID."
+      limitations:
+        - "Republished footprints are 2D; the roof geometry lives only in the source FileGDB/XTF/CityGML."
+        - "swissBUILDINGS3D is a photogrammetric model, not a legal cadastral building layer."
+      definitions:
+        - "EGID is the federal building identifier maintained in the building & dwelling register (GWR)."
+    agents:
+      context: "Building footprints keyed by EGID; the 3D model is in the source."
+      key_columns: "egid joins to the federal building & dwelling register; uuid is the internal stable id."
+      quirks:
+        - "Partitioned collection — read via the glob. 3D is not in the GeoParquet."
+        - "Not every building carries an EGID; handle nulls before joining."
+      recipes:
+        - {title: "Buildings by roof type", sql: "SELECT dachtyp, count(*) FROM read_parquet('{glob}') GROUP BY dachtyp ORDER BY 2 DESC;"}
+
+  # ------------------------------------------------------------------ boundaries
+  - id: boundaries/swissboundaries3d
+    subcatalog: boundaries
+    data_type: vector
+    geometry: "Polygons (country, canton, district, municipality)"
+    title: "swissBOUNDARIES3D — Administrative Boundaries"
+    description: >-
+      swissBOUNDARIES3D holds the administrative boundaries of Switzerland at four
+      levels — country, canton, district, and municipality — with the official BFS
+      municipality numbers. It is the authoritative boundary reference for the
+      country.
+    keywords: ["boundaries", "administrative", "cantons", "municipalities", "BFS", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/landscape-model-swissboundaries3d"
+    source_stac: "ch.swisstopo.swissboundaries3d"   # verify: pipeline
+    geocat_search: "swissBOUNDARIES3D"
+    crs_source: "EPSG:2056 (CH1903+ / LV95)"
+    crs_published: "EPSG:4326 (WGS84)"
+    temporal: ["2016-01-01T00:00:00Z", null]
+    temporal_note: "Updated up to several times per year as municipalities merge; interval start indicative."
+    partitioned: false
+    pmtiles_layers: ["municipalities", "cantons"]
+    originals:
+      - {format: "FileGDB", media_type: "application/x-filegdb", title: "swissBOUNDARIES3D (File Geodatabase)"}
+      - {format: "GeoPackage", media_type: "application/geopackage+sqlite3", title: "swissBOUNDARIES3D (GeoPackage)"}
+      - {format: "Shapefile", media_type: "application/x-shapefile", title: "swissBOUNDARIES3D (Shapefile)"}
+      - {format: "INTERLIS/XTF", media_type: "application/interlis+xml", title: "swissBOUNDARIES3D (INTERLIS 2, XTF)"}
+    table_columns:
+      - {name: "bfs_nummer", type: "int", description: "Official BFS municipality number — the national join key to municipal statistics."}
+      - {name: "name", type: "string", description: "Official municipality name."}
+      - {name: "kanton", type: "string", description: "Canton abbreviation (e.g. BE, ZH, VD)."}
+      - {name: "bezirk", type: "string", description: "District name."}
+      - {name: "einwohnerz", type: "int", description: "Resident population figure carried by the boundary edition, where present."}
+      - {name: "geometry", type: "binary", description: "Boundary polygon as WKB, EPSG:4326."}
+    readme:
+      numbers: "26 cantons and ~2,130 municipalities (the municipality count falls over time as communes merge)."
+      suggested_uses:
+        - "Aggregating any point/area data to municipality, district, or canton."
+        - "Choropleth mapping keyed by BFS number."
+      limitations:
+        - "Municipality numbers and geometries change over time; always pair an analysis with the boundary edition's date."
+      definitions:
+        - "The BFS number is the Federal Statistical Office municipality identifier; it is the backbone key of Swiss official statistics."
+    agents:
+      context: "The boundary reference. bfs_nummer is THE join key across Swiss federal data."
+      key_columns: "bfs_nummer joins to boundaries/municipality-register and to almost all BFS statistics."
+      quirks:
+        - "Communes merge frequently, so a bfs_nummer can be retired; join against the matching year of the municipality register."
+      recipes:
+        - {title: "Point-in-municipality lookup", sql: "SELECT b.name, b.bfs_nummer FROM read_parquet('{data}') b WHERE ST_Contains(b.geometry, ST_Point(7.447,46.948));"}
+      related: ["boundaries/municipality-register", "boundaries/ortschaftenverzeichnis-plz"]
+
+  - id: boundaries/ortschaftenverzeichnis-plz
+    subcatalog: boundaries
+    data_type: vector
+    geometry: "Polygons and points (localities / postal areas)"
+    title: "Official Register of Localities with Postal Codes (PLZ)"
+    description: >-
+      The official directory of Swiss localities with their postal codes (PLZ),
+      linking place names, postal codes, and municipalities. Published as
+      GeoParquet with a PMTiles layer for the web.
+    keywords: ["localities", "postal codes", "PLZ", "ortschaften", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/official-directory-of-towns-and-cities"
+    source_stac: "ch.swisstopo-vd.ortschaftenverzeichnis_plz"   # verify: pipeline
+    geocat_search: "Amtliches Ortschaftenverzeichnis PLZ"
+    crs_source: "EPSG:2056 (CH1903+ / LV95)"
+    crs_published: "EPSG:4326 (WGS84)"
+    temporal: ["2018-01-01T00:00:00Z", null]
+    temporal_note: "Regularly updated; interval start indicative."
+    partitioned: false
+    pmtiles_layers: ["localities"]
+    originals:
+      - {format: "GeoPackage", media_type: "application/geopackage+sqlite3", title: "Ortschaftenverzeichnis PLZ (GeoPackage)"}
+      - {format: "INTERLIS/XTF", media_type: "application/interlis+xml", title: "Ortschaftenverzeichnis PLZ (INTERLIS, XTF)"}
+      - {format: "CSV", media_type: "text/csv", title: "Ortschaftenverzeichnis PLZ (CSV)"}
+    table_columns:
+      - {name: "plz", type: "int", description: "Four-digit Swiss postal code."}
+      - {name: "zusatzziffer", type: "int", description: "PLZ addition digit distinguishing localities that share a postal code."}
+      - {name: "ortschaftsname", type: "string", description: "Official locality name."}
+      - {name: "bfs_nummer", type: "int", description: "BFS municipality number the locality belongs to — joins to swissboundaries3d."}
+      - {name: "geometry", type: "binary", description: "Locality point/area as WKB, EPSG:4326."}
+    readme:
+      numbers: "Every Swiss locality and its postal code, keyed to BFS municipality numbers."
+      suggested_uses:
+        - "Resolving a postal code to a municipality or coordinate."
+        - "Bridging postal-code-keyed business data to official municipal geography."
+      limitations:
+        - "PLZ areas are postal, not administrative; a postal code can straddle municipal boundaries — use bfs_nummer for administrative joins."
+      definitions:
+        - "PLZ + zusatzziffer together identify a postal locality uniquely."
+    agents:
+      context: "Bridges postal codes (plz) to administrative geography (bfs_nummer)."
+      key_columns: "plz+zusatzziffer identify a locality; bfs_nummer joins to swissboundaries3d."
+      quirks:
+        - "One PLZ can map to several localities and even several municipalities; never assume PLZ is 1:1 with a commune."
+      recipes:
+        - {title: "Localities in a postal code", sql: "SELECT ortschaftsname, bfs_nummer FROM read_parquet('{data}') WHERE plz = 3011;"}
+      related: ["boundaries/swissboundaries3d", "boundaries/municipality-register"]
+
+  - id: boundaries/municipality-register
+    subcatalog: boundaries
+    data_type: tabular
+    geometry: null
+    title: "Official Register of Swiss Municipalities (BFS)"
+    description: >-
+      The official register of the communes of Switzerland maintained by the
+      Federal Statistical Office (BFS): the canonical list of municipality
+      numbers, names, cantons, and districts, with the mutation history that
+      tracks mergers and renamings. This is the non-spatial key table that joins
+      to swissBOUNDARIES3D and to all BFS municipal statistics.
+    keywords: ["municipalities", "BFS", "register", "administrative", "reference table"]
+    producer: bfs
+    product_page: "https://www.bfs.admin.ch/bfs/en/home/basics/swiss-official-commune-register.html"
+    source_stac: null   # BFS does not publish a STAC collection for this table
+    geocat_search: "Amtliches Gemeindeverzeichnis der Schweiz"
+    crs_source: "n/a (non-spatial)"
+    crs_published: "n/a (non-spatial)"
+    temporal: ["2011-01-01T00:00:00Z", null]
+    temporal_note: "Historicized register; interval start indicative of the mutation history retained."
+    partitioned: false
+    pmtiles_layers: []
+    originals:
+      - {format: "CSV", media_type: "text/csv", title: "Amtliches Gemeindeverzeichnis (CSV)"}
+      - {format: "XLSX", media_type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", title: "Amtliches Gemeindeverzeichnis (Excel)"}
+    table_columns:
+      - {name: "bfs_nummer", type: "int", description: "BFS municipality number — primary key; joins to swissboundaries3d and BFS statistics."}
+      - {name: "gemeindename", type: "string", description: "Official municipality name."}
+      - {name: "kanton", type: "string", description: "Canton abbreviation."}
+      - {name: "bezirksname", type: "string", description: "District name."}
+      - {name: "gueltig_von", type: "date", description: "Date from which this record is valid (mutation history)."}
+      - {name: "gueltig_bis", type: "date", description: "Date until which this record is valid, null if current."}
+    readme:
+      numbers: "Every current and historical Swiss municipality since the register's historicized start."
+      suggested_uses:
+        - "Resolving a BFS number to a current name/canton, including across historical mergers."
+        - "Validating and enriching any dataset keyed by BFS number."
+      limitations:
+        - "This is a reference table, not spatial data; join it to swissboundaries3d for geometry."
+      definitions:
+        - "'gueltig_von'/'gueltig_bis' bound the validity of each register record across the mutation history."
+    agents:
+      context: "Non-spatial key table. bfs_nummer is the join key to swissboundaries3d geometry."
+      key_columns: "bfs_nummer (primary key). Use gueltig_von/gueltig_bis to pick the record valid at a given date."
+      quirks:
+        - "A bfs_nummer can appear multiple times across history — filter by validity dates before joining."
+      recipes:
+        - {title: "Join register to geometry", sql: "SELECT r.gemeindename, b.geometry FROM read_parquet('{data}') r JOIN read_parquet('../swissboundaries3d/swissboundaries3d.parquet') b USING (bfs_nummer) WHERE r.gueltig_bis IS NULL;"}
+      related: ["boundaries/swissboundaries3d"]
+      join_note: "join key: bfs_nummer (integer). Filter the register to current rows (gueltig_bis IS NULL) before joining to swissboundaries3d."
+
+  # -------------------------------------------------------------- terrain-imagery
+  - id: terrain-imagery/swissalti3d
+    subcatalog: terrain-imagery
+    data_type: raster
+    geometry: "Raster tiles (DTM)"
+    title: "swissALTI3D — High-Resolution Digital Terrain Model"
+    description: >-
+      swissALTI3D is the high-precision digital terrain model of Switzerland,
+      describing the bare-earth surface without vegetation or buildings at 0.5 m
+      resolution in populated areas. Republished as a Cloud-Optimized GeoTIFF
+      scene collection, one item per tile.
+    keywords: ["elevation", "DTM", "terrain", "lidar", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/height-model-swissalti3d"
+    source_stac: "ch.swisstopo.swissalti3d"   # verify: pipeline
+    geocat_search: "swissALTI3D"
+    crs_source: "EPSG:2056 (CH1903+ / LV95), LN02 heights"
+    crs_published: "EPSG:2056 (CH1903+ / LV95) COG tiles"
+    temporal: ["2019-01-01T00:00:00Z", null]
+    temporal_note: "Rolling acquisition by region on a ~6-year cycle; interval start indicative."
+    partitioned: false
+    resolution_m: 0.5
+    originals:
+      - {format: "GeoTIFF", media_type: "image/tiff; application=geotiff", title: "swissALTI3D (GeoTIFF tiles, 0.5 m / 2 m)"}
+      - {format: "XYZ", media_type: "text/plain", title: "swissALTI3D (XYZ ASCII grid)"}
+    readme:
+      numbers: "Nationwide 0.5 m bare-earth DTM (2 m variant also offered by the source), tiled at 1 km."
+      suggested_uses:
+        - "Hydrological modelling, slope/aspect and hillshade generation, line-of-sight analysis."
+        - "Terrain correction and normalization of other rasters."
+      limitations:
+        - "swissALTI3D is a terrain (bare-earth) model: it excludes vegetation and buildings — use a surface model (DSM) for those."
+        - "Acquisition dates vary by region; a national mosaic mixes vintages."
+      definitions:
+        - "DTM = digital terrain model (bare earth), distinct from a DSM (digital surface model)."
+    agents:
+      context: "Bare-earth DTM COG tiles, one STAC item per tile. Read the item mirror to query all tiles at once."
+      key_columns: "n/a (raster). Each scene item carries its own footprint and acquisition datetime."
+      quirks:
+        - "Tiles are in EPSG:2056 (metres); reproject on read if you need WGS84."
+        - "Elevation is bare earth — do not expect building/vegetation heights."
+      recipes:
+        - {title: "Load a tile with rioxarray", code: "import rioxarray as rxr; da = rxr.open_rasterio('COG_TILE_URL')"}
+
+  - id: terrain-imagery/swissimage-dop10
+    subcatalog: terrain-imagery
+    data_type: raster
+    geometry: "Raster tiles (orthophoto)"
+    title: "SWISSIMAGE 10 cm — Digital Orthophoto"
+    description: >-
+      SWISSIMAGE 10 cm (DOP10) is the seamless orthorectified aerial-image mosaic
+      of Switzerland at 10 cm ground resolution in the lowlands. Republished as a
+      Cloud-Optimized GeoTIFF scene collection, one item per tile.
+    keywords: ["orthophoto", "aerial imagery", "RGB", "SWISSIMAGE", "swisstopo"]
+    producer: swisstopo
+    product_page: "https://www.swisstopo.admin.ch/en/orthoimage-swissimage-10"
+    source_stac: "ch.swisstopo.swissimage-dop10"   # verify: pipeline
+    geocat_search: "SWISSIMAGE 10 cm"
+    crs_source: "EPSG:2056 (CH1903+ / LV95)"
+    crs_published: "EPSG:2056 (CH1903+ / LV95) COG tiles"
+    temporal: ["2017-01-01T00:00:00Z", null]
+    temporal_note: "Rolling 3-year national coverage; interval start indicative."
+    partitioned: false
+    resolution_m: 0.1
+    originals:
+      - {format: "GeoTIFF (COG)", media_type: "image/tiff; application=geotiff; profile=cloud-optimized", title: "SWISSIMAGE 10 cm (Cloud-Optimized GeoTIFF tiles)"}
+    readme:
+      numbers: "Nationwide RGB orthophoto at 10 cm (lowlands) / 25 cm (alpine), on a rolling 3-year update."
+      suggested_uses:
+        - "Visual basemap and photo-interpretation backdrop."
+        - "Training data and validation imagery for computer-vision workflows."
+      limitations:
+        - "Tiles are flown across different years; colour and season differ between neighbouring tiles in a national mosaic."
+        - "Orthophotos are 2D imagery, not elevation — pair with swissALTI3D for terrain."
+      definitions:
+        - "DOP10 = Digitales OrthoPhoto at 10 cm resolution."
+    agents:
+      context: "RGB orthophoto COG tiles, one STAC item per tile, already cloud-optimized at the source."
+      key_columns: "n/a (raster). Each scene item carries footprint and acquisition datetime."
+      quirks:
+        - "Neighbouring tiles can differ in acquisition year and season; filter items by datetime for a consistent mosaic."
+        - "Source tiles are already valid COGs — geodata.ch mirrors them and may re-tile for consistency."
+      recipes:
+        - {title: "Load one tile with rioxarray", code: "import rioxarray as rxr; da = rxr.open_rasterio('COG_TILE_URL')"}

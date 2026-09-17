@@ -1,0 +1,53 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "id": "geodata-ch",
+  "title": "geodata.ch — Swiss Federal Geodata, Cloud-Native",
+  "description": "geodata.ch is a cloud-native mirror of open geodata from the Swiss Federal Spatial Data Infrastructure (BGDI). It republishes a curated set of swisstopo and other federal datasets as GeoParquet, PMTiles, and Cloud-Optimized GeoTIFF so a person or an agent can query them directly from object storage with no server in between. Every collection links back to the authoritative swisstopo source and its original FileGDB, GeoPackage, and INTERLIS (XTF) downloads.",
+  "updated": "2026-09-17T00:00:00Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://ch-geodata.s3.eu-central-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./topography/catalog.json",
+      "type": "application/json",
+      "title": "Topography & Landscape"
+    },
+    {
+      "rel": "child",
+      "href": "./boundaries/catalog.json",
+      "type": "application/json",
+      "title": "Boundaries & Administrative Units"
+    },
+    {
+      "rel": "child",
+      "href": "./terrain-imagery/catalog.json",
+      "type": "application/json",
+      "title": "Terrain & Imagery"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Guidance for AI agents"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    }
+  ]
+}

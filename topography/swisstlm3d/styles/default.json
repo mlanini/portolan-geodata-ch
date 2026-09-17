@@ -1,0 +1,49 @@
+{
+  "version": 8,
+  "name": "swissTLM3D — Topographic Landscape Model — geodata.ch default",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../swisstlm3d.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f8f8f6"
+      }
+    },
+    {
+      "id": "tlm_strasse",
+      "type": "line",
+      "source": "data",
+      "source-layer": "tlm_strasse",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    },
+    {
+      "id": "tlm_gewaesser",
+      "type": "line",
+      "source": "data",
+      "source-layer": "tlm_gewaesser",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    },
+    {
+      "id": "tlm_bodenbedeckung",
+      "type": "line",
+      "source": "data",
+      "source-layer": "tlm_bodenbedeckung",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    }
+  ]
+}

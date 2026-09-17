@@ -1,0 +1,29 @@
+{
+  "version": 8,
+  "name": "Official Register of Localities with Postal Codes (PLZ) — geodata.ch default",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ortschaftenverzeichnis-plz.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f8f8f6"
+      }
+    },
+    {
+      "id": "localities",
+      "type": "line",
+      "source": "data",
+      "source-layer": "localities",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+tools/cache/
+*.pyc
+__pycache__/

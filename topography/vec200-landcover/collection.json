@@ -1,0 +1,188 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "id": "topography/vec200-landcover",
+  "title": "VECTOR200 — Land Cover",
+  "description": "The land-cover layer of VECTOR200, the vectorized national map at 1:200,000. Polygons classify the country into land-cover types (forest, settlement, water, glacier, and more) for national-scale thematic mapping.",
+  "license": "other",
+  "keywords": [
+    "land cover",
+    "vector200",
+    "1:200000",
+    "landuse",
+    "swisstopo"
+  ],
+  "updated": "2026-09-17T00:00:00Z",
+  "providers": [
+    {
+      "name": "Federal Office of Topography swisstopo",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.swisstopo.admin.ch"
+    },
+    {
+      "name": "geodata.ch",
+      "roles": [
+        "processor",
+        "host"
+      ],
+      "url": "https://geodata.ch",
+      "email": "info@geodata.ch"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.956,
+          45.818,
+          10.492,
+          47.808
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "table:columns": [
+    {
+      "name": "objval",
+      "type": "string",
+      "description": "Land-cover class code (e.g. Wald, Siedl, Fels)."
+    },
+    {
+      "name": "geometry",
+      "type": "binary",
+      "description": "Land-cover polygon as WKB, EPSG:4326."
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "VECTOR200 — Land Cover (GeoParquet)",
+      "description": "GeoParquet 1.1, zstd-compressed, spatially ordered, with a bbox covering column and per-row-group statistics. Produced by the geodata.ch build pipeline.",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "s3": {
+          "href": "s3://ch-geodata/topography/vec200-landcover/vec200-landcover.parquet",
+          "title": "Direct S3 access"
+        }
+      }
+    },
+    "visual": {
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "VECTOR200 — Land Cover (PMTiles)",
+      "roles": [
+        "visual"
+      ],
+      "alternate": {
+        "s3": {
+          "href": "s3://ch-geodata/topography/vec200-landcover/vec200-landcover.pmtiles",
+          "title": "Direct S3 access"
+        }
+      }
+    },
+    "style-default": {
+      "href": "./styles/default.json",
+      "type": "application/vnd.mapbox.style+json",
+      "title": "Default MapLibre style",
+      "roles": [
+        "style",
+        "default"
+      ]
+    },
+    "thumbnail": {
+      "href": "./thumbnail.png",
+      "type": "image/png",
+      "title": "Preview rendered with the default style",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "source": {
+      "href": "https://www.swisstopo.admin.ch/en/landscape-model-vector200",
+      "type": "text/html",
+      "title": "Authoritative source and original downloads (FileGDB / GeoPackage / INTERLIS XTF / CSV)",
+      "roles": [
+        "source"
+      ]
+    },
+    "metadata-stac": {
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.vec200-landcover",
+      "type": "application/json",
+      "title": "Source STAC collection (BGDI, machine metadata)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "pmtiles",
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/topography/vec200-landcover/vec200-landcover.pmtiles",
+      "type": "application/vnd.pmtiles",
+      "title": "Web map tiles",
+      "pmtiles:layers": [
+        "vec200_landcover"
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "https://www.swisstopo.admin.ch/en/landscape-model-vector200",
+      "type": "text/html",
+      "title": "Authoritative source (Federal Office of Topography swisstopo)"
+    },
+    {
+      "rel": "canonical",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.vec200-landcover",
+      "type": "application/json",
+      "title": "Source STAC collection"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.swisstopo.admin.ch/en/terms-of-use-free-geodata",
+      "type": "text/html",
+      "title": "swisstopo — free geodata, free use with source citation"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Guidance for AI agents"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# geodata.ch build pipeline dependencies (Python side).
+# System tools are also required and are NOT installed by pip:
+#   - GDAL/OGR >= 3.9   (GeoParquet writer with SORT_BY_BBOX + covering bbox)
+#   - tippecanoe         (PMTiles generation)
+#   - rio-cogeo          (COG creation/validation)  -> also on PyPI below
+#   - AWS CLI            (publish: aws s3 sync)
+PyYAML>=6.0
+requests>=2.31
+rio-cogeo>=5.3
+stac-geoparquet>=0.6

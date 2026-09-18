@@ -1,0 +1,153 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "id": "boundaries/municipality-register",
+  "title": "Official Register of Swiss Municipalities (BFS)",
+  "description": "The official register of the communes of Switzerland maintained by the Federal Statistical Office (BFS): the canonical list of municipality numbers, names, cantons, and districts, with the mutation history that tracks mergers and renamings. This is the non-spatial key table that joins to swissBOUNDARIES3D and to all BFS municipal statistics.",
+  "license": "other",
+  "keywords": [
+    "municipalities",
+    "BFS",
+    "register",
+    "administrative",
+    "reference table"
+  ],
+  "updated": "2026-09-17T00:00:00Z",
+  "providers": [
+    {
+      "name": "Swiss Federal Statistical Office (FSO/BFS)",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.bfs.admin.ch"
+    },
+    {
+      "name": "geodata.ch",
+      "roles": [
+        "processor",
+        "host"
+      ],
+      "url": "https://geodata.ch",
+      "email": "info@geodata.ch"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.956,
+          45.818,
+          10.492,
+          47.808
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "table:columns": [
+    {
+      "name": "bfs_nummer",
+      "type": "int",
+      "description": "BFS municipality number — primary key; joins to swissboundaries3d and BFS statistics."
+    },
+    {
+      "name": "gemeindename",
+      "type": "string",
+      "description": "Official municipality name."
+    },
+    {
+      "name": "kanton",
+      "type": "string",
+      "description": "Canton abbreviation."
+    },
+    {
+      "name": "bezirksname",
+      "type": "string",
+      "description": "District name."
+    },
+    {
+      "name": "gueltig_von",
+      "type": "date",
+      "description": "Date from which this record is valid (mutation history)."
+    },
+    {
+      "name": "gueltig_bis",
+      "type": "date",
+      "description": "Date until which this record is valid, null if current."
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/municipality-register/municipality-register.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Official Register of Swiss Municipalities (BFS) (Parquet)",
+      "description": "Non-geospatial Parquet table produced by the geodata.ch build pipeline.",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "s3": {
+          "href": "s3://ch-geodata/boundaries/municipality-register/municipality-register.parquet",
+          "title": "Direct S3 access"
+        }
+      }
+    },
+    "source": {
+      "href": "https://www.bfs.admin.ch/bfs/en/home/basics/swiss-official-commune-register.html",
+      "type": "text/html",
+      "title": "Authoritative source and original downloads (FileGDB / GeoPackage / INTERLIS XTF / CSV)",
+      "roles": [
+        "source"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.bfs.admin.ch/bfs/en/home/basics/swiss-official-commune-register.html",
+      "type": "text/html",
+      "title": "Authoritative source (Swiss Federal Statistical Office (FSO/BFS))"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.swisstopo.admin.ch/en/terms-of-use-free-geodata",
+      "type": "text/html",
+      "title": "swisstopo — free geodata, free use with source citation"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Guidance for AI agents"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    }
+  ]
+}

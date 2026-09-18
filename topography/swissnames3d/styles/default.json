@@ -1,0 +1,29 @@
+{
+  "version": 8,
+  "name": "swissNAMES3D — Geographical Names — geodata.ch default",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../swissnames3d.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f8f8f6"
+      }
+    },
+    {
+      "id": "swissnames_points",
+      "type": "line",
+      "source": "data",
+      "source-layer": "swissnames_points",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    }
+  ]
+}

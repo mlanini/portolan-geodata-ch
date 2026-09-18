@@ -1,0 +1,39 @@
+{
+  "version": 8,
+  "name": "swissTLMRegio — Generalized Topographic Model — geodata.ch default",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../swisstlmregio.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f8f8f6"
+      }
+    },
+    {
+      "id": "tlmregio_transport",
+      "type": "line",
+      "source": "data",
+      "source-layer": "tlmregio_transport",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    },
+    {
+      "id": "tlmregio_hydro",
+      "type": "line",
+      "source": "data",
+      "source-layer": "tlmregio_hydro",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    }
+  ]
+}

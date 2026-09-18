@@ -1,0 +1,39 @@
+{
+  "version": 8,
+  "name": "swissBOUNDARIES3D — Administrative Boundaries — geodata.ch default",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../swissboundaries3d.pmtiles"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f8f8f6"
+      }
+    },
+    {
+      "id": "municipalities",
+      "type": "line",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    },
+    {
+      "id": "cantons",
+      "type": "line",
+      "source": "data",
+      "source-layer": "cantons",
+      "paint": {
+        "line-color": "#d52b1e",
+        "line-width": 1.0
+      }
+    }
+  ]
+}

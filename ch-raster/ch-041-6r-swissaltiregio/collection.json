@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ch-raster/ch-041-6r-swissaltiregio",
+  "title": "CH-041.6 Raster - swissALTIregio",
+  "description": "Geodato raster CH disponibile in Cloud Optimized GeoTIFF (COG): swissALTIregio.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.3,
+          45.8,
+          9.3,
+          46.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "keywords": [
+    "CH-041.6",
+    "raster",
+    "COG",
+    "swissALTIregio",
+    "Ticino"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ch_041_6_v1_1",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/cog/ch_041_6_v1_1/ti_swissaltiregio_10m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "COG swissALTIregio 10 m"
+    }
+  ],
+  "assets": {
+    "cog_10m": {
+      "href": "https://data.geo.ti.ch/cog/ch_041_6_v1_1/ti_swissaltiregio_10m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "COG swissALTIregio 10 m",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

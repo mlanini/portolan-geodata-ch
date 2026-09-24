@@ -1,0 +1,78 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ac/ac-009-1-piano-direttore-cantonale",
+  "title": "AC-009.1 - Piano direttore cantonale",
+  "description": "Geodato AC pubblicato sul portale data.geo.ti.ch: piano direttore cantonale.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.3,
+          45.8,
+          9.3,
+          46.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "keywords": [
+    "AC-009.1",
+    "piano direttore",
+    "pianificazione",
+    "Ticino"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ac_009_1_v1_1",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ac_009_1_v1_1&f=ac_009_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ac_009_1_ticino.zip"
+    }
+  ],
+  "assets": {
+    "zip_interlis": {
+      "href": "https://data.geo.ti.ch/?p=ac_009_1_v1_1&f=ac_009_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ac_009_1_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

@@ -1,43 +1,27 @@
-# AGENTS.md — geodata.ch
+# AGENTS.md
 
-Cloud-native mirror of Swiss federal geodata. Query the data directly from object storage; there is no server.
+Repository rifocalizzato su un subset iniziale di geodati da data.geo.ti.ch.
 
-## Access
+## Obiettivo
 
-- HTTPS base: `https://ch-geodata.s3.eu-north-1.amazonaws.com`
-- S3 base: `s3://ch-geodata`
-- Root STAC: `https://ch-geodata.s3.eu-north-1.amazonaws.com/catalog.json`
-- Vector and tabular data are GeoParquet/Parquet (query with DuckDB spatial or GeoPandas over HTTP range requests). Raster is Cloud-Optimized GeoTIFF with a STAC-GeoParquet item mirror per collection.
+- mantenere una base STAC minima, chiara e facilmente estendibile;
+- lavorare su 9 dataset reali del portale cantonale;
+- escludere il perimetro federale precedente in questa fase.
 
-## Collections
+## Collezioni presenti
 
-- `topography/swisstlm3d` — swissTLM3D — Topographic Landscape Model (vector)
-- `topography/swisstlmregio` — swissTLMRegio — Generalized Topographic Model (vector)
-- `topography/swissnames3d` — swissNAMES3D — Geographical Names (vector)
-- `topography/vec200-landcover` — VECTOR200 — Land Cover (vector)
-- `topography/swissbuildings3d` — swissBUILDINGS3D — 3D Building Models (vector)
-- `boundaries/swissboundaries3d` — swissBOUNDARIES3D — Administrative Boundaries (vector)
-- `boundaries/ortschaftenverzeichnis-plz` — Official Register of Localities with Postal Codes (PLZ) (vector)
-- `boundaries/municipality-register` — Official Register of Swiss Municipalities (BFS) (tabular)
-- `terrain-imagery/swissalti3d` — swissALTI3D — High-Resolution Digital Terrain Model (raster)
-- `terrain-imagery/swissimage-dop10` — SWISSIMAGE 10 cm — Digital Orthophoto (raster)
+- ch-base/ch-063-1-suddivisioni-amministrative
+- ch-base/ch-181-1-cap-localita
+- ti-base/ti-028b-1-piani-regolatori
+- ti-base/ti-034-1-carta-pericoli-gradi
+- ac/ac-009-1-piano-direttore-cantonale
+- ac/ac-077-1-repertorio-toponomastico-ticinese
+- ch-raster/ch-041-6r-swissalti3d
+- ch-raster/ch-041-6r-swissaltiregio
+- ch-raster/ch-041-7r-swisssurface3d
 
-## Cross-dataset join keys
+## Regole operative
 
-- **`bfs_nummer`** (integer) is the national municipality key. It joins `boundaries/swissboundaries3d`, `boundaries/municipality-register`, and `boundaries/ortschaftenverzeichnis-plz`, and reaches almost all Swiss federal statistics.
-- **`egid`** joins `topography/swissbuildings3d` to the federal building & dwelling register.
-- **`plz`** (+`zusatzziffer`) keys postal localities in `boundaries/ortschaftenverzeichnis-plz`.
-
-## Coordinate systems
-
-Vector/tabular data is published in EPSG:4326 (WGS84). The Swiss source CRS is EPSG:2056 (CH1903+/LV95), in metres. For area or length, transform to EPSG:2056 first — `ST_Area` on WGS84 degrees is meaningless. Raster tiles are kept in EPSG:2056.
-
-## Example: query one collection
-
-```python
-import duckdb
-con = duckdb.connect(); con.sql('INSTALL spatial; LOAD spatial;')
-con.sql("SELECT count(*) FROM read_parquet('https://ch-geodata.s3.eu-north-1.amazonaws.com/boundaries/swissboundaries3d/swissboundaries3d.parquet')").show()
-```
-
-_Generated from `tools/manifest/`._
+- usare come fonte primaria il portale https://data.geo.ti.ch/;
+- non reintrodurre riferimenti alla pipeline federale precedente;
+- mantenere nomenclatura esplicita con codice dataset nel path.

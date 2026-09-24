@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.1.0",
+  "id": "ac",
+  "title": "AC - Geodati dell'Amministrazione cantonale",
+  "description": "Subset AC selezionato dal portale data.geo.ti.ch.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-009-1-piano-direttore-cantonale/collection.json",
+      "type": "application/json",
+      "title": "AC-009.1 - Piano direttore cantonale"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-077-1-repertorio-toponomastico-ticinese/collection.json",
+      "type": "application/json",
+      "title": "AC-077.1 - Repertorio toponomastico ticinese"
+    }
+  ]
+}

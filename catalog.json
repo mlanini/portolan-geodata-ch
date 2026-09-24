@@ -4,10 +4,10 @@
   "stac_extensions": [
     "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
   ],
-  "id": "geodata-ch",
-  "title": "geodata.ch — Swiss Federal Geodata, Cloud-Native",
-  "description": "geodata.ch is a cloud-native mirror of open geodata from the Swiss Federal Spatial Data Infrastructure (BGDI). It republishes a curated set of swisstopo and other federal datasets as GeoParquet, PMTiles, and Cloud-Optimized GeoTIFF so a person or an agent can query them directly from object storage with no server in between. Every collection links back to the authoritative swisstopo source and its original FileGDB, GeoPackage, and INTERLIS (XTF) downloads.",
-  "updated": "2026-09-17T00:00:00Z",
+  "id": "geodata-ch-ti-subset",
+  "title": "Portolan Geodata CH/TI - subset data.geo.ti.ch",
+  "description": "Catalogo STAC ridotto con 9 dataset del portale cantonale data.geo.ti.ch (categorie CH, TI, AC, CH raster).",
+  "updated": "2026-09-24T00:00:00Z",
   "links": [
     {
       "rel": "root",
@@ -16,26 +16,32 @@
     },
     {
       "rel": "self",
-      "href": "https://ch-geodata.s3.eu-north-1.amazonaws.com/catalog.json",
+      "href": "./catalog.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./topography/catalog.json",
+      "href": "./ch-base/catalog.json",
       "type": "application/json",
-      "title": "Topography & Landscape"
+      "title": "CH - Geodati di base di diritto federale, competenza cantonale"
     },
     {
       "rel": "child",
-      "href": "./boundaries/catalog.json",
+      "href": "./ti-base/catalog.json",
       "type": "application/json",
-      "title": "Boundaries & Administrative Units"
+      "title": "TI - Geodati di base di diritto cantonale"
     },
     {
       "rel": "child",
-      "href": "./terrain-imagery/catalog.json",
+      "href": "./ac/catalog.json",
       "type": "application/json",
-      "title": "Terrain & Imagery"
+      "title": "AC - Geodati dell'Amministrazione cantonale"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-raster/catalog.json",
+      "type": "application/json",
+      "title": "CH - Geodati raster (Cloud Optimized GeoTIFF)"
     },
     {
       "rel": "agents",

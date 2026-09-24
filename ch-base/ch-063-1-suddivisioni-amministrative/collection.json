@@ -1,0 +1,78 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ch-base/ch-063-1-suddivisioni-amministrative",
+  "title": "CH-063.1 - Suddivisioni amministrative - AN",
+  "description": "Geodato di base CH pubblicato sul portale data.geo.ti.ch: suddivisioni amministrative di competenza cantonale.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.3,
+          45.8,
+          9.3,
+          46.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "keywords": [
+    "CH-063.1",
+    "suddivisioni amministrative",
+    "Ticino",
+    "AN"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ch_063_1_v1_7",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ch_063_1_v1_7&f=ch_063_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ch_063_1_ticino.zip"
+    }
+  ],
+  "assets": {
+    "zip_interlis": {
+      "href": "https://data.geo.ti.ch/?p=ch_063_1_v1_7&f=ch_063_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ch_063_1_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

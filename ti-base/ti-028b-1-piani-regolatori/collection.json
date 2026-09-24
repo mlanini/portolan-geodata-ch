@@ -1,0 +1,1814 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ti-base/ti-028b-1-piani-regolatori",
+  "title": "TI-028b.1 - Piani regolatori",
+  "description": "Geodato di base TI pubblicato sul portale data.geo.ti.ch: piani regolatori.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.3,
+          45.8,
+          9.3,
+          46.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "keywords": [
+    "TI-028b.1",
+    "piani regolatori",
+    "pianificazione",
+    "Ticino"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06116h.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06116h.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06f9ke.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06f9ke.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06g6x9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06g6x9.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06rsf9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06rsf9.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06ty8c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06ty8c.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06yefs.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06yefs.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07112z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch07112z.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0766vy.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0766vy.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07kmfn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch07kmfn.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07wdv5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch07wdv5.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0807c2.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0807c2.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081d3a.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081d3a.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081dj4.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081dj4.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081g9a.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081g9a.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081qsb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081qsb.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch082bkn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch082bkn.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch082bqz.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch082bqz.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083996.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083996.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083hhw.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083hhw.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083qn4.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083qn4.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083y2e.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083y2e.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0842ht.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0842ht.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch084bfx.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch084bfx.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch084suh.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch084suh.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085gea.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch085gea.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085kju.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch085kju.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085ssb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch085ssb.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch086g8t.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch086g8t.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087axq.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087axq.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087bh1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087bh1.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087fug.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087fug.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087m6c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087m6c.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087ymk.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087ymk.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088781.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088781.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088m2z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088m2z.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088ugz.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088ugz.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088vx9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088vx9.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0893ny.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0893ny.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0897r8.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0897r8.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ajvu.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ajvu.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08aty2.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08aty2.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08au1k.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08au1k.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08aw6e.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08aw6e.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ay4y.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ay4y.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08b3yb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08b3yb.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08bf2v.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08bf2v.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08c712.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08c712.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08cts5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08cts5.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08cv3k.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08cv3k.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08d8qu.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08d8qu.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08dbcf.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08dbcf.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ebw1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ebw1.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08eq1s.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08eq1s.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08f5ru.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08f5ru.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08f73n.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08f73n.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08fqgw.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08fqgw.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08g0dk.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08g0dk.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08g8au.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08g8au.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08gn9f.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08gn9f.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08gs3v.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08gs3v.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08jrrx.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08jrrx.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kb8n.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kb8n.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kdha.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kdha.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kgq5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kgq5.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kuy8.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kuy8.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08me6p.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08me6p.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08mkxf.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08mkxf.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08mvn8.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08mvn8.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08n3t1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08n3t1.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ngge.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ngge.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nh2h.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08nh2h.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nk2c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08nk2c.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nvh3.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08nvh3.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08pc9t.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08pc9t.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08pmpr.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08pmpr.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08q627.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08q627.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qac9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08qac9.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qgct.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08qgct.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qqyv.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08qqyv.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08r024.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08r024.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08r0ga.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08r0ga.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08rwmb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08rwmb.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08s91z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08s91z.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08sz98.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08sz98.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08u48a.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08u48a.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ukr5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ukr5.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ux0x.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ux0x.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08v8mh.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08v8mh.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vkem.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vkem.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vs77.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vs77.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vtkx.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vtkx.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vvhn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vvhn.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wgnr.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wgnr.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wkkk.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wkkk.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wqc1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wqc1.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ws9d.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ws9d.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wtge.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wtge.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wxvj.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wxvj.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x5ay.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08x5ay.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x8cw.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08x8cw.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x8p0.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08x8p0.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08xyxe.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08xyxe.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ybay.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ybay.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ybzj.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ybzj.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ydpz.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ydpz.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ykqm.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ykqm.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ypga.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ypga.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ypy3.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ypy3.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08yqwm.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08yqwm.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08zk2f.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08zk2f.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch10458b.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch10458b.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch133bus.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch133bus.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch136k4c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch136k4c.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch13hv4h.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch13hv4h.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch170t8e.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch170t8e.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch17zd71.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch17zd71.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch193krd.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch193krd.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch19eub6.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch19eub6.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch208g2z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch208g2z.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch20ahgh.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch20ahgh.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21gqth.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch21gqth.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21vajn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch21vajn.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21zwfr.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch21zwfr.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch249jzu.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch249jzu.zip"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ZP100064.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ZP100064.zip"
+    }
+  ],
+  "assets": {
+    "ti_028b_1_ch06116h_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06116h.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06116h.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06f9ke_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06f9ke.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06f9ke.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06g6x9_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06g6x9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06g6x9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06rsf9_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06rsf9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06rsf9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06ty8c_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06ty8c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06ty8c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06yefs_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06yefs.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch06yefs.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch07112z_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07112z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch07112z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0766vy_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0766vy.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0766vy.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch07kmfn_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07kmfn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch07kmfn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch07wdv5_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07wdv5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch07wdv5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0807c2_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0807c2.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0807c2.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081d3a_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081d3a.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081d3a.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081dj4_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081dj4.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081dj4.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081g9a_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081g9a.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081g9a.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081qsb_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081qsb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch081qsb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch082bkn_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch082bkn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch082bkn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch082bqz_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch082bqz.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch082bqz.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083996_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083996.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083996.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083hhw_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083hhw.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083hhw.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083qn4_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083qn4.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083qn4.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083y2e_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083y2e.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch083y2e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0842ht_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0842ht.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0842ht.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch084bfx_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch084bfx.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch084bfx.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch084suh_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch084suh.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch084suh.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch085gea_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085gea.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch085gea.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch085kju_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085kju.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch085kju.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch085ssb_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085ssb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch085ssb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch086g8t_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch086g8t.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch086g8t.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087axq_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087axq.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087axq.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087bh1_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087bh1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087bh1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087fug_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087fug.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087fug.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087m6c_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087m6c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087m6c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087ymk_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087ymk.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch087ymk.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088781_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088781.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088781.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088m2z_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088m2z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088m2z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088ugz_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088ugz.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088ugz.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088vx9_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088vx9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch088vx9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0893ny_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0893ny.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0893ny.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0897r8_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0897r8.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch0897r8.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ajvu_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ajvu.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ajvu.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08aty2_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08aty2.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08aty2.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08au1k_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08au1k.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08au1k.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08aw6e_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08aw6e.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08aw6e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ay4y_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ay4y.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ay4y.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08b3yb_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08b3yb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08b3yb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08bf2v_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08bf2v.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08bf2v.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08c712_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08c712.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08c712.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08cts5_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08cts5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08cts5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08cv3k_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08cv3k.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08cv3k.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08d8qu_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08d8qu.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08d8qu.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08dbcf_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08dbcf.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08dbcf.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ebw1_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ebw1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ebw1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08eq1s_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08eq1s.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08eq1s.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08f5ru_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08f5ru.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08f5ru.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08f73n_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08f73n.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08f73n.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08fqgw_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08fqgw.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08fqgw.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08g0dk_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08g0dk.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08g0dk.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08g8au_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08g8au.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08g8au.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08gn9f_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08gn9f.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08gn9f.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08gs3v_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08gs3v.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08gs3v.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08jrrx_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08jrrx.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08jrrx.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kb8n_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kb8n.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kb8n.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kdha_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kdha.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kdha.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kgq5_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kgq5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kgq5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kuy8_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kuy8.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08kuy8.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08me6p_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08me6p.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08me6p.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08mkxf_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08mkxf.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08mkxf.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08mvn8_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08mvn8.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08mvn8.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08n3t1_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08n3t1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08n3t1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ngge_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ngge.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ngge.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08nh2h_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nh2h.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08nh2h.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08nk2c_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nk2c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08nk2c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08nvh3_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nvh3.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08nvh3.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08pc9t_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08pc9t.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08pc9t.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08pmpr_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08pmpr.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08pmpr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08q627_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08q627.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08q627.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08qac9_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qac9.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08qac9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08qgct_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qgct.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08qgct.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08qqyv_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qqyv.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08qqyv.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08r024_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08r024.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08r024.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08r0ga_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08r0ga.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08r0ga.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08rwmb_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08rwmb.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08rwmb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08s91z_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08s91z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08s91z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08sz98_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08sz98.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08sz98.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08u48a_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08u48a.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08u48a.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ukr5_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ukr5.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ukr5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ux0x_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ux0x.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ux0x.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08v8mh_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08v8mh.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08v8mh.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vkem_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vkem.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vkem.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vs77_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vs77.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vs77.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vtkx_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vtkx.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vtkx.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vvhn_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vvhn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08vvhn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wgnr_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wgnr.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wgnr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wkkk_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wkkk.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wkkk.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wqc1_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wqc1.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wqc1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ws9d_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ws9d.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ws9d.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wtge_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wtge.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wtge.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wxvj_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wxvj.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08wxvj.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08x5ay_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x5ay.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08x5ay.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08x8cw_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x8cw.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08x8cw.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08x8p0_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x8p0.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08x8p0.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08xyxe_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08xyxe.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08xyxe.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ybay_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ybay.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ybay.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ybzj_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ybzj.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ybzj.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ydpz_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ydpz.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ydpz.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ykqm_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ykqm.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ykqm.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ypga_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ypga.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ypga.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ypy3_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ypy3.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08ypy3.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08yqwm_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08yqwm.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08yqwm.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08zk2f_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08zk2f.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch08zk2f.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch10458b_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch10458b.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch10458b.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch133bus_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch133bus.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch133bus.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch136k4c_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch136k4c.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch136k4c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch13hv4h_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch13hv4h.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch13hv4h.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch170t8e_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch170t8e.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch170t8e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch17zd71_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch17zd71.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch17zd71.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch193krd_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch193krd.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch193krd.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch19eub6_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch19eub6.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch19eub6.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch208g2z_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch208g2z.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch208g2z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch20ahgh_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch20ahgh.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch20ahgh.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch21gqth_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21gqth.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch21gqth.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch21vajn_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21vajn.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch21vajn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch21zwfr_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21zwfr.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch21zwfr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch249jzu_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch249jzu.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ch249jzu.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ZP100064_zip": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ZP100064.zip",
+      "type": "application/zip",
+      "title": "Download ti_028b_1_ZP100064.zip",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

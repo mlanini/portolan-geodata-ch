@@ -1,0 +1,78 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ti-base/ti-034-1-carta-pericoli-gradi",
+  "title": "TI-034.1 - Carta dei pericoli - Gradi",
+  "description": "Geodato di base TI pubblicato sul portale data.geo.ti.ch: carta dei pericoli (gradi).",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.3,
+          45.8,
+          9.3,
+          46.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "keywords": [
+    "TI-034.1",
+    "carta pericoli",
+    "pericoli naturali",
+    "Ticino"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ti_034_1_v1_0",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ti_034_1_v1_0&f=ti_034_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ti_034_1_ticino.zip"
+    }
+  ],
+  "assets": {
+    "zip_interlis": {
+      "href": "https://data.geo.ti.ch/?p=ti_034_1_v1_0&f=ti_034_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ti_034_1_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

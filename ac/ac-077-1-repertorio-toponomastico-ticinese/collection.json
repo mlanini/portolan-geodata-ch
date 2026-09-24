@@ -1,0 +1,77 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ac/ac-077-1-repertorio-toponomastico-ticinese",
+  "title": "AC-077.1 - Repertorio toponomastico ticinese",
+  "description": "Geodato AC pubblicato sul portale data.geo.ti.ch: repertorio toponomastico ticinese.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          8.3,
+          45.8,
+          9.3,
+          46.7
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "keywords": [
+    "AC-077.1",
+    "toponomastica",
+    "Ticino"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ac_077_1_v1_0",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://data.geo.ti.ch/?p=ac_077_1_v1_0&f=ac_077_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ac_077_1_ticino.zip"
+    }
+  ],
+  "assets": {
+    "zip_interlis": {
+      "href": "https://data.geo.ti.ch/?p=ac_077_1_v1_0&f=ac_077_1_ticino.zip",
+      "type": "application/zip",
+      "title": "Download ac_077_1_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

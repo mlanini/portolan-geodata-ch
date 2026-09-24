@@ -1,0 +1,36 @@
+{
+  "type": "Catalog",
+  "stac_version": "1.1.0",
+  "id": "ch-base",
+  "title": "CH - Geodati di base di diritto federale, competenza cantonale",
+  "description": "Subset CH selezionato dal portale data.geo.ti.ch.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-063-1-suddivisioni-amministrative/collection.json",
+      "type": "application/json",
+      "title": "CH-063.1 - Suddivisioni amministrative - AN"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-181-1-cap-localita/collection.json",
+      "type": "application/json",
+      "title": "CH-181.1 - CAP e localita"
+    }
+  ]
+}

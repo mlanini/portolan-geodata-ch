@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-136-1",
   "title": "CH-136.1 - Rete di misura dei livelli e deflussi - Ubicazione dei punti di misura",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Rete di misura dei livelli e deflussi - Ubicazione dei punti di misura.",
+  "description": "Rete di misura dei livelli e deflussi - Ubicazione dei punti di misura.",
   "license": "other",
   "extent": {
     "spatial": {

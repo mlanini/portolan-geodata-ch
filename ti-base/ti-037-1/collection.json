@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-037-1",
   "title": "TI-037.1 - Aule nel bosco",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Aule nel bosco.",
+  "description": "Aule nel bosco",
   "license": "other",
   "extent": {
     "spatial": {

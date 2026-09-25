@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-040-7",
   "title": "CH-040.7 - Nomi geografici (Misurazione nazionale)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Nomi geografici (Misurazione nazionale).",
+  "description": "I nomi geografici della misurazione nazionale (swissNAMES3D) rappresentano, con oltre 400’000 voci geo referenziate, la più vasta raccolta di toponimi della Svizzera. Questa paletta dati di nomi gratuita si basa su un modello dati semplice e fornisce la base di dati ideale per molte applicazioni. La paletta dati vettoriali è una panoramica di nomi derivante geometricamente dal Modello topografico del paesaggio (SwissTLM3D) a cui è strettamente correlato anche l’aggiornamento che avviene in un ciclo di 6 anni. Il modello dati semplice si compone di tre livelli che si differenziano tra loro in base al tipo di geometria (punto, linea, poligono).",
   "license": "other",
   "extent": {
     "spatial": {

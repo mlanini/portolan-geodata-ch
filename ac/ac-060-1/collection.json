@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-060-1",
   "title": "AC-060.1 - Cappelle e dipinti murali devozionali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Cappelle e dipinti murali devozionali.",
+  "description": "Inventario delle cappelle e dei dipinti murali devozionali del Cantone Ticino.",
   "license": "other",
   "extent": {
     "spatial": {

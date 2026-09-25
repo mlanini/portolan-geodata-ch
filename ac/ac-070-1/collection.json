@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-070-1",
   "title": "AC-070.1 - Assi delle strade comunali e di altri enti",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Assi delle strade comunali e di altri enti.",
+  "description": "Assi delle strade comunali e di altri enti derivati dal geodato CH 038.1 SwissTLM di Swisstopo elaborati per Mistra.",
   "license": "other",
   "extent": {
     "spatial": {

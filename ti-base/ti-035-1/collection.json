@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-035-1",
   "title": "TI-035.1 - Settori di pesca",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Settori di pesca.",
+  "description": "Il geodato rappresenta i settori di pesca del Cantone Ticino suddivisi in lago, lago alpino, fiume e diritto privato. Sono rappresentate eventuali limitazioni.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-002-1",
   "title": "TI-002.1 - Decreti di protezione",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Decreti di protezione.",
+  "description": "Decreti di protezione della natura e del paesaggio.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-052-1",
   "title": "AC-052.1 - Bandite cantonali di caccia",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Bandite cantonali di caccia.",
+  "description": "Bandite cantonali di caccia valide per il periodo 2021-2026.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-194-1",
   "title": "CH-194.1 - Impianti di accumulazione sottoposti a vigilanza cantonale",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Impianti di accumulazione sottoposti a vigilanza cantonale.",
+  "description": "Impianti di accumulazione sottoposti a vigilanza cantonale.",
   "license": "other",
   "extent": {
     "spatial": {

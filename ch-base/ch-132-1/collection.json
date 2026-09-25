@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-132-1",
   "title": "CH-132.1 - Aree di protezione delle acque sotterranee",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Aree di protezione delle acque sotterranee.",
+  "description": "Le aree di protezione sono delimitate dal Cantone con lo scopo di assicurare il futuro sfruttamento di acque sotterranee per uso potabile: le stesse sono delimitate in modo da permettere la determinazione ottimale dei luoghi per la captazione nonché la delimitazione delle corrispondenti zone di protezione delle acque sotterranee.",
   "license": "other",
   "extent": {
     "spatial": {

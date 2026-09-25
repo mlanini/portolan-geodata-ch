@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-184-1",
   "title": "CH-184.1 - Itinerari cantonali dei trasporti speciali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Itinerari cantonali dei trasporti speciali.",
+  "description": "Itinerari cantonali dei trasporti speciali.",
   "license": "other",
   "extent": {
     "spatial": {

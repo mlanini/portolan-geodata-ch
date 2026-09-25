@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-036-1",
   "title": "TI-036.1 - Comparti con area forestale in crescita",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Comparti con area forestale in crescita.",
+  "description": "Delimitazione delle zone del Cantone con area forestale in crescita in base all’art. 8a dell'Ordinanza sulle foreste (OFo) e delle zone con area forestale invariata o in diminuzione.",
   "license": "other",
   "extent": {
     "spatial": {

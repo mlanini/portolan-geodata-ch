@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-038-1",
   "title": "TI-038.1 - Autorizzazioni di taglio del bosco",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Autorizzazioni di taglio del bosco.",
+  "description": "Autorizzazioni di taglio del bosco ai sensi dell’art. 19 LCFo e art. 39 RLCFo. Chi vuole tagliare alberi in bosco deve fare domanda preventiva all’Ufficio forestale competente. Il circondario rilascia un’autorizzazione scritta corredata da eventuali clausole accessorie e marca le piante da tagliare (martellata). Nel geodato sono comprese unicamente le autorizzazioni rilasciate negli ultimi 6 anni che contengono un riferimento territoriale.",
   "license": "other",
   "extent": {
     "spatial": {

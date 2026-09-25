@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-041-1",
   "title": "TI-041.1 - Interventi selvicolturali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Interventi selvicolturali.",
+  "description": "Interventi di cura del bosco finanziati con contributi pubblici. Le superfici d’intervento indicano le aree in cui sono in corso degli interventi; i relativi perimetri potranno subire delle variazioni al termine dei lavori. Le superfici consuntivate rappresentano le aree in cui gli interventi sono stati completati, ripartite secondo l’anno di conclusione.",
   "license": "other",
   "extent": {
     "spatial": {

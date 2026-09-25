@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-037-1",
   "title": "AC-037.1 - Curve di livello",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Curve di livello.",
+  "description": "Curve di livello con equidistanza 10m derivate dal modello vettoriale della Confederazione DKM10. L'equidistanza elevata ne fa un prodotto ideale per rappresentazioni cartografiche e meno utilizzate per elaborazioni altimetriche di precisione.",
   "license": "other",
   "extent": {
     "spatial": {

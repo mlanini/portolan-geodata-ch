@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-051-1",
   "title": "AC-051.1 - Piani di mobilità scolastica",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piani di mobilità scolastica.",
+  "description": "Comuni dotati di Piani di mobilità scolastica ossia quel documento-progetto che partendo dall’analisi della situazione esistente, propone una o più strategie mirate alla soluzione dei problemi di mobilità scolastica locale, incentivando il traffico lento e l’autonomia dei bambini sui percorsi casa-scuola. Le soluzioni proposte possono essere di tipo infrastrutturale, ma anche legate alla gestione della mobilità, e/o alla sensibilizzazione (ad esempio sicurezza, continuità del tracciato, qualità dell’ambiente circostante, percorsi preferenziali, cartine, pettorine,…). Tutte le scuole e tutti i Comuni possono facilmente dotarsi di un PMS, frutto di un lavoro di gruppo tra Comuni, scuola e famiglie. Il Dipartimento ha censito i Comuni dotati di PMS e che hanno fatto richiesta di contributo.",
   "license": "other",
   "extent": {
     "spatial": {

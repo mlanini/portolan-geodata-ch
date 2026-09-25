@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-081-2",
   "title": "CH-081.2 - Opere di protezione dai pericoli naturali (ProtectMe)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Opere di protezione dai pericoli naturali (ProtectMe).",
+  "description": "Catasto delle opere di protezione dai pericoli naturali.",
   "license": "other",
   "extent": {
     "spatial": {

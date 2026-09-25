@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-002-1",
   "title": "AC-002.1 - Limiti giurisdizionali indicativi",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Limiti giurisdizionali indicativi.",
+  "description": "Confini giurisdizionali indicativi cantonali, distrettuali, comunali e sezionali. Rispetto a quelli contenuti nei dati MU-TI (geodato CH-062.1), questi limiti sono completati con i confini generalizzati della carta nazionale 1:25'000, sono aggiornati immediatamente dopo ogni aggregazione comunale e sono rettificati topologicamente. Essi non sono contenuti nei dati MU-TI, ma sono gestiti e aggiornati dall’UCR.",
   "license": "other",
   "extent": {
     "spatial": {

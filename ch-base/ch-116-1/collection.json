@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-116-1",
   "title": "CH-116.1 - Catasto dei siti inquinati",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Catasto dei siti inquinati.",
+  "description": "Sulla base dell'OSiti, e delle direttive federali di applicazione, i Cantoni sono tenuti ad allestire e pubblicare il un catasto dei siti inquinati. Nel catasto dei siti inquinati sono iscritti i siti inquinati da rifiuti, quali: siti aziendali, impianti di tiro, siti di deposito o discariche, e siti d'incidente. In particolare contiene, nella misura del possibile, indicazioni riguardanti: l'ubicazione, il tipo e la quantità di rifiuti pervenuti nel sito, la durata del deposito, la durata dell'esercizio o il momento dell'incidente, le indagini effettuate e i provvedimenti adottati per la protezione dell'ambiente, gli effetti constatati, i settori ambientali minacciati, gli eventi particolari. Il catasto è uno strumento d'informazione (memoria storica) sull'inquinamento ambientale, ed è uno strumento di lavoro dinamico che costantemente aggiornato alle nuove situazioni e allo stato dei lavori d'indagine e di risanamento.",
   "license": "other",
   "extent": {
     "spatial": {

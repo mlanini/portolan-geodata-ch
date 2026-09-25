@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-046-1",
   "title": "AC-046.1 - Rilievi \"praTiva\" e contributo \"in situ\"",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Rilievi \"praTiva\" e contributo \"in situ\".",
+  "description": "Il contributo in situ è un nuovo contributo con l'obiettivo di mantenere e sostenere la diversità genetica delle piante foraggere grazie a una continuità nella gestione. Nel 2021 verranno selezionate le superfici e dal 2022 sarà concesso il contributo alle aziende agricole che ne fanno richiesta e che hanno diritto ai pagamenti diretti. Grazie ai rilievi botanici eseguiti nell’ambito dello studio praTiva, promosso e finanziato dall’Associazione per il Promovimento della Foraggicoltura (APF), è possibile visualizzare le potenziali superfici con le rispettive fitocenosi che potrebbero ricevere il contributo in situ. Diverse altre superfici non analizzate nello studio praTiva potrebbero potenzialmente rientrare in queste categorie. Lo studio praTiva ha analizzato la composizione botanica di 276 prati e pascoli in Ticino, con lo scopo di individuare le categorie principali di prati e pascoli associandole a dei consigli gestionali.",
   "license": "other",
   "extent": {
     "spatial": {

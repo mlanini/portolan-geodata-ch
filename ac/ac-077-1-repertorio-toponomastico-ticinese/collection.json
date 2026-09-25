@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-077-1-repertorio-toponomastico-ticinese",
   "title": "AC-077.1 - Repertorio toponomastico ticinese",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Repertorio toponomastico ticinese.",
+  "description": "Il progetto si occupa della raccolta dei nomi di luogo nella forma tramandata dalla tradizione orale, quindi nel dialetto locale. Esso si basa principalmente sull’intervista di informatori che per esperienza di vita e di lavoro sono riconosciuti come i migliori conoscitori dei toponimi in uso nella propria comunità. I risultati dell’inventario, che prende in esame singolarmente comuni o ex comuni, sono pubblicati nelle collane «Repertorio toponomastico ticinese» (1982- ) e «Archivio dei nomi di luogo» (2001-2013), cui si rimanda per approfondimenti riguardo alla genesi del progetto, alla situazione e alle caratteristiche dialettali dei singoli comuni e alle citazioni bibliografiche. Possono riscontrarsi alcune differenze rispetto alla versione a stampa. La grafia dei toponimi dialettali segue il Sistema di trascrizione. Per visualizzare correttamente i caratteri speciali (come accenti e simboli) quando si utilizzano i geoservizi WFS e WMS o dati Interlis, è necessario aver installato sul proprio computer il font CDE2020, scaricabile direttamente dal sito del CDE.",
   "license": "other",
   "extent": {
     "spatial": {

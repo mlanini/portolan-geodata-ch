@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-191-1",
   "title": "CH-191.1 - Pianificazione delle rivitalizzazioni dei corsi d'acqua",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Pianificazione delle rivitalizzazioni dei corsi d'acqua.",
+  "description": "Pianificazione delle rivitalizzazioni dei corsi d'acqua. La pianificazione strategica definisce, su tutta la rete idrografica cantonale, le tratte fluviali a elevato potenziale di rivitalizzazione. Valuta i benefici per la natura e il paesaggio, nonché le conseguenze economiche, senza però specificare interventi o progetti di dettaglio.",
   "license": "other",
   "extent": {
     "spatial": {

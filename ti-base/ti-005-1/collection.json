@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-005-1",
   "title": "TI-005.1 - Impianti a fune metallica",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Impianti a fune metallica.",
+  "description": "Impianti a fune metallica per il trasporto merci che non costituiscono un ostacolo alla navigazione aerea ai sensi della LNA e dell’OSIA.",
   "license": "other",
   "extent": {
     "spatial": {

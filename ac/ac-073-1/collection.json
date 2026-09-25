@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-073-1",
   "title": "AC-073.1 - Perimetri indicativi progetti stradali cantonali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Perimetri indicativi progetti stradali cantonali.",
+  "description": "Perimetri indicativi relativi alle aree pianificate dai progetti stradali cantonali.",
   "license": "other",
   "extent": {
     "spatial": {

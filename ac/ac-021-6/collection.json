@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-021-6",
   "title": "AC-021.6 - Consorzi manutenzione dei corsi d'acqua",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Consorzi manutenzione dei corsi d'acqua.",
+  "description": "A partire dall'inizio del 20° secolo i consorzi sono stati creati per occuparsi della bonifica di terreni, di opere di premunizione del territorio e delle grandi correzioni fluviali. La Legge sui Consorzi, risalente al 21 luglio 1913 e aggiornata più volte, ne definisce la struttura, le attività e i compiti. Col tempo l'attività dei consorzi è evoluta e dalla fine degli anni '60 si occupano della manutenzione dei corsi d'acqua e delle opere lungo gli stessi. Negli ultimi anni si è aggiunto il compito di promuovere e realizzare progetti di rivitalizzazione e rinaturazione dei corsi d'acqua e delle rive lacustri. Sul territorio cantonale operano 20 consorzi di manutenzione e una decina di consorzi locali con competenze più limitate. I membri sono enti pubblici e aziende pubbliche e private con attività di interesse generale; in qualche caso ne fanno parte anche proprietari privati. I consorzi operano con un concetto di beneficio di sicurezza generale per tutto l'insieme del rispettivo comprensorio.",
   "license": "other",
   "extent": {
     "spatial": {

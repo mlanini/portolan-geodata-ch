@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-067-1",
   "title": "CH-067.1 - Rete ciclabile",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Rete ciclabile.",
+  "description": "Il Cantone pianifica e attua i percorsi ciclabili di interesse nazionale, cantonale e regionale in base alla Legge sulle strade (LStr). I percorsi ciclabili locali sono definiti dai Piani regolatori comunali. I percorsi ciclabili si svolgono di principio su strade già esistenti e ritenute idonee. Laddove non è possibile o opportuno far capo alle strade già presenti, si provvede alla realizzazione di opere stradali come piste ciclabili, passerelle, corsie ciclabili o marciapiedi. Le reti dei percorsi ciclabili sono incluse nei Programmi d'agglomerato (PA) attraverso le cartografie settoriali riguardanti la mobilità lenta e sono allegate alle schede del Piano direttore (PD) Rete urbana e mobilità. Per facilitarne la consultazione, i percorsi ciclabili pianificati sono stati raccolti in cinque cartografie indicative. Oggi la rete ciclabile di competenza cantonale annovera circa 365 km di percorsi segnalati con i tipici cartelli rossi per biciclette (stato dicembre 2018). Di questi, circa 325 km sono inseriti nella rete per il traffico lento di SvizzeraMobile. Con l'attuazione di tutti i percorsi ciclabili di competenza cantonale si prevede un raddoppio dei chilometri di percorsi segnalati, per un totale di circa 560 km (orizzonte 2025/30).",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-007-1",
   "title": "TI-007.1 - Bosco di protezione",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Bosco di protezione.",
+  "description": "Il bosco di protezione contribuisce a mitigare l’incidenza dei pericoli naturali, quali valanghe, frane, caduta di sassi e alluvionamenti, su insediamenti e vie di comunicazione. I perimetri sono stati delimitati in base a metodi uniformi su tutto il territorio nazionale nell’ambito del progetto SilvaProtect-CH. A livello cantonale viene fatta una distinzione tra comparti di bosco con funzione di protezione diretta e quelli di protezione generale, questi ultimi situati principalmente nei bacini imbriferi.",
   "license": "other",
   "extent": {
     "spatial": {

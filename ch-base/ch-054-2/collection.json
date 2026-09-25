@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-054-2",
   "title": "CH-054.2 - Punti fissi altimetrici PFA 2",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Punti fissi altimetrici PFA 2.",
+  "description": "Punti fissi di riferimento geodetici altimetrici della MU PFA2 e PFA3, competenza cantonale (UCR). Nei dati MU-TI non ci sono PFA3.",
   "license": "other",
   "extent": {
     "spatial": {

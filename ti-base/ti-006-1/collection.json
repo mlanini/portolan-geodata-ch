@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-006-1",
   "title": "TI-006.1 - Boschi di particolare pregio",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Boschi di particolare pregio.",
+  "description": "Sono considerati boschi di particolare pregio naturalistico o culturale in base all’art. 46 RLCFo, le selve castanili gestite, i lariceti pascolati e le formazioni forestali rare o poco diffuse, tra cui i boschi golenali. Le formazioni forestali rare o poco diffuse non presentano in modo esaustivo tutti gli ambienti naturali degni di protezione menzionati nell’allegato dell’Ordinanza federale sulla protezione della natura e del paesaggio del 16 gennaio 1991 (OPN), considerati anch’essi boschi di pregio. I boschi golenali sono inseriti nell’inventario delle zone golenali di importanza nazionale, regionale e locale.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -158,6 +158,7 @@ def parse_wms_layers(capabilities_xml: str) -> dict[str, dict[str, object]]:
     for layer in root.findall("./wms:Capability/wms:Layer/wms:Layer", namespaces):
         title = layer.findtext("wms:Title", default="", namespaces=namespaces)
         name = layer.findtext("wms:Name", default="", namespaces=namespaces)
+        abstract = layer.findtext("wms:Abstract", default="", namespaces=namespaces)
         match = re.match(r"\[(?P<code>[^\]]+?)\s*\]\s*", title)
         bbox_node = layer.find("wms:BoundingBox[@CRS='EPSG:2056']", namespaces)
         if not match or not name or bbox_node is None:
@@ -179,6 +180,7 @@ def parse_wms_layers(capabilities_xml: str) -> dict[str, dict[str, object]]:
                 "name": name,
                 "title": title,
                 "bbox": bbox,
+                "abstract": " ".join((abstract or "").split()),
             },
         )
 
@@ -214,6 +216,15 @@ def build_preview_asset(item: dict[str, str], wms_layers: dict[str, dict[str, ob
         "title": f'Anteprima WMS - {item["title"]}',
         "roles": ["thumbnail"],
     }
+
+
+def collection_description(item: dict[str, str], wms_layers: dict[str, dict[str, object]]) -> str:
+    layer = wms_layers.get(item["code"])
+    if isinstance(layer, dict):
+        abstract = layer.get("abstract")
+        if isinstance(abstract, str) and abstract.strip():
+            return abstract.strip()
+    return f'Geodato pubblicato su data.geo.ti.ch: {item["title"]}.'
 
 
 def primary_dataset_stem(assets: dict[str, dict[str, object]]) -> str:
@@ -312,6 +323,9 @@ def merge_assets(existing: dict[str, object] | None, generated: dict[str, dict[s
 
 def merge_collection(existing: dict[str, object], generated: dict[str, object]) -> dict[str, object]:
     merged = dict(existing)
+    generated_description = generated.get("description")
+    if isinstance(generated_description, str) and generated_description.strip():
+        merged["description"] = generated_description
     generated_assets = generated.get("assets")
     if isinstance(generated_assets, dict) and generated_assets:
         merged["assets"] = merge_assets(merged.get("assets") if isinstance(merged.get("assets"), dict) else None, generated_assets)
@@ -460,7 +474,7 @@ def build_collection(item: dict[str, str], page_html: str, wms_layers: dict[str,
         "stac_version": "1.1.0",
         "id": item["relativePath"],
         "title": f'{item["code"]} - {item["title"]}',
-        "description": f'Geodato pubblicato su data.geo.ti.ch: {item["title"]}.',
+        "description": collection_description(item, wms_layers),
         "license": "other",
         "extent": {
             "spatial": {"bbox": [[8.3, 45.8, 9.3, 46.7]]},

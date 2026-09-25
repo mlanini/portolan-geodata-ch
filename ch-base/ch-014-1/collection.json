@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-014-1",
   "title": "CH-014.1 - Censimento della circolazione stradale sulla rete regionale e locale",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Censimento della circolazione stradale sulla rete regionale e locale.",
+  "description": "Raccolte di dati che contengono informazioni sulle stazioni di rilevamento presenti sulle strade svizzere sulle reti regionali e locali. Si tratta in genere di rilevatori automatici in grado di monitorare i flussi di traffico in modo permanente o temporaneo.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-006-1",
   "title": "AC-006.1 - Cantieri stradali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Cantieri stradali.",
+  "description": "Cantieri in corso sulla rete delle strade cantonali con descrizione dei lavori, genere di conduzione e periodo di esecuzione.",
   "license": "other",
   "extent": {
     "spatial": {

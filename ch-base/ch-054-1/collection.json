@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-054-1",
   "title": "CH-054.1 - Punti fissi planimetrici PFP 2",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Punti fissi planimetrici PFP 2.",
+  "description": "Punti fissi di riferimento geodetici planimetrici della MU PFP2 di competenza cantonale (UCR).",
   "license": "other",
   "extent": {
     "spatial": {

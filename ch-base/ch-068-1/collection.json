@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-068-1",
   "title": "CH-068.1 - Superfici per l'avvicendamento delle colture",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Superfici per l'avvicendamento delle colture.",
+  "description": "Le superfici per l'avvicendamento delle colture (SAC) rappresentano i migliori terreni agricoli della Svizzera. Grazie al piano settoriale delle SAC, vengono salvaguardate le superfici migliori per la campicoltura.",
   "license": "other",
   "extent": {
     "spatial": {

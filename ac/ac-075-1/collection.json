@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-075-1",
   "title": "AC-075.1 - Radar sulle strade",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Radar sulle strade.",
+  "description": "Nell’ottica di accrescere la sicurezza e la trasparenza nei confronti dei conducenti sulle strade ticinesi, si evidenzia che sull'autostrada A2 è posizionata una postazione fissa per il rilevamento della velocità in direzione sud in territorio di Balerna.",
   "license": "other",
   "extent": {
     "spatial": {

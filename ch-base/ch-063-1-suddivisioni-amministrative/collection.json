@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-063-1-suddivisioni-amministrative",
   "title": "CH-063.1 - Suddivisioni amministrative - AN",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Suddivisioni amministrative - AN.",
+  "description": "Ripartizioni e aree in relazione all'esecuzione dei lavori, alla gestione e alla precisione della MU.",
   "license": "other",
   "extent": {
     "spatial": {

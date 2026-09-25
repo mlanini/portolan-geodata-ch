@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-029-1",
   "title": "TI-029.1 - Bosco con funzione di svago",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Bosco con funzione di svago.",
+  "description": "Il bosco di svago contribuisce in maniera significativa al benessere psicofisico della popolazione, che è pienamente consapevole dei suoi valori paesaggistici, naturali e culturali. È inoltre un elemento importante nell’offerta turistica del Cantone. Gestito nel rispetto delle esigenze dei suoi fruitori, è in grado di offrire un importante contributo alla qualità di vita e all’educazione ambientale della popolazione. Resta uno spazio privilegiato per le attività ricreative, che avvengono – grazie ad un’oculata regolazione – nel rispetto dell’ecosistema bosco.",
   "license": "other",
   "extent": {
     "spatial": {

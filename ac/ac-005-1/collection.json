@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-005-1",
   "title": "AC-005.1 - Cancro del platano",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Cancro del platano.",
+  "description": "Zona di riscontro dei focolai del cancro colorato del platano su territorio cantonale.",
   "license": "other",
   "extent": {
     "spatial": {

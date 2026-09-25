@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-028b-1-piani-regolatori",
   "title": "TI-028b.1 - Piani regolatori",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piani regolatori.",
+  "description": "Piani regolatori secondo modello cantonale.",
   "license": "other",
   "extent": {
     "spatial": {

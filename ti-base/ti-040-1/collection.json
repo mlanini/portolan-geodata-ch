@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-040-1",
   "title": "TI-040.1 - Sfruttamento termico delle acque e della geotermia",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Sfruttamento termico delle acque e della geotermia.",
+  "description": "Aree per le quali è potenzialmente permesso uno sfruttamento termico delle acque e della geotermia.",
   "license": "other",
   "extent": {
     "spatial": {

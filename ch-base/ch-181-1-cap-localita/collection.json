@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-181-1-cap-localita",
   "title": "CH-181.1 - CAP e località",
-  "description": "Geodato pubblicato su data.geo.ti.ch: CAP e località.",
+  "description": "Con l’articolo 24 dell’Ordinanza sui nomi geografici (ONGeo) l’Ufficio federale di topografia è stato incaricato di realizzare, amministrare e pubblicare il nuovo elenco ufficiale delle località con il numero postale d’avviamento e il perimetro. Questo set di dati è gestito a livello centralizzato presso swisstopo e corrisponde ad esclusione del rimosso del identificatore «IDENT CAP, cifre_supplementari» nella tabella «CAP6» al set di dati TOPIC «CAP_localita» della misurazione ufficiale. Il set di dati è capillare per tutto il territorio svizzero e può essere ottenuto gratuitamente (aggiornato con cadenza mensile).",
   "license": "other",
   "extent": {
     "spatial": {

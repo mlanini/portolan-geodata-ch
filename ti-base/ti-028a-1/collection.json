@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-028a-1",
   "title": "TI-028a.1 - Piani di utilizzazione cantonali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piani di utilizzazione cantonali.",
+  "description": "Piani di utilizzazione cantonali secondo modello cantonale.",
   "license": "other",
   "extent": {
     "spatial": {

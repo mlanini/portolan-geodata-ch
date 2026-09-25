@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-062-1",
   "title": "AC-062.1 - Monitoraggio radar satellitare",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Monitoraggio radar satellitare.",
+  "description": "Il metodo InSAR-PS (Interferometric synthetic aperture radar - Persistent Scatterer) permette la misurazione di spostamenti di terreno con precisione millimetrica mediante la comparazione di immagini radar satellitari realizzate a intervalli regolari. Tutte le misure degli spostamenti sono elaborate sull’asse di volo del satellite con un angolo d’incidenza variabile e sono quindi disallineate dal consueto nord geografico. L’unità di misura per lo spostamento è definita nel millimetro/anno con dei valori negativi (più frequenti) e positivi su un determinato punto (precisione planimetrica da 3 a 25 m). L’interpretazione dei dati necessita di cautela; in particolare bisogna tenere in considerazione il fatto che i punti visibili sulla carta corrispondono a entità sul terreno che riflettono idealmente le onde radar a ogni passaggio del satellite (tetti di edifici, grandi massi, piloni delle teleferiche, ecc.). Nei casi di vegetazione troppo densa (bosco) e spostamenti troppo rapidi del terreno (frane, ghiacciai e/o di pareti troppo ripide) il segnale radar è troppo impreciso per eseguire misure a lungo termine. Gli spostamenti reali al suolo possono inoltre essere considerevolmente sottostimati con una configurazione satellite/terreno con angolo di misura perpendicolare allo spostamento del terreno. Nel caso di un’analisi di un determinato settore è utile consultare i punti misura dei diversi satelliti disponibili e le loro orbite differenti (ascendenti o discendenti).",
   "license": "other",
   "extent": {
     "spatial": {

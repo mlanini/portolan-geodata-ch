@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-010-1",
   "title": "AC-010.1 - Qualità dei trasporti pubblici",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Qualità dei trasporti pubblici.",
+  "description": "Livello di qualità del trasporto pubblico determinato in funzione della categoria delle fermate del trasporto pubblico a sua volta classificata in base al tipo di trasporto pubblico e all'intervallo tra una corsa e l'altra. Questo dato interviene nel calcolo del numero di parcheggi privati ammessi ad ogni domanda di costruzione.",
   "license": "other",
   "extent": {
     "spatial": {

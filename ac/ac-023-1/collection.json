@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-023-1",
   "title": "AC-023.1 - Rive laghi - Canneti",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Rive laghi - Canneti.",
+  "description": "Canneti rilevati e canneti potenziali sulle rive dei laghi (Ceresio e Verbano).",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-167-1",
   "title": "CH-167.1 - Catasto degli eventi naturali (StorMe)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Catasto degli eventi naturali (StorMe).",
+  "description": "Il catasto StorMe contiene informazioni relative a eventi naturali storici di caduta sassi, colate detriche, frane e valanghe dal 1570 al 2000 in maniera non esaustiva, a partire dal 2000 in modo sistematico.",
   "license": "other",
   "extent": {
     "spatial": {

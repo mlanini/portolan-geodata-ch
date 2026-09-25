@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-073b-1",
   "title": "CH-073b.1 - Piani di utilizzazione (comunali)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piani di utilizzazione (comunali).",
+  "description": "Piani di utilizzazione (comunali) per gli atti pianificatori che hanno seguito un iter procedurale ai sensi della LST.",
   "license": "other",
   "extent": {
     "spatial": {

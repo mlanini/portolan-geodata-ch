@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-065a-1",
   "title": "AC-065a.1 - Disponibilità piani di utilizzazione",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Disponibilità piani di utilizzazione.",
+  "description": "Disponibilità piani di utilizzazione cantonali.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-061-1",
   "title": "AC-061.1 - Centri di manutenzione stradale",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Centri di manutenzione stradale.",
+  "description": "Ripartizione geografica della responsabilità dei centri di manutenzione stradale.",
   "license": "other",
   "extent": {
     "spatial": {

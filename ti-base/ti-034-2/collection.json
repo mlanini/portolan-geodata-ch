@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-034-2",
   "title": "TI-034.2 - Carta dei pericoli - Indicativi",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Carta dei pericoli - Indicativi.",
+  "description": "Carta indicativa che mostra la possibile presenza di un processo senza definirne il grado di pericolo.",
   "license": "other",
   "extent": {
     "spatial": {

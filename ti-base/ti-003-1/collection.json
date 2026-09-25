@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-003-1",
   "title": "TI-003.1 - Incendi di bosco",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Incendi di bosco.",
+  "description": "Catasto degli incendi boschivi del Canton Ticino.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-009-1-piano-direttore-cantonale",
   "title": "AC-009.1 - Piano direttore cantonale",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piano direttore cantonale.",
+  "description": "Il Piano direttore (PD) è il principale strumento per orientare le trasformazioni territoriali dell'insieme del Cantone quale premessa per lo sviluppo socioeconomico. In conformità ai disposti della Confederazione (art. 6 OPT), la scala ufficiale di rappresentazione del PD è 1:50’000.",
   "license": "other",
   "extent": {
     "spatial": {

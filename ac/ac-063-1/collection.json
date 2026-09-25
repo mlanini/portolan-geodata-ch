@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-063-1",
   "title": "AC-063.1 - Manufatti su strade e percorsi ciclabili",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Manufatti su strade e percorsi ciclabili.",
+  "description": "Manufatti su strade e piste ciclabili in gestione al cantone.",
   "license": "other",
   "extent": {
     "spatial": {

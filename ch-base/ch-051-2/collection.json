@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-051-2",
   "title": "CH-051.2 - Piano Registro Fondiario - Deposito pubblico",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piano Registro Fondiario - Deposito pubblico.",
+  "description": "Rappresentazione dei geodati da 54 a 64 secondo il modello di rappresentazione federale e cantonale, in bianco e nero o a colori del piano del registro fonciario deposito pubblico.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-023-3",
   "title": "AC-023.3 - Rive laghi - Batimetria Ceresio",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Rive laghi - Batimetria Ceresio.",
+  "description": "Batimetria lago Ceresio.",
   "license": "other",
   "extent": {
     "spatial": {

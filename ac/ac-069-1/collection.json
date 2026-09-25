@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-069-1",
   "title": "AC-069.1 - Deformazioni gravitative profonde di versante",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Deformazioni gravitative profonde di versante.",
+  "description": "Movimenti franosi in massa di grandi dimensioni che coinvolgono interi versanti, dal crinale fino al fondovalle, con spessori della massa in movimento che possono superare il centinaio di metri. Il movimento si sviluppa attraverso una deformazione perlopiù lenta e progressiva della massa rocciosa senza una superficie di scorrimento ben definita. L'area in frana viene riconosciuta attraverso l'individuazione di una serie di indizi geomorfologici specifici, quali raddoppi di cresta, trincee, scarpate e contro-scarpate, graben, fenomeni di rigonfiamenti ai piedi del versante.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-190-1",
   "title": "CH-190.1 - Spazio riservato alle acque",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Spazio riservato alle acque.",
+  "description": "Spazio riservato alle acque per gli atti pianificatori che hanno seguito un iter procedurale ai sensi della LST.",
   "license": "other",
   "extent": {
     "spatial": {

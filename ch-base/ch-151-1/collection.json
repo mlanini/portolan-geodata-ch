@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-151-1",
   "title": "CH-151.1 - Catasto viticolo",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Catasto viticolo.",
+  "description": "Il Catasto viticolo è un geodato di base di diritto federale e indica, secondo i principi della Confederazione, le superfici con impianti di vigneti e quelle oggetto di una ricostituzione. Per i nuovi impianti di vigneti è necessaria l’autorizzazione del Cantone e in Ticino bisogna seguire una procedura specifica (vedi impianti, ampliamenti, ricostituzioni), così come bisogna notificare allo stesso eventuali ricostituzioni. Per l’allestimento del catasto viticolo può essere utilizzata come base la misurazione ufficiale.",
   "license": "other",
   "extent": {
     "spatial": {

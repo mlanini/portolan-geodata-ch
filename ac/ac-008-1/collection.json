@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-008-1",
   "title": "AC-008.1 - Piani di evacuazione",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piani di evacuazione.",
+  "description": "Piani di evacuazione in caso di allarme acqua allestiti per Comune-Sezione contenenti le zone d'inondazione, le direzioni d'evacuazione e i punti di raccolta.",
   "license": "other",
   "extent": {
     "spatial": {

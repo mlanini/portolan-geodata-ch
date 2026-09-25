@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-021-3",
   "title": "AC-021.3 - Bilancio idrologico",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Bilancio idrologico.",
+  "description": "Bilancio idrologico.",
   "license": "other",
   "extent": {
     "spatial": {

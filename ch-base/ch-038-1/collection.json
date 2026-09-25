@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-038-1",
   "title": "CH-038.1 - SwissTLM3D - Modello topografico del paesaggio",
-  "description": "Geodato pubblicato su data.geo.ti.ch: SwissTLM3D - Modello topografico del paesaggio.",
+  "description": "SwissTLM3D è il modello topografico dettagliato del paesaggio svizzero che rappresenta gli oggetti naturali e artificiali con i dati toponimici in formato vettoriale. Contiene la descrizione di quasi 20 milioni di oggetti indicandone ubicazione, forma, rispettivo tipo di oggetto e numerosi altri attributi. È composto 8 livelli tematici (Topics), ciascuno dei quali comprende diverse classi di oggetti (Feature Classes). Questo prodotto che offre un'alta precisione (per oggetti ben definiti come strade ed edifici: 0.2 – 1.5m in ognuna delle tre dimensioni e per gli oggetti non facilmente delimitabili, come le foreste: 1 – 3m in ognuna delle tre dimensioni), rappresenta la raccolta più precisa e completa di dati vettoriali in 3D sul territorio svizzero.",
   "license": "other",
   "extent": {
     "spatial": {

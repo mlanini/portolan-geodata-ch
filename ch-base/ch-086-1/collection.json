@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-086-1",
   "title": "CH-086.1 - Assi delle strade nazionali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Assi delle strade nazionali.",
+  "description": "Assi delle strade nazionali.",
   "license": "other",
   "extent": {
     "spatial": {

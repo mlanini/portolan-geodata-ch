@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-114-2",
   "title": "CH-114.2 - Discariche di tipo B, C, D e E",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Discariche di tipo B, C, D e E.",
+  "description": "Discariche di tipo B, C, D e E.",
   "license": "other",
   "extent": {
     "spatial": {

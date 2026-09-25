@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-055-1",
   "title": "AC-055.1 - Posti di controllo per la selvaggina",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Posti di controllo per la selvaggina.",
+  "description": "Posti di controllo per la selvaggina.",
   "license": "other",
   "extent": {
     "spatial": {

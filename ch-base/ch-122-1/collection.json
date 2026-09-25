@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-122-1",
   "title": "CH-122.1 - Rilevamenti cantonali dell'inquinamento atmosferico (reti di rilevamento)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Rilevamenti cantonali dell'inquinamento atmosferico (reti di rilevamento).",
+  "description": "La rete di rilevamento gestita dall'Ufficio dell'aria, del clima e delle energie rinnovabili (UACER) include una decina di stazioni di analisi dell'aria. Per stazione di analisi si intende un sistema di misura con una serie di apparecchi ciascuno predisposto per l'analisi della concentrazione di una determinata sostanza nell'aria. Una stazione può misurare anche più sostanze a dipendenza della dotazione strumentale. Non tutte sono equipaggiate al massimo delle possibilità.",
   "license": "other",
   "extent": {
     "spatial": {

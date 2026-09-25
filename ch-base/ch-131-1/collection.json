@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-131-1",
   "title": "CH-131.1 - Zone di protezione delle acque sotterranee",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Zone di protezione delle acque sotterranee.",
+  "description": "Delimitazione delle zone di protezione delle acque sotterranee, volte a tutelare le captazioni ad uso potabile di interesse pubblico. Attività di competenza del proprietario della captazione. Il Cantone (UPAAI) accompagna il proprietario nell'iter di approvazione del piano di protezione delle acque sotterranee (PPAS).",
   "license": "other",
   "extent": {
     "spatial": {

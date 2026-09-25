@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-032-1",
   "title": "AC-032.1 - Mappa archeologica",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Mappa archeologica.",
+  "description": "L’elemento di Mappa archeologica consente di visualizzare geograficamente un Ritrovamento (o un gruppo di Ritrovamenti) archeologici in base alla loro tipologia e alla loro epoca. La sua rappresentazione avviene mediante l’utilizzo di un codice di simboli (Tipologia) e colori (Epoca).",
   "license": "other",
   "extent": {
     "spatial": {

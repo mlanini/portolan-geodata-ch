@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-185-1",
   "title": "CH-185.1 - Dissodamenti e compensazione del dissodamento",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Dissodamenti e compensazione del dissodamento.",
+  "description": "Dissodamenti e compensazione del dissodamento secondo la Legge federale sulle foreste (LFo). Sono contenute tutte le superfici dei dissodamenti definitivi e temporanei, rimboschimenti compensativi e misure di compensazione equivalenti a favore della protezione della natura e del paesaggio pubblicate e con una base legale cresciuta in giudicato dal 2015. Il geodato è conforme al modello di geodati minimo federale per i dissodamenti e la compensazione del dissodamento dal 2020.",
   "license": "other",
   "extent": {
     "spatial": {

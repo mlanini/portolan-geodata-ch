@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-011-1",
   "title": "AC-011.1 - Malattie delle api",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Malattie delle api.",
+  "description": "Zone attive di sequestro, prescritte sulla base dell'OFE, e vecchi focolai relativi all'apparizione di casi di peste americana e di peste europea delle api.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-001-1",
   "title": "AC-001.1 - Disponibilità del Catasto RDPP",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Disponibilità del Catasto RDPP.",
+  "description": "Disponibilità del Catasto RDPP.",
   "license": "other",
   "extent": {
     "spatial": {

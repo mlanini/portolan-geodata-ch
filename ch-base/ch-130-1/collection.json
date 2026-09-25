@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-130-1",
   "title": "CH-130.1 - Settori di protezione delle acque",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Settori di protezione delle acque.",
+  "description": "Delimitazione dei settori di protezione delle acque sotterranee (Au) e superficiali (Ao). Attività di competenza cantonale volta a proteggere qualitativamente e quantitativamente le falde potenzialmente sfruttabili e a tutelare la qualità delle acque superficiali, per garantirne un loro utilizzo a scopo potabile.",
   "license": "other",
   "extent": {
     "spatial": {

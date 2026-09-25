@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-067-1",
   "title": "AC-067.1 - Portate di piena",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Portate di piena.",
+  "description": "Portate di piena dei corsi d'acqua calcolate/stimate in base ai periodi di ritorno.",
   "license": "other",
   "extent": {
     "spatial": {

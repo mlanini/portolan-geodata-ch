@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-183-1",
   "title": "CH-183.1 - Sicurezza dell'approvvigionamento elettrico: comprensori di rete",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Sicurezza dell'approvvigionamento elettrico: comprensori di rete.",
+  "description": "Il Cantone è suddiviso in comprensori di rete, ogni regione è assegnata ad un unico gestore di rete che provvede all’allacciamento e alla distribuzione di elettricità ai clienti finali. All’Azienda elettrica ticinese è assegnato un comprensorio speciale come da art. 4 cpv. 3 LA-LAEl in combinato disposto con l’art. 5 cpv. 2 RLA-LAEl.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-011-1",
   "title": "TI-011.1 - Assi delle strade cantonali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Assi delle strade cantonali.",
+  "description": "Assi delle strade cantonali comprendenti di punti di riferimento e punti ettometrici.",
   "license": "other",
   "extent": {
     "spatial": {

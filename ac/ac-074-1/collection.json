@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-074-1",
   "title": "AC-074.1 - Webcam sulle strade",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Webcam sulle strade.",
+  "description": "Dalle webcam vengono trasmesse, in tempo reale, le immagini riprese da una vasta e articolata rete di telecamere. Inoltre, vengono fornite informazioni circa la collocazione delle stesse.",
   "license": "other",
   "extent": {
     "spatial": {

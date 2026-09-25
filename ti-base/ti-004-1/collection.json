@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-004-1",
   "title": "TI-004.1 - Infrastrutture antincendio",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Infrastrutture antincendio.",
+  "description": "Infrastrutture antincendio",
   "license": "other",
   "extent": {
     "spatial": {

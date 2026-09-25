@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-192-1",
   "title": "CH-192.1 - Pianificazione e rapporto concernente il risanamento della forza idrica",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Pianificazione e rapporto concernente il risanamento della forza idrica.",
+  "description": "Risanamento forza idrica.",
   "license": "other",
   "extent": {
     "spatial": {

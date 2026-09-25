@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-012-2",
   "title": "AC-012.2 - Restrizioni alla circolazione",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Restrizioni alla circolazione.",
+  "description": "Restrizioni alla circolazione stradale sulle strade cantonali.",
   "license": "other",
   "extent": {
     "spatial": {

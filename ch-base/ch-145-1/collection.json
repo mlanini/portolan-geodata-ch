@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-145-1",
   "title": "CH-145.1 - Gradi di sensibilità al rumore (in zone d'utilizzazione)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Gradi di sensibilità al rumore (in zone d'utilizzazione).",
+  "description": "Gradi di sensibilità al rumore (in zone d'utilizzazione) per gli atti pianificatori che hanno seguito un iter procedurale ai sensi della LST.",
   "license": "other",
   "extent": {
     "spatial": {

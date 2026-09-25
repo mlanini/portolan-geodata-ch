@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-153-1",
   "title": "CH-153.1 - Gestione agricola: superfici d'utilizzazione",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Gestione agricola: superfici d'utilizzazione.",
+  "description": "Le Superfici d’utilizzazione comprendono le superfici agricole di cui all’ordinanza sulla terminologia agricola (OTerm), all’ordinanza sui pagamenti diretti (OPD) e alle definizioni risultanti (codifici incl.) dalle utilizzazioni. Rientrano inoltre anche quelle superfici escluse dai pagamenti diretti e /o non riconosciute come superfici agricole utili (SAU). Le superfici d’utilizzazione e i simboli puntiformi (alberi) da registrare devono trovarsi all’interno delle Unità di gestione attribuite al gestore.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-188-1",
   "title": "CH-188.1 - Inventario PBC (regionale e locale)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Inventario PBC (regionale e locale).",
+  "description": "Inventario cantonale della protezione dei beni culturali d'importanza regionale e locale (categoria B e C).",
   "license": "other",
   "extent": {
     "spatial": {

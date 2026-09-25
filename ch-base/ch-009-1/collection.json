@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-009-1",
   "title": "CH-009.1 - Registro federale degli edifici e delle abitazioni REA",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Registro federale degli edifici e delle abitazioni REA.",
+  "description": "Il Registro federale degli edifici e delle abitazioni REA contiene i principali dati di base relativi agli edifici e alle abitazioni. Viene utilizzato per finalità statistiche, di ricerca e di pianificazione e serve ai Cantoni e ai Comuni per lo svolgimento dei compiti assegnati loro dalla legge. L'aggiornamento ha luogo in coordinamento con la statistica delle costruzioni e dell'edilizia abitativa. Ogni edificio e ogni abitazione dispongono di un numero di identificazione unico e univoco (EGID, risp. EWID) nonché di un indirizzo geocodificato e standardizzato secondo la norma SN 612040. I numeri delle particelle e degli edifici nonché le coordinate metriche degli edifici consentono una localizzazione geografica esatta degli edifici. Il seti di dati è fornito da Swisstopo per tutta la Svizzera all'indirizzo https://data.geo.admin.ch/ch.bfs.gebaeude_wohnungs_register.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-053-2",
   "title": "CH-053.2 - Punti fissi altimetrici PFA 1",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Punti fissi altimetrici PFA 1.",
+  "description": "Punti fissi altimetrici di 1. categoria (PFA1), di competenza federale (swisstopo D+M).",
   "license": "other",
   "extent": {
     "spatial": {

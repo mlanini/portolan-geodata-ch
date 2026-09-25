@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-009-1",
   "title": "TI-009.1 - Circondari e settori forestali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Circondari e settori forestali.",
+  "description": "Circondari e settori della Sezione forestale - Canton Ticino.",
   "license": "other",
   "extent": {
     "spatial": {

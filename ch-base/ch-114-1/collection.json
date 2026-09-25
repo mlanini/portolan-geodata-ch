@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-114-1",
   "title": "CH-114.1 - Impianti di incenerimento dei rifiuti urbani (IIRU), Discariche di tipo A",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Impianti di incenerimento dei rifiuti urbani (IIRU), Discariche di tipo A.",
+  "description": "Impianti di incenerimento dei rifiuti urbani (IIRU), Discariche di tipo A",
   "license": "other",
   "extent": {
     "spatial": {

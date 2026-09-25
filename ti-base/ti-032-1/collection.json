@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-032-1",
   "title": "TI-032.1 - Aree pianificate dai progetti stradali cantonali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Aree pianificate dai progetti stradali cantonali.",
+  "description": "Aree pianificate dai progetti stradali cantonali.",
   "license": "other",
   "extent": {
     "spatial": {

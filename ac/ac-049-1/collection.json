@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-049-1",
   "title": "AC-049.1 - Stato Raggruppamento terreni (RT)",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Stato Raggruppamento terreni (RT).",
+  "description": "Stato della situazione concernente i perimetri delle opere di raggruppamento terreni.",
   "license": "other",
   "extent": {
     "spatial": {

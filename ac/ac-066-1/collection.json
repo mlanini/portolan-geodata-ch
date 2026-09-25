@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-066-1",
   "title": "AC-066.1 - Monitoraggio ghiacciai",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Monitoraggio ghiacciai.",
+  "description": "Monitoraggio ghiacciai",
   "license": "other",
   "extent": {
     "spatial": {

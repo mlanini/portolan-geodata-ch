@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-030-1",
   "title": "TI-030.1 - Accertamento del bosco",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Accertamento del bosco.",
+  "description": "Accertamento del carattere forestale e il corrispondente limite del bosco secondo la Legge federale sulle foreste (LFo).",
   "license": "other",
   "extent": {
     "spatial": {

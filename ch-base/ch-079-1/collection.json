@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base/ch-079-1",
   "title": "CH-079.1 - Reti di percorsi pedonali e sentieri",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Reti di percorsi pedonali e sentieri.",
+  "description": "Sentieri escursionistici del Piano cantonale art. 7 LCPS. La Legge affida la pianificazione dei percorsi pedonali ai Comuni. I sentieri escursionistici del piano cantonale sono segnalati mediante la tipica segnaletica gialla o bianco-rosso-bianco (sentieri di montagna). Il piano comprende anche alcuni itinerari alpini segnalati in bianco-blu-bianco.",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-030-1",
   "title": "AC-030.1 - Natura e paesaggio",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Natura e paesaggio.",
+  "description": "Natura e paesaggio",
   "license": "other",
   "extent": {
     "spatial": {

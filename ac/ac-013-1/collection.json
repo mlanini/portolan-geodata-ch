@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-013-1",
   "title": "AC-013.1 - Prevenzione incidenti rilevanti",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Prevenzione incidenti rilevanti.",
+  "description": "Rappresentazione della posizione geografica degli oggetti che sottostanno all'Ordinanza e delle rispettive aree di coordinamento conformemente all'art. 13 dell'OPIR. Queste informazioni non sono indicative per il grado di rischio degli oggetti OPIR.",
   "license": "other",
   "extent": {
     "spatial": {

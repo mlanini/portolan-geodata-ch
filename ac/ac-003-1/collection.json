@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-003-1",
   "title": "AC-003.1 - Suddivisione lotti misurazione ufficiale",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Suddivisione lotti misurazione ufficiale.",
+  "description": "Suddivisione in relazione allo stato e all'avanzamento dei lavori di MU in Cantone Ticino.",
   "license": "other",
   "extent": {
     "spatial": {

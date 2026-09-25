@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac/ac-044-1",
   "title": "AC-044.1 - Piani altitudinali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piani altitudinali.",
+  "description": "Rappresentazione vettoriale derivata dal modello altimetrico federale MDT25 (matrice maglia 25m). Il geodato permette di visualizzare i piani altitudinali del Ticino dalla quota più bassa alla quota più alta. La suddivisione comprende i piani principali (ogni 500 m di dislivello) e quelli secondari (ogni 100 m di dislivello).",
   "license": "other",
   "extent": {
     "spatial": {

@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base/ti-008-1",
   "title": "TI-008.1 - Strade e piste forestali",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Strade e piste forestali.",
+  "description": "Strade e piste forestali con indicazione in merito a barriere, ostacoli o piazzali.",
   "license": "other",
   "extent": {
     "spatial": {

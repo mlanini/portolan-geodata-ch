@@ -107,6 +107,14 @@
       "roles": [
         "thumbnail"
       ]
+    },
+    "data_parquet": {
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_063_1/ch_063_1_v1_7_suddivisioni_amministrative_an.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "data GeoParquet",
+      "roles": [
+        "data"
+      ]
     }
   }
 }

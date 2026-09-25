@@ -82,5 +82,23 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ac_060_1_ticino": {
+      "href": "https://data.geo.ti.ch/?p=ac_060_1_v1_2&f=ac_060_1_ticino.zip",
+      "type": "application/zip",
+      "title": "ac_060_1_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_060_1_v1_2_cappelle_dipinti_murali_devozionali&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Cappelle e dipinti murali devozionali",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

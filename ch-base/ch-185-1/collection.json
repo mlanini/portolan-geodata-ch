@@ -82,5 +82,23 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ch_185_1_ticino": {
+      "href": "https://data.geo.ti.ch/?p=ch_185_1_v1_1&f=ch_185_1_ticino.zip",
+      "type": "application/zip",
+      "title": "ch_185_1_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_185_1_v1_1_dissodamenti&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Dissodamenti e compensazione del dissodamento",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

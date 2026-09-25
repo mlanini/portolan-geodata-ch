@@ -82,5 +82,167 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ch_073b_1_ch19eub6": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch19eub6.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch19eub6.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch085gea": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch085gea.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch085gea.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch07kmfn": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch07kmfn.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch07kmfn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch06rsf9": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch06rsf9.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch06rsf9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch208g2z": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch208g2z.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch208g2z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch170t8e": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch170t8e.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch170t8e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch193krd": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch193krd.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch193krd.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch08eq1s": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch08eq1s.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch08eq1s.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch249jzu": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch249jzu.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch249jzu.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch21gqth": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch21gqth.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch21gqth.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch08r024": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch08r024.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch08r024.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch21zwfr": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch21zwfr.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch21zwfr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch21vajn": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch21vajn.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch21vajn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch20ahgh": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch20ahgh.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch20ahgh.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch08nvh3": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch08nvh3.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch08nvh3.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch08fqgw": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch08fqgw.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch08fqgw.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch08kgq5": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch08kgq5.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch08kgq5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch08rwmb": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch08rwmb.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch08rwmb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073b_1_ch081qsb": {
+      "href": "https://data.geo.ti.ch/?p=ch_073b_1_v1_2&f=ch_073b_1_ch081qsb.zip",
+      "type": "application/zip",
+      "title": "ch_073b_1_ch081qsb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_073b_1_v1_2_piani_utilizzazione_comunali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piani di utilizzazione (comunali)",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

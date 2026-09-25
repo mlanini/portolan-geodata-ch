@@ -8,14 +8,18 @@ import re
 import subprocess
 import sys
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlencode
 
 
 PROXY = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or "http://proxy-bvcol.admin.ch:8080"
 SITE_URL = "https://data.geo.ti.ch/"
 GEOPORTALE_URL = "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home"
 MAP_URL = "https://map.geo.ti.ch/"
+WMS_SERVICE_URL = "https://wms.geo.ti.ch/service"
+WMS_CAPABILITIES_URL = f"{WMS_SERVICE_URL}?service=WMS&version=1.3.0&REQUEST=GetCapabilities"
 CONDITIONS_URL = "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/geoportale/condizioni-utilizzo"
 
 
@@ -81,6 +85,179 @@ def write_json(path: Path, value: object) -> None:
 
 def html_decode(value: str) -> str:
     return html.unescape(value).strip()
+
+
+def asset_key_from_filename(filename: str, existing_keys: set[str]) -> str:
+    stem = Path(filename).stem
+    key = convert_to_slug(stem).replace("-", "_") or "data"
+    candidate = key
+    index = 2
+    while candidate in existing_keys:
+        candidate = f"{key}_{index}"
+        index += 1
+    return candidate
+
+
+def asset_media_type(href: str) -> str:
+    lowered = href.lower()
+    if lowered.endswith(".tif") or lowered.endswith(".tiff"):
+        if "/cog/" in lowered:
+            return "image/tiff; application=geotiff; profile=cloud-optimized"
+        return "image/tiff; application=geotiff"
+    if lowered.endswith(".zip"):
+        return "application/zip"
+    if lowered.endswith(".xtf"):
+        return "application/interlis"
+    return "application/octet-stream"
+
+
+def preview_dimensions(bbox: tuple[float, float, float, float]) -> tuple[int, int]:
+    minx, miny, maxx, maxy = bbox
+    width_span = max(maxx - minx, 0.0)
+    height_span = max(maxy - miny, 0.0)
+    if width_span == 0 or height_span == 0:
+        return 384, 384
+
+    max_side = 384
+    if width_span >= height_span:
+        width = max_side
+        height = max(256, round(max_side * height_span / width_span))
+    else:
+        height = max_side
+        width = max(256, round(max_side * width_span / height_span))
+    return width, height
+
+
+def parse_wms_layers(capabilities_xml: str) -> dict[str, dict[str, object]]:
+    namespaces = {"wms": "http://www.opengis.net/wms"}
+    root = ET.fromstring(capabilities_xml)
+    layer_map: dict[str, dict[str, object]] = {}
+
+    for layer in root.findall("./wms:Capability/wms:Layer/wms:Layer", namespaces):
+        title = layer.findtext("wms:Title", default="", namespaces=namespaces)
+        name = layer.findtext("wms:Name", default="", namespaces=namespaces)
+        match = re.match(r"\[(?P<code>[^\]]+?)\s*\]\s*", title)
+        bbox_node = layer.find("wms:BoundingBox[@CRS='EPSG:2056']", namespaces)
+        if not match or not name or bbox_node is None:
+            continue
+
+        try:
+            bbox = (
+                float(bbox_node.attrib["minx"]),
+                float(bbox_node.attrib["miny"]),
+                float(bbox_node.attrib["maxx"]),
+                float(bbox_node.attrib["maxy"]),
+            )
+        except (KeyError, ValueError):
+            continue
+
+        layer_map.setdefault(
+            match.group("code").strip(),
+            {
+                "name": name,
+                "title": title,
+                "bbox": bbox,
+            },
+        )
+
+    return layer_map
+
+
+def build_preview_asset(item: dict[str, str], wms_layers: dict[str, dict[str, object]]) -> dict[str, object] | None:
+    layer = wms_layers.get(item["code"])
+    if not layer:
+        return None
+
+    bbox = layer["bbox"]
+    if not isinstance(bbox, tuple):
+        return None
+
+    width, height = preview_dimensions(bbox)
+    href = f"{WMS_SERVICE_URL}?{urlencode({
+        'service': 'WMS',
+        'version': '1.3.0',
+        'request': 'GetMap',
+        'layers': str(layer['name']),
+        'styles': '',
+        'crs': 'EPSG:2056',
+        'bbox': ','.join(str(value) for value in bbox),
+        'width': str(width),
+        'height': str(height),
+        'format': 'image/png',
+        'transparent': 'true',
+    })}"
+    return {
+        "href": href,
+        "type": "image/png",
+        "title": f'Anteprima WMS - {item["title"]}',
+        "roles": ["thumbnail"],
+    }
+
+
+def parse_dataset_assets(page: str, page_html: str) -> dict[str, dict[str, object]]:
+    assets: dict[str, dict[str, object]] = {}
+
+    zip_pattern = re.compile(
+        r'<td width="30%"><a href="\?p=[^"]+(?:&|&amp;)f=([^"]+)">([^<]+)</a></td>',
+        re.IGNORECASE,
+    )
+    for match in zip_pattern.finditer(page_html):
+        filename = html_decode(match.group(2))
+        href = f"{SITE_URL}?{urlencode({'p': page, 'f': html_decode(match.group(1))})}"
+        key = asset_key_from_filename(filename, set(assets.keys()))
+        assets[key] = {
+            "href": href,
+            "type": asset_media_type(href),
+            "title": filename,
+            "roles": ["data"],
+        }
+
+    direct_pattern = re.compile(
+        r'<td width="30%">([^<]+)</td>.*?<span id="link-\d+"[^>]*>(https://[^<]+)</span>',
+        re.IGNORECASE | re.DOTALL,
+    )
+    for match in direct_pattern.finditer(page_html):
+        filename = html_decode(match.group(1))
+        href = html_decode(match.group(2))
+        key = asset_key_from_filename(filename, set(assets.keys()))
+        assets[key] = {
+            "href": href,
+            "type": asset_media_type(href),
+            "title": filename,
+            "roles": ["data"],
+        }
+
+    return assets
+
+
+def merge_assets(existing: dict[str, object] | None, generated: dict[str, dict[str, object]]) -> dict[str, object]:
+    merged: dict[str, object] = dict(existing or {})
+    href_to_key = {
+        value.get("href"): key
+        for key, value in merged.items()
+        if isinstance(value, dict) and value.get("href")
+    }
+
+    for key, asset in generated.items():
+        href = asset.get("href")
+        if href in href_to_key:
+            continue
+        candidate = key
+        suffix = 2
+        while candidate in merged:
+            candidate = f"{key}_{suffix}"
+            suffix += 1
+        merged[candidate] = asset
+
+    return merged
+
+
+def merge_collection(existing: dict[str, object], generated: dict[str, object]) -> dict[str, object]:
+    merged = dict(existing)
+    generated_assets = generated.get("assets")
+    if isinstance(generated_assets, dict) and generated_assets:
+        merged["assets"] = merge_assets(merged.get("assets") if isinstance(merged.get("assets"), dict) else None, generated_assets)
+    return merged
 
 
 def parse_datasets(page_html: str) -> list[dict[str, str]]:
@@ -211,8 +388,12 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
     }
 
 
-def build_collection(item: dict[str, str]) -> dict[str, object]:
+def build_collection(item: dict[str, str], page_html: str, wms_layers: dict[str, dict[str, object]]) -> dict[str, object]:
     describedby_url = external_readme_url()
+    assets = parse_dataset_assets(item["page"], page_html)
+    preview_asset = build_preview_asset(item, wms_layers)
+    if preview_asset:
+        assets["thumbnail"] = preview_asset
     return {
         "type": "Collection",
         "stac_version": "1.1.0",
@@ -225,6 +406,7 @@ def build_collection(item: dict[str, str]) -> dict[str, object]:
             "temporal": {"interval": [[None, None]]},
         },
         "keywords": [item["code"], item["title"], item["categoryFolder"]],
+        "assets": assets,
         "links": [
             {"rel": "root", "href": "../../catalog.json", "type": "application/json"},
             {"rel": "parent", "href": "../catalog.json", "type": "application/json"},
@@ -248,6 +430,7 @@ def main(argv: list[str] | None = None) -> int:
     definitions = category_definitions()
     datasets = parse_datasets(fetch_html(SITE_URL))
     records = build_dataset_records(datasets)
+    wms_layers = parse_wms_layers(fetch_html(WMS_CAPABILITIES_URL))
 
     for category in definitions:
         category_items = [item for item in records if item["categoryFolder"] == category]
@@ -259,9 +442,13 @@ def main(argv: list[str] | None = None) -> int:
 
     for item in records:
         collection_file = Path(item["collectionPath"]) / "collection.json"
+        page_html = fetch_html(f'{SITE_URL}?{urlencode({"p": item["page"]})}')
+        generated_collection = build_collection(item, page_html, wms_layers)
         if collection_file.exists() and not args.force:
+            existing_collection = json.loads(collection_file.read_text(encoding="utf-8"))
+            write_json(collection_file, merge_collection(existing_collection, generated_collection))
             continue
-        write_json(collection_file, build_collection(item))
+        write_json(collection_file, generated_collection)
 
     print(f"Generated/updated catalog with {len(records)} datasets.")
     print(json.dumps({"totalDatasets": len(records), "categories": list(definitions.keys())}, indent=2, ensure_ascii=False))

@@ -82,5 +82,23 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ac_021_3_ticino": {
+      "href": "https://data.geo.ti.ch/?p=ac_021_3_v1_0&f=ac_021_3_ticino.zip",
+      "type": "application/zip",
+      "title": "ac_021_3_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_021_3_v1_0_bilancio_idrologico&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047150.4436033207%2C2768823.546901283%2C1190119.6309616424&width=352&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Bilancio idrologico",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

@@ -82,5 +82,1015 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ti_028b_1_ch06ty8c": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06ty8c.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch06ty8c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch19eub6": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch19eub6.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch19eub6.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08c712": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08c712.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08c712.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08f5ru": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08f5ru.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08f5ru.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08g0dk": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08g0dk.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08g0dk.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08gn9f": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08gn9f.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08gn9f.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0766vy": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0766vy.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch0766vy.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08d8qu": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08d8qu.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08d8qu.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch085gea": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085gea.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch085gea.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081dj4": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081dj4.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch081dj4.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08au1k": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08au1k.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08au1k.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08aw6e": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08aw6e.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08aw6e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08b3yb": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08b3yb.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08b3yb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08cv3k": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08cv3k.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08cv3k.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch082bqz": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch082bqz.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch082bqz.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083y2e": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083y2e.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch083y2e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch085kju": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085kju.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch085kju.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08gs3v": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08gs3v.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08gs3v.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch084suh": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch084suh.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch084suh.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08nk2c": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nk2c.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08nk2c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08sz98": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08sz98.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08sz98.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wxvj": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wxvj.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08wxvj.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087bh1": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087bh1.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch087bh1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087axq": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087axq.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch087axq.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0807c2": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0807c2.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch0807c2.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08x8cw": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x8cw.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08x8cw.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06116h": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06116h.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch06116h.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06g6x9": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06g6x9.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch06g6x9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06f9ke": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06f9ke.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch06f9ke.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088ugz": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088ugz.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch088ugz.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch13hv4h": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch13hv4h.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch13hv4h.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ajvu": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ajvu.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ajvu.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kb8n": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kb8n.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08kb8n.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch170t8e": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch170t8e.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch170t8e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06yefs": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06yefs.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch06yefs.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08dbcf": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08dbcf.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08dbcf.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08zk2f": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08zk2f.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08zk2f.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch17zd71": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch17zd71.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch17zd71.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081g9a": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081g9a.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch081g9a.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch07kmfn": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07kmfn.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch07kmfn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087ymk": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087ymk.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch087ymk.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_zp100064": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ZP100064.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ZP100064.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch193krd": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch193krd.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch193krd.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083hhw": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083hhw.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch083hhw.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vkem": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vkem.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08vkem.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ay4y": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ay4y.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ay4y.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08bf2v": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08bf2v.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08bf2v.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch06rsf9": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch06rsf9.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch06rsf9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08eq1s": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08eq1s.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08eq1s.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch10458b": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch10458b.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch10458b.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08g8au": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08g8au.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08g8au.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch249jzu": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch249jzu.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch249jzu.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08n3t1": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08n3t1.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08n3t1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vs77": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vs77.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08vs77.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08qqyv": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qqyv.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08qqyv.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083qn4": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083qn4.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch083qn4.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08mkxf": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08mkxf.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08mkxf.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08v8mh": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08v8mh.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08v8mh.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081d3a": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081d3a.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch081d3a.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch21gqth": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21gqth.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch21gqth.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08qac9": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qac9.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08qac9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch07112z": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07112z.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch07112z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08nh2h": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nh2h.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08nh2h.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08qgct": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08qgct.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08qgct.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kuy8": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kuy8.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08kuy8.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08me6p": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08me6p.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08me6p.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08mvn8": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08mvn8.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08mvn8.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0893ny": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0893ny.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch0893ny.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ngge": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ngge.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ngge.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08pmpr": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08pmpr.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08pmpr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08r024": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08r024.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08r024.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ux0x": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ux0x.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ux0x.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wqc1": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wqc1.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08wqc1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wtge": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wtge.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08wtge.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch21zwfr": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21zwfr.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch21zwfr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08f73n": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08f73n.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08f73n.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088vx9": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088vx9.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch088vx9.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088m2z": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088m2z.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch088m2z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08jrrx": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08jrrx.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08jrrx.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ybay": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ybay.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ybay.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ykqm": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ykqm.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ykqm.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08pc9t": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08pc9t.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08pc9t.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ydpz": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ydpz.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ydpz.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08yqwm": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08yqwm.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08yqwm.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ypy3": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ypy3.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ypy3.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch082bkn": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch082bkn.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch082bkn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08q627": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08q627.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08q627.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch085ssb": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch085ssb.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch085ssb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch21vajn": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch21vajn.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch21vajn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087fug": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087fug.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch087fug.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08aty2": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08aty2.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08aty2.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch20ahgh": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch20ahgh.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch20ahgh.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch133bus": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch133bus.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch133bus.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08nvh3": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08nvh3.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08nvh3.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08r0ga": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08r0ga.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08r0ga.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch084bfx": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch084bfx.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch084bfx.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch136k4c": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch136k4c.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch136k4c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch086g8t": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch086g8t.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch086g8t.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ebw1": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ebw1.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ebw1.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08fqgw": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08fqgw.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08fqgw.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kgq5": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kgq5.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08kgq5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0842ht": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0842ht.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch0842ht.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch07wdv5": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch07wdv5.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch07wdv5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wgnr": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wgnr.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08wgnr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vvhn": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vvhn.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08vvhn.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch083996": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch083996.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch083996.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch087m6c": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch087m6c.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch087m6c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08kdha": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08kdha.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08kdha.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08wkkk": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08wkkk.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08wkkk.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch0897r8": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch0897r8.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch0897r8.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08s91z": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08s91z.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08s91z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ukr5": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ukr5.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ukr5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08u48a": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08u48a.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08u48a.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ybzj": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ybzj.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ybzj.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch208g2z": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch208g2z.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch208g2z.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ws9d": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ws9d.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ws9d.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08xyxe": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08xyxe.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08xyxe.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08x8p0": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x8p0.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08x8p0.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08rwmb": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08rwmb.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08rwmb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08ypga": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08ypga.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08ypga.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch088781": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch088781.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch088781.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08cts5": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08cts5.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08cts5.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08x5ay": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08x5ay.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08x5ay.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch081qsb": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch081qsb.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch081qsb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028b_1_ch08vtkx": {
+      "href": "https://data.geo.ti.ch/?p=ti_028b_1_version1_0_mn95&f=ti_028b_1_ch08vtkx.zip",
+      "type": "application/zip",
+      "title": "ti_028b_1_ch08vtkx.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti.028b_1.piani_regolatori_ti&styles=&crs=EPSG%3A2056&bbox=2656381.2489068923%2C1053837.85528747%2C2754955.6735031125%2C1181689.2163662794&width=296&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piani regolatori",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

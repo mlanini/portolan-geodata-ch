@@ -82,5 +82,23 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ac_004_1_ticino": {
+      "href": "https://data.geo.ti.ch/?p=ac_004_1_v1_1&f=ac_004_1_ticino.zip",
+      "type": "application/zip",
+      "title": "ac_004_1_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_004_1_v1_1_guida_letteraria&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1045100.1096163933%2C2834070.652225826%2C1192214.5807223977&width=384&height=288&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Guida letteraria della Svizzera italiana",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

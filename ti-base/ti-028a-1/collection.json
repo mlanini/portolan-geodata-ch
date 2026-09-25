@@ -82,5 +82,135 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ti_028a_1_ch20j7dr": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch20j7dr.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch20j7dr.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch22er6y": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch22er6y.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch22er6y.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch08q45f": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch08q45f.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch08q45f.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch0777ab": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch0777ab.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch0777ab.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch13cnnb": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch13cnnb.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch13cnnb.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch18v5ec": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch18v5ec.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch18v5ec.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch08kpss": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch08kpss.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch08kpss.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch08wenf": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch08wenf.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch08wenf.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch082h6s": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch082h6s.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch082h6s.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch082jbc": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch082jbc.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch082jbc.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch13g41c": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch13g41c.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch13g41c.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch14rcvv": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch14rcvv.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch14rcvv.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch17c8yq": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch17c8yq.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch17c8yq.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch0777vv": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch0777vv.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch0777vv.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_028a_1_ch184c0e": {
+      "href": "https://data.geo.ti.ch/?p=ti_028a_1_version1_0_mn95&f=ti_028a_1_ch184c0e.zip",
+      "type": "application/zip",
+      "title": "ti_028a_1_ch184c0e.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti.028a_1.piani_utilizzazione_cantonali&styles=&crs=EPSG%3A2056&bbox=2651366.0949839433%2C1053582.1576815974%2C2756242.9238653695%2C1187421.8824219746&width=301&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piani di utilizzazione cantonali",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

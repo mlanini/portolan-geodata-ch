@@ -82,5 +82,23 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ch_040_7_ticino": {
+      "href": "https://data.geo.ti.ch/?p=ch_040_7_v1_0&f=ch_040_7_ticino.zip",
+      "type": "application/zip",
+      "title": "ch_040_7_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_040_7_v1_0_nomi_geografici&styles=&crs=EPSG%3A2056&bbox=2621046.837307777%2C1041574.0563558005%2C2778959.109025007%2C1210427.1472522814&width=359&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Nomi geografici (Misurazione nazionale)",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

@@ -82,5 +82,15 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ti_011_2_ticino": {
+      "href": "https://data.geo.ti.ch/?p=ti_011_2_v2_1&f=ti_011_2_ticino.zip",
+      "type": "application/zip",
+      "title": "ti_011_2_ticino.zip",
+      "roles": [
+        "data"
+      ]
+    }
+  }
 }

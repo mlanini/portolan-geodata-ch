@@ -82,5 +82,15 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ti_swisssurface3d_0_5m": {
+      "href": "https://data.geo.ti.ch/cog/ch_041_7_v1_1/ti_swisssurface3d_0.5m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ti_swisssurface3d_0.5m.tif",
+      "roles": [
+        "data"
+      ]
+    }
+  }
 }

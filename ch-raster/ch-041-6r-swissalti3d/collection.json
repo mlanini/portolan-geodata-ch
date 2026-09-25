@@ -82,5 +82,31 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ]
+  ],
+  "assets": {
+    "ti_swissalti3d_0_5m": {
+      "href": "https://data.geo.ti.ch/cog/ch_041_6_v1_0/ti_swissalti3d_0.5m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ti_swissalti3d_0.5m.tif",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_swissalti3d_2m": {
+      "href": "https://data.geo.ti.ch/cog/ch_041_6_v1_0/ti_swissalti3d_2m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ti_swissalti3d_2m.tif",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_swissaltiregio_10m": {
+      "href": "https://data.geo.ti.ch/cog/ch_041_6_v1_1/ti_swissaltiregio_10m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ti_swissaltiregio_10m.tif",
+      "roles": [
+        "data"
+      ]
+    }
+  }
 }

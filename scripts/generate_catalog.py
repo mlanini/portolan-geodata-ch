@@ -194,6 +194,27 @@ def build_preview_asset(item: dict[str, str], wms_layers: dict[str, dict[str, ob
     }
 
 
+def build_geoparquet_asset(item: dict[str, str]) -> dict[str, object] | None:
+    geoparquet_slug = item["code"].lower().replace("-", "_").replace(".", "_")
+    geoparquet_dir = repo_root() / "cloud-optimized" / "parquet" / geoparquet_slug
+    if not geoparquet_dir.exists():
+        return None
+
+    collection_dir = Path(item["collectionPath"]).parent
+    href = os.path.relpath(
+        geoparquet_dir,
+        start=collection_dir,
+    ).replace(os.sep, "/")
+    if not href.endswith("/"):
+        href += "/"
+
+    return {
+        "href": href,
+        "title": "GeoParquet selezionato",
+        "roles": ["data"],
+    }
+
+
 def parse_dataset_assets(page: str, page_html: str) -> dict[str, dict[str, object]]:
     assets: dict[str, dict[str, object]] = {}
 
@@ -391,6 +412,9 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
 def build_collection(item: dict[str, str], page_html: str, wms_layers: dict[str, dict[str, object]]) -> dict[str, object]:
     describedby_url = external_readme_url()
     assets = parse_dataset_assets(item["page"], page_html)
+    geoparquet_asset = build_geoparquet_asset(item)
+    if geoparquet_asset:
+        assets["geoparquet"] = geoparquet_asset
     preview_asset = build_preview_asset(item, wms_layers)
     if preview_asset:
         assets["thumbnail"] = preview_asset

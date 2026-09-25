@@ -1,3 +1,9 @@
 tools/cache/
 *.pyc
 __pycache__/
+*.zip
+*.itf
+*.itf.md5
+*.toml
+cloud-optimized/downloads/
+cloud-optimized/extract/

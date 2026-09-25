@@ -92,6 +92,13 @@
         "data"
       ]
     },
+    "geoparquet": {
+      "href": "../../cloud-optimized/parquet/ti_008_1/",
+      "title": "GeoParquet selezionato",
+      "roles": [
+        "data"
+      ]
+    },
     "thumbnail": {
       "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_008_1_v1_0_strade_piste_forestali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
       "type": "image/png",

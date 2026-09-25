@@ -6,19 +6,25 @@ import re
 import ssl
 import subprocess
 import urllib.request
-import zipfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
 ROOT = Path(__file__).resolve().parent
 SELECTION_FILE = ROOT / "selected-datasets.json"
-INSPECT_FILE = ROOT / "candidate-archives.json"
 LOG_FILE = ROOT / "logs" / "run-summary.json"
 OGR2OGR = Path(r"C:\Program Files\QGIS 3.40.7\bin\ogr2ogr.exe")
 OGRINFO = Path(r"C:\Program Files\QGIS 3.40.7\bin\ogrinfo.exe")
 PROXY = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")
 USER_AGENT = "portolan-grill-me/1.0"
+WFS_URL = "https://wfs.geo.ti.ch/service"
+WFS_CAPABILITIES_URL = (
+    "https://wfs.geo.ti.ch/service"
+    "?service=WFS&request=GetCapabilities&version=1.1.0"
+)
+OGRINFO_TIMEOUT_SECONDS = 30
+OGR2OGR_TIMEOUT_SECONDS = 60
 
 
 def build_http_opener() -> urllib.request.OpenerDirector:
@@ -46,49 +52,50 @@ def download_file(url: str, destination: Path) -> None:
         destination.write_bytes(response.read())
 
 
-def direct_download_url(asset_page_url: str) -> str | None:
-    html = fetch_html(asset_page_url)
-    match = re.search(r'<a href="([^"]+)" class="btn btn-primary">Download</a>', html)
-    if not match:
-        return None
-    relative = match.group(1).lstrip("/")
-    return f"https://data.geo.ti.ch/{relative}"
-
-
-def extract_archive(zip_path: Path, output_dir: Path) -> list[Path]:
-    with zipfile.ZipFile(zip_path, "r") as zf:
-        zf.extractall(output_dir)
-    return [path for path in output_dir.rglob("*") if path.is_file()]
-
-
-def choose_source_vector(files: list[Path]) -> Path | None:
-    priorities = [".gpkg", ".shp", ".xtf", ".itf", ".gml", ".geojson"]
-    for suffix in priorities:
-        for path in files:
-            if path.suffix.lower() == suffix:
-                return path
-    return None
-
-
 def layer_name_to_filename(layer_name: str) -> str:
     safe = re.sub(r"[^a-zA-Z0-9._-]+", "_", layer_name.strip())
     return safe.strip("_.-") or "layer"
 
 
-def list_layers(source: Path) -> list[str]:
-    command = [str(OGRINFO), "-ro", str(source)]
-    process = subprocess.run(command, capture_output=True, text=True)
+def feature_types_by_code() -> dict[str, list[str]]:
+    capabilities = fetch_html(WFS_CAPABILITIES_URL)
+    root = ET.fromstring(capabilities)
 
-    layers: list[str] = []
+    by_code: dict[str, list[str]] = {}
+    for feature_type in root.findall(".//{http://www.opengis.net/wfs}FeatureType"):
+        name = feature_type.findtext("{http://www.opengis.net/wfs}Name", default="").strip()
+        title = feature_type.findtext("{http://www.opengis.net/wfs}Title", default="").strip()
+        code_match = re.search(r"\[(?P<code>[A-Z]{2}-\d+[a-zA-Z]?\.\d+)\]", title)
+        if not code_match or not name:
+            continue
+        code = code_match.group("code")
+        by_code.setdefault(code, []).append(name)
+
+    return by_code
+
+
+def layer_has_geometry(layer_name: str) -> bool:
+    command = [str(OGRINFO), "-ro", "-so", f"WFS:{WFS_URL}", layer_name]
+    try:
+        process = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            timeout=OGRINFO_TIMEOUT_SECONDS,
+        )
+    except subprocess.TimeoutExpired:
+        return False
+    if process.returncode != 0:
+        return False
     text = (process.stdout or "") + "\n" + (process.stderr or "")
-    for line in text.splitlines():
-        match = re.match(r"\s*\d+:\s+(.+?)\s*$", line)
-        if match:
-            layers.append(match.group(1).strip())
-    return layers
+    match = re.search(r"Geometry:\s*(.+)", text)
+    if not match:
+        return False
+    geometry_type = match.group(1).strip().lower()
+    return geometry_type not in {"none", "unknown (any)"}
 
 
-def run_ogr_to_parquet(source: Path, target: Path, layer_name: str) -> tuple[bool, str]:
+def run_wfs_layer_to_parquet(layer_name: str, target: Path) -> tuple[bool, str]:
     target.parent.mkdir(parents=True, exist_ok=True)
     if target.exists():
         target.unlink()
@@ -97,16 +104,33 @@ def run_ogr_to_parquet(source: Path, target: Path, layer_name: str) -> tuple[boo
         "-f",
         "Parquet",
         str(target),
-        str(source),
+        f"WFS:{WFS_URL}",
+        layer_name,
+        "-nln",
         layer_name,
         "-lco",
         "COMPRESSION=ZSTD",
         "-lco",
         "GEOMETRY_ENCODING=WKB",
+        "--config",
+        "OGR_WFS_PAGING_ALLOWED",
+        "YES",
         "-overwrite",
     ]
-    process = subprocess.run(command, capture_output=True, text=True)
+    try:
+        process = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            timeout=OGR2OGR_TIMEOUT_SECONDS,
+        )
+    except subprocess.TimeoutExpired:
+        if target.exists():
+            target.unlink()
+        return False, f"Timeout dopo {OGR2OGR_TIMEOUT_SECONDS}s"
     message = (process.stdout or "") + (process.stderr or "")
+    if process.returncode != 0 and target.exists():
+        target.unlink()
     return process.returncode == 0, message.strip()
 
 
@@ -117,14 +141,8 @@ def main() -> int:
         raise FileNotFoundError(f"ogrinfo non trovato: {OGRINFO}")
 
     datasets = json.loads(SELECTION_FILE.read_text(encoding="utf-8"))
-    inspect_by_code: dict[str, str] = {}
-    if INSPECT_FILE.exists():
-        inspect_data = json.loads(INSPECT_FILE.read_text(encoding="utf-8"))
-        for entry in inspect_data:
-            code = entry.get("code")
-            download_url = entry.get("download_url")
-            if isinstance(code, str) and isinstance(download_url, str) and download_url:
-                inspect_by_code[code] = download_url
+    wfs_by_code = feature_types_by_code()
+    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     summary: list[dict[str, object]] = []
 
@@ -132,63 +150,52 @@ def main() -> int:
         code = dataset["code"]
         slug = code.lower().replace("-", "_").replace(".", "_")
         row: dict[str, object] = {"code": code, "collection": dataset["collection"]}
+        print(f"[{code}] avvio elaborazione", flush=True)
 
         try:
-            download_url = inspect_by_code.get(code) or direct_download_url(dataset["asset_page"])
-            row["download_url"] = download_url
-            if not download_url:
-                row["status"] = "failed"
-                row["error"] = "Download URL non trovata nella pagina archivio"
-                summary.append(row)
-                continue
-
-            zip_path = ROOT / "downloads" / f"{slug}.zip"
-            work_dir = ROOT / "extract" / slug
-            if work_dir.exists():
-                for old_file in sorted(work_dir.rglob("*"), reverse=True):
-                    if old_file.is_file():
-                        old_file.unlink()
-                    elif old_file.is_dir():
-                        old_file.rmdir()
-            work_dir.mkdir(parents=True, exist_ok=True)
-
-            download_file(download_url, zip_path)
-            files = extract_archive(zip_path, work_dir)
-            source = choose_source_vector(files)
-            if not source:
-                row["status"] = "failed"
-                row["error"] = "Nessun file vettoriale supportato trovato nell'archivio"
-                row["archive_files"] = [str(path.relative_to(work_dir)) for path in files]
-                summary.append(row)
-                continue
-
-            row["source"] = str(source)
-
-            layers = list_layers(source)
+            layers = wfs_by_code.get(code, [])
+            row["wfs_layers_total"] = len(layers)
             if not layers:
                 row["status"] = "failed"
-                row["error"] = "Impossibile leggere le layer dal dataset sorgente"
+                row["error"] = "Nessun FeatureType WFS trovato per il codice dataset"
                 summary.append(row)
+                print(f"[{code}] nessun layer WFS trovato", flush=True)
                 continue
 
             outputs: list[str] = []
             layer_failures: list[dict[str, str]] = []
+            no_geometry_layers: list[str] = []
             for layer_name in layers:
-                target = ROOT / "parquet" / code.lower().replace("-", "_").replace(".", "_") / f"{layer_name_to_filename(layer_name)}.parquet"
-                ok, message = run_ogr_to_parquet(source, target, layer_name)
+                print(f"[{code}] layer {layer_name}", flush=True)
+                if not layer_has_geometry(layer_name):
+                    no_geometry_layers.append(layer_name)
+                    print(f"[{code}] layer senza geometria, skip", flush=True)
+                    continue
+
+                target = ROOT / "parquet" / slug / f"{layer_name_to_filename(layer_name)}.parquet"
+                ok, message = run_wfs_layer_to_parquet(layer_name, target)
                 if ok:
                     outputs.append(str(target))
+                    print(f"[{code}] parquet generato: {target.name}", flush=True)
                 else:
                     layer_failures.append({"layer": layer_name, "message": message})
+                    print(f"[{code}] errore layer {layer_name}", flush=True)
 
             row["outputs"] = outputs
+            if no_geometry_layers:
+                row["non_geometric_layers_skipped"] = no_geometry_layers
             if layer_failures:
                 row["layer_failures"] = layer_failures
             row["status"] = "ok" if outputs else "failed"
             row["generated_count"] = len(outputs)
+            print(
+                f"[{code}] completato: generated={len(outputs)} failed={len(layer_failures)} skipped_no_geom={len(no_geometry_layers)}",
+                flush=True,
+            )
         except Exception as exc:
             row["status"] = "failed"
             row["error"] = str(exc)
+            print(f"[{code}] eccezione: {exc}", flush=True)
 
         summary.append(row)
 

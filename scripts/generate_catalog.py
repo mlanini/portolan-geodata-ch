@@ -299,6 +299,25 @@ def parse_dataset_assets(page: str, page_html: str) -> dict[str, dict[str, objec
     return assets
 
 
+def parse_dataset_update_date(page_html: str) -> str | None:
+    row_pattern = re.compile(
+        r"<tr>\s*<td\s+width=\"30%\">.*?</td>\s*<td\s+width=\"30%\">([^<]+)</td>\s*<td\s+width=\"40%\">.*?</td>\s*</tr>",
+        re.IGNORECASE | re.DOTALL,
+    )
+    parsed_dates: list[datetime] = []
+    for match in row_pattern.finditer(page_html):
+        value = html_decode(match.group(1))
+        try:
+            parsed_dates.append(datetime.strptime(value, "%d.%m.%Y"))
+        except ValueError:
+            continue
+
+    if not parsed_dates:
+        return None
+
+    return max(parsed_dates).strftime("%Y-%m-%d")
+
+
 def merge_assets(existing: dict[str, object] | None, generated: dict[str, dict[str, object]]) -> dict[str, object]:
     merged: dict[str, object] = dict(existing or {})
     href_to_key = {
@@ -321,14 +340,37 @@ def merge_assets(existing: dict[str, object] | None, generated: dict[str, dict[s
     return merged
 
 
+def prune_duplicate_geoparquet_assets(assets: dict[str, object]) -> dict[str, object]:
+    parquet_data_keys: list[str] = []
+    for key, value in assets.items():
+        if not isinstance(value, dict):
+            continue
+        asset_type = value.get("type")
+        roles = value.get("roles")
+        if asset_type != "application/vnd.apache.parquet":
+            continue
+        if not isinstance(roles, list) or "data" not in roles:
+            continue
+        parquet_data_keys.append(key)
+
+    if len(parquet_data_keys) > 1 and "data_parquet" in assets:
+        assets = dict(assets)
+        assets.pop("data_parquet", None)
+    return assets
+
+
 def merge_collection(existing: dict[str, object], generated: dict[str, object]) -> dict[str, object]:
     merged = dict(existing)
     generated_description = generated.get("description")
     if isinstance(generated_description, str) and generated_description.strip():
         merged["description"] = generated_description
+    generated_update_date = generated.get("dataset_update_date")
+    if isinstance(generated_update_date, str) and generated_update_date.strip():
+        merged["dataset_update_date"] = generated_update_date
     generated_assets = generated.get("assets")
     if isinstance(generated_assets, dict) and generated_assets:
-        merged["assets"] = merge_assets(merged.get("assets") if isinstance(merged.get("assets"), dict) else None, generated_assets)
+        merged_assets = merge_assets(merged.get("assets") if isinstance(merged.get("assets"), dict) else None, generated_assets)
+        merged["assets"] = prune_duplicate_geoparquet_assets(merged_assets)
     return merged
 
 
@@ -463,9 +505,11 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
 def build_collection(item: dict[str, str], page_html: str, wms_layers: dict[str, dict[str, object]]) -> dict[str, object]:
     describedby_url = external_readme_url()
     assets = parse_dataset_assets(item["page"], page_html)
+    dataset_update_date = parse_dataset_update_date(page_html)
     geoparquet_asset = build_geoparquet_asset(item, assets)
     if geoparquet_asset:
         assets[f"{primary_dataset_stem(assets)}_parquet"] = geoparquet_asset
+    assets = prune_duplicate_geoparquet_assets(assets)
     preview_asset = build_preview_asset(item, wms_layers)
     if preview_asset:
         assets["thumbnail"] = preview_asset
@@ -475,6 +519,7 @@ def build_collection(item: dict[str, str], page_html: str, wms_layers: dict[str,
         "id": item["relativePath"],
         "title": f'{item["code"]} - {item["title"]}',
         "description": collection_description(item, wms_layers),
+        "dataset_update_date": dataset_update_date,
         "license": "other",
         "extent": {
             "spatial": {"bbox": [[8.3, 45.8, 9.3, 46.7]]},

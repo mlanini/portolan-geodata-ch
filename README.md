@@ -14,9 +14,9 @@ Scopo attuale:
 
 Il catalogo contiene 118 dataset distribuiti in quattro sottocataloghi:
 
-- CH base
-- TI base
-- AC
+- CH vettori
+- TI vettori
+- AC vettori
 - CH raster
 
 ## Fonte ufficiale

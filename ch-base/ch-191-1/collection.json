@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ch-base/ch-191-1",
+  "title": "CH-191.1 - Pianificazione delle rivitalizzazioni dei corsi d'acqua",
+  "description": "Geodato pubblicato su data.geo.ti.ch: Pianificazione delle rivitalizzazioni dei corsi d'acqua.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        8.3,
+        45.8,
+        9.3,
+        46.7
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null,
+        null
+      ]
+    }
+  },
+  "keywords": [
+    "CH-191.1",
+    "Pianificazione delle rivitalizzazioni dei corsi d'acqua",
+    "ch-base"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home",
+      "type": "text/html",
+      "title": "Geoportale Ticino"
+    },
+    {
+      "rel": "related",
+      "href": "https://map.geo.ti.ch/",
+      "type": "text/html",
+      "title": "Geoportale Ticino - Mappa"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/geoportale/condizioni-utilizzo",
+      "type": "text/html",
+      "title": "Condizioni di utilizzo"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ch_191_1_v1_1",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    }
+  ]
+}

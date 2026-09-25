@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ti-base",
   "title": "TI - Geodati di base di diritto cantonale",
-  "description": "Subset TI selezionato dal portale data.geo.ti.ch.",
+  "description": "Catalogo dei geodati TI pubblicati da data.geo.ti.ch.",
   "links": [
     {
       "rel": "root",
@@ -22,15 +22,141 @@
     },
     {
       "rel": "child",
+      "href": "./ti-002-1/collection.json",
+      "type": "application/json",
+      "title": "TI-002.1 - Decreti di protezione"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-003-1/collection.json",
+      "type": "application/json",
+      "title": "TI-003.1 - Incendi di bosco"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-004-1/collection.json",
+      "type": "application/json",
+      "title": "TI-004.1 - Infrastrutture antincendio"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-005-1/collection.json",
+      "type": "application/json",
+      "title": "TI-005.1 - Impianti a fune metallica"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-006-1/collection.json",
+      "type": "application/json",
+      "title": "TI-006.1 - Boschi di particolare pregio"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-007-1/collection.json",
+      "type": "application/json",
+      "title": "TI-007.1 - Bosco di protezione"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-008-1/collection.json",
+      "type": "application/json",
+      "title": "TI-008.1 - Strade e piste forestali"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-009-1/collection.json",
+      "type": "application/json",
+      "title": "TI-009.1 - Circondari e settori forestali"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-011-1/collection.json",
+      "type": "application/json",
+      "title": "TI-011.1 - Assi delle strade cantonali"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-011-2/collection.json",
+      "type": "application/json",
+      "title": "TI-011.2 - Assi delle strade cantonali - Rete OATE"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-028a-1/collection.json",
+      "type": "application/json",
+      "title": "TI-028a.1 - Piani di utilizzazione cantonali"
+    },
+    {
+      "rel": "child",
       "href": "./ti-028b-1-piani-regolatori/collection.json",
       "type": "application/json",
       "title": "TI-028b.1 - Piani regolatori"
     },
     {
       "rel": "child",
+      "href": "./ti-029-1/collection.json",
+      "type": "application/json",
+      "title": "TI-029.1 - Bosco con funzione di svago"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-030-1/collection.json",
+      "type": "application/json",
+      "title": "TI-030.1 - Accertamento del bosco"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-032-1/collection.json",
+      "type": "application/json",
+      "title": "TI-032.1 - Aree pianificate dai progetti stradali cantonali"
+    },
+    {
+      "rel": "child",
       "href": "./ti-034-1-carta-pericoli-gradi/collection.json",
       "type": "application/json",
       "title": "TI-034.1 - Carta dei pericoli - Gradi"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-034-2/collection.json",
+      "type": "application/json",
+      "title": "TI-034.2 - Carta dei pericoli - Indicativi"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-035-1/collection.json",
+      "type": "application/json",
+      "title": "TI-035.1 - Settori di pesca"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-036-1/collection.json",
+      "type": "application/json",
+      "title": "TI-036.1 - Comparti con area forestale in crescita"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-037-1/collection.json",
+      "type": "application/json",
+      "title": "TI-037.1 - Aule nel bosco"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-038-1/collection.json",
+      "type": "application/json",
+      "title": "TI-038.1 - Autorizzazioni di taglio del bosco"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-040-1/collection.json",
+      "type": "application/json",
+      "title": "TI-040.1 - Sfruttamento termico delle acque e della geotermia"
+    },
+    {
+      "rel": "child",
+      "href": "./ti-041-1/collection.json",
+      "type": "application/json",
+      "title": "TI-041.1 - Interventi selvicolturali"
     }
   ]
 }

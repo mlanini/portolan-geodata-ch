@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-raster",
   "title": "CH - Geodati raster (Cloud Optimized GeoTIFF)",
-  "description": "Geodati raster CH da data.geo.ti.ch, disponibili in formato Cloud Optimized GeoTIFF (COG).",
+  "description": "Catalogo dei geodati raster CH pubblicati da data.geo.ti.ch.",
   "links": [
     {
       "rel": "root",
@@ -24,19 +24,19 @@
       "rel": "child",
       "href": "./ch-041-6r-swissalti3d/collection.json",
       "type": "application/json",
-      "title": "CH-041.6 Raster - swissALTI3D"
+      "title": "CH-041.6 - swissALTI3D"
     },
     {
       "rel": "child",
-      "href": "./ch-041-6r-swissaltiregio/collection.json",
+      "href": "./ch-041-6r-swissalti3d/collection.json",
       "type": "application/json",
-      "title": "CH-041.6 Raster - swissALTIregio"
+      "title": "CH-041.6 - swissALTIregio"
     },
     {
       "rel": "child",
       "href": "./ch-041-7r-swisssurface3d/collection.json",
       "type": "application/json",
-      "title": "CH-041.7 Raster - swissSURFACE3D"
+      "title": "CH-041.7 - swissSURFACE3D"
     }
   ]
 }

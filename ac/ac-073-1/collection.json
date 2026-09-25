@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "ac/ac-073-1",
+  "title": "AC-073.1 - Perimetri indicativi progetti stradali cantonali",
+  "description": "Geodato pubblicato su data.geo.ti.ch: Perimetri indicativi progetti stradali cantonali.",
+  "license": "other",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        8.3,
+        45.8,
+        9.3,
+        46.7
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null,
+        null
+      ]
+    }
+  },
+  "keywords": [
+    "AC-073.1",
+    "Perimetri indicativi progetti stradali cantonali",
+    "ac"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home",
+      "type": "text/html",
+      "title": "Geoportale Ticino"
+    },
+    {
+      "rel": "related",
+      "href": "https://map.geo.ti.ch/",
+      "type": "text/html",
+      "title": "Geoportale Ticino - Mappa"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/geoportale/condizioni-utilizzo",
+      "type": "text/html",
+      "title": "Condizioni di utilizzo"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.geo.ti.ch/?p=ac_073_1_v1_0",
+      "type": "text/html",
+      "title": "Scheda dataset su data.geo.ti.ch"
+    }
+  ]
+}

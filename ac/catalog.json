@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ac",
   "title": "AC - Geodati dell'Amministrazione cantonale",
-  "description": "Subset AC selezionato dal portale data.geo.ti.ch.",
+  "description": "Catalogo dei geodati AC pubblicati da data.geo.ti.ch.",
   "links": [
     {
       "rel": "root",
@@ -22,9 +22,273 @@
     },
     {
       "rel": "child",
+      "href": "./ac-001-1/collection.json",
+      "type": "application/json",
+      "title": "AC-001.1 - DisponibilitÃ  del Catasto RDPP"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-002-1/collection.json",
+      "type": "application/json",
+      "title": "AC-002.1 - Limiti giurisdizionali indicativi"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-003-1/collection.json",
+      "type": "application/json",
+      "title": "AC-003.1 - Suddivisione lotti misurazione ufficiale"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-004-1/collection.json",
+      "type": "application/json",
+      "title": "AC-004.1 - Guida letteraria della Svizzera italiana"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-005-1/collection.json",
+      "type": "application/json",
+      "title": "AC-005.1 - Cancro del platano"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-006-1/collection.json",
+      "type": "application/json",
+      "title": "AC-006.1 - Cantieri stradali"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-008-1/collection.json",
+      "type": "application/json",
+      "title": "AC-008.1 - Piani di evacuazione"
+    },
+    {
+      "rel": "child",
       "href": "./ac-009-1-piano-direttore-cantonale/collection.json",
       "type": "application/json",
       "title": "AC-009.1 - Piano direttore cantonale"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-010-1/collection.json",
+      "type": "application/json",
+      "title": "AC-010.1 - QualitÃ  dei trasporti pubblici"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-011-1/collection.json",
+      "type": "application/json",
+      "title": "AC-011.1 - Malattie delle api"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-012-1/collection.json",
+      "type": "application/json",
+      "title": "AC-012.1 - Limitazioni d'altezze"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-012-2/collection.json",
+      "type": "application/json",
+      "title": "AC-012.2 - Restrizioni alla circolazione"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-013-1/collection.json",
+      "type": "application/json",
+      "title": "AC-013.1 - Prevenzione incidenti rilevanti"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-021-1/collection.json",
+      "type": "application/json",
+      "title": "AC-021.1 - Rete di rilevamento meteo"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-021-10/collection.json",
+      "type": "application/json",
+      "title": "AC-021.10 - Spazio riservato ai grandi corsi d'acqua"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-021-3/collection.json",
+      "type": "application/json",
+      "title": "AC-021.3 - Bilancio idrologico"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-021-6/collection.json",
+      "type": "application/json",
+      "title": "AC-021.6 - Consorzi manutenzione dei corsi d'acqua"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-023-1/collection.json",
+      "type": "application/json",
+      "title": "AC-023.1 - Rive laghi - Canneti"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-023-2/collection.json",
+      "type": "application/json",
+      "title": "AC-023.2 - Rive laghi - FruibilitÃ"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-023-3/collection.json",
+      "type": "application/json",
+      "title": "AC-023.3 - Rive laghi - Batimetria Ceresio"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-030-1/collection.json",
+      "type": "application/json",
+      "title": "AC-030.1 - Natura e paesaggio"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-032-1/collection.json",
+      "type": "application/json",
+      "title": "AC-032.1 - Mappa archeologica"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-036-1/collection.json",
+      "type": "application/json",
+      "title": "AC-036.1 - Rete dei percorsi in mountain bike"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-037-1/collection.json",
+      "type": "application/json",
+      "title": "AC-037.1 - Curve di livello"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-044-1/collection.json",
+      "type": "application/json",
+      "title": "AC-044.1 - Piani altitudinali"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-046-1/collection.json",
+      "type": "application/json",
+      "title": "AC-046.1 - Rilievi \"praTiva\" e contributo \"in situ\""
+    },
+    {
+      "rel": "child",
+      "href": "./ac-049-1/collection.json",
+      "type": "application/json",
+      "title": "AC-049.1 - Stato Raggruppamento terreni (RT)"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-051-1/collection.json",
+      "type": "application/json",
+      "title": "AC-051.1 - Piani di mobilitÃ  scolastica"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-052-1/collection.json",
+      "type": "application/json",
+      "title": "AC-052.1 - Bandite cantonali di caccia"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-055-1/collection.json",
+      "type": "application/json",
+      "title": "AC-055.1 - Posti di controllo per la selvaggina"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-057-1/collection.json",
+      "type": "application/json",
+      "title": "AC-057.1 - Perimetri di protezione per le condotte"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-060-1/collection.json",
+      "type": "application/json",
+      "title": "AC-060.1 - Cappelle e dipinti murali devozionali"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-061-1/collection.json",
+      "type": "application/json",
+      "title": "AC-061.1 - Centri di manutenzione stradale"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-062-1/collection.json",
+      "type": "application/json",
+      "title": "AC-062.1 - Monitoraggio radar satellitare"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-063-1/collection.json",
+      "type": "application/json",
+      "title": "AC-063.1 - Manufatti su strade e percorsi ciclabili"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-064-1/collection.json",
+      "type": "application/json",
+      "title": "AC-064.1 - Zone di protezione ittica"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-065a-1/collection.json",
+      "type": "application/json",
+      "title": "AC-065a.1 - DisponibilitÃ  piani di utilizzazione"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-065b-1/collection.json",
+      "type": "application/json",
+      "title": "AC-065b.1 - DisponibilitÃ  piani regolatori"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-066-1/collection.json",
+      "type": "application/json",
+      "title": "AC-066.1 - Monitoraggio ghiacciai"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-067-1/collection.json",
+      "type": "application/json",
+      "title": "AC-067.1 - Portate di piena"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-069-1/collection.json",
+      "type": "application/json",
+      "title": "AC-069.1 - Deformazioni gravitative profonde di versante"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-070-1/collection.json",
+      "type": "application/json",
+      "title": "AC-070.1 - Assi delle strade comunali e di altri enti"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-073-1/collection.json",
+      "type": "application/json",
+      "title": "AC-073.1 - Perimetri indicativi progetti stradali cantonali"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-074-1/collection.json",
+      "type": "application/json",
+      "title": "AC-074.1 - Webcam sulle strade"
+    },
+    {
+      "rel": "child",
+      "href": "./ac-075-1/collection.json",
+      "type": "application/json",
+      "title": "AC-075.1 - Radar sulle strade"
     },
     {
       "rel": "child",

@@ -1,16 +1,16 @@
-# Portolan Geodata CH/TI - subset iniziale da data.geo.ti.ch
+# Portolan Geodata CH/TI - catalogo completo da data.geo.ti.ch
 
-![Mirror CI](https://github.com/<owner>/<repo>/actions/workflows/mirror-publish.yml/badge.svg)
+![Mirror CI](https://github.com/mlanini/portolan-geodata-ch/actions/workflows/mirror-publish.yml/badge.svg)
 
-Questo repository e stato rifocalizzato su un sottoinsieme minimo di geodati pubblicati dal Cantone Ticino tramite data.geo.ti.ch.
+Questo repository contiene un catalogo STAC completo dei geodati pubblicati tramite data.geo.ti.ch, arricchito con riferimenti istituzionali da Geoportale Ticino e map.geo.ti.ch.
 
 Scopo attuale:
 
-- partire con 9 dataset reali e facilmente verificabili;
 - mantenere una struttura STAC semplice e leggibile;
-- evitare, in questa fase, dipendenze e flussi del perimetro federale precedente.
+- fornire un indice completo dei dataset pubblicati sul portale cantonale;
+- evitare riferimenti a pipeline esterne non necessarie.
 
-## Sottoinsieme corrente (9 dataset)
+## Catalogo corrente (118 dataset)
 
 Categoria CH (competenza cantonale):
 
@@ -41,6 +41,7 @@ Categoria CH raster (Cloud Optimized GeoTIFF):
 ## Note operative
 
 - Questa base e volutamente essenziale e orientata alla documentazione/catalogazione.
+- Il catalogo viene rigenerato da `scripts/generate_catalog.ps1` a partire dall'indice ufficiale di `data.geo.ti.ch`.
 - I metadati possono essere estesi in seguito con link di download puntuali, versioni e workflow ETL.
 
 ## Pubblicazione come mirror Portolan

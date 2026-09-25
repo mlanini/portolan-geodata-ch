@@ -3,7 +3,7 @@
   "stac_version": "1.1.0",
   "id": "ch-base",
   "title": "CH - Geodati di base di diritto federale, competenza cantonale",
-  "description": "Subset CH selezionato dal portale data.geo.ti.ch.",
+  "description": "Catalogo dei geodati CH pubblicati da data.geo.ti.ch.",
   "links": [
     {
       "rel": "root",
@@ -22,15 +22,279 @@
     },
     {
       "rel": "child",
+      "href": "./ch-009-1/collection.json",
+      "type": "application/json",
+      "title": "CH-009.1 - Registro federale degli edifici e delle abitazioni REA"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-014-1/collection.json",
+      "type": "application/json",
+      "title": "CH-014.1 - Censimento della circolazione stradale sulla rete regionale e locale"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-038-1/collection.json",
+      "type": "application/json",
+      "title": "CH-038.1 - SwissTLM3D - Modello topografico del paesaggio"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-040-7/collection.json",
+      "type": "application/json",
+      "title": "CH-040.7 - Nomi geografici (Misurazione nazionale)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-051-2/collection.json",
+      "type": "application/json",
+      "title": "CH-051.2 - Piano Registro Fondiario - Deposito pubblico"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-053-1/collection.json",
+      "type": "application/json",
+      "title": "CH-053.1 - Punti fissi planimetrici PFP 1"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-053-2/collection.json",
+      "type": "application/json",
+      "title": "CH-053.2 - Punti fissi altimetrici PFA 1"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-054-1/collection.json",
+      "type": "application/json",
+      "title": "CH-054.1 - Punti fissi planimetrici PFP 2"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-054-2/collection.json",
+      "type": "application/json",
+      "title": "CH-054.2 - Punti fissi altimetrici PFA 2"
+    },
+    {
+      "rel": "child",
       "href": "./ch-063-1-suddivisioni-amministrative/collection.json",
       "type": "application/json",
       "title": "CH-063.1 - Suddivisioni amministrative - AN"
     },
     {
       "rel": "child",
+      "href": "./ch-067-1/collection.json",
+      "type": "application/json",
+      "title": "CH-067.1 - Rete ciclabile"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-068-1/collection.json",
+      "type": "application/json",
+      "title": "CH-068.1 - Superfici per l'avvicendamento delle colture"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-073a-1/collection.json",
+      "type": "application/json",
+      "title": "CH-073a.1 - Piani di utilizzazione (cantonali)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-073b-1/collection.json",
+      "type": "application/json",
+      "title": "CH-073b.1 - Piani di utilizzazione (comunali)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-076-1/collection.json",
+      "type": "application/json",
+      "title": "CH-076.1 - Zone di pianificazione"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-079-1/collection.json",
+      "type": "application/json",
+      "title": "CH-079.1 - Reti di percorsi pedonali e sentieri"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-081-1/collection.json",
+      "type": "application/json",
+      "title": "CH-081.1 - Rete di misura dei sedimenti (SOLID)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-081-2/collection.json",
+      "type": "application/json",
+      "title": "CH-081.2 - Opere di protezione dai pericoli naturali (ProtectMe)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-086-1/collection.json",
+      "type": "application/json",
+      "title": "CH-086.1 - Assi delle strade nazionali"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-114-1/collection.json",
+      "type": "application/json",
+      "title": "CH-114.1 - Impianti di incenerimento dei rifiuti urbani (IIRU), Discariche di tipo A"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-114-2/collection.json",
+      "type": "application/json",
+      "title": "CH-114.2 - Discariche di tipo B, C, D e E"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-116-1/collection.json",
+      "type": "application/json",
+      "title": "CH-116.1 - Catasto dei siti inquinati"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-122-1/collection.json",
+      "type": "application/json",
+      "title": "CH-122.1 - Rilevamenti cantonali dell'inquinamento atmosferico (reti di rilevamento)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-130-1/collection.json",
+      "type": "application/json",
+      "title": "CH-130.1 - Settori di protezione delle acque"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-131-1/collection.json",
+      "type": "application/json",
+      "title": "CH-131.1 - Zone di protezione delle acque sotterranee"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-132-1/collection.json",
+      "type": "application/json",
+      "title": "CH-132.1 - Aree di protezione delle acque sotterranee"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-134-4/collection.json",
+      "type": "application/json",
+      "title": "CH-134.4 - Rete di rilevamento della temperatura - Ubicazione dei punti di misura"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-136-1/collection.json",
+      "type": "application/json",
+      "title": "CH-136.1 - Rete di misura dei livelli e deflussi - Ubicazione dei punti di misura"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-145-1/collection.json",
+      "type": "application/json",
+      "title": "CH-145.1 - Gradi di sensibilitÃ  al rumore (in zone d'utilizzazione)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-151-1/collection.json",
+      "type": "application/json",
+      "title": "CH-151.1 - Catasto viticolo"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-153-1/collection.json",
+      "type": "application/json",
+      "title": "CH-153.1 - Gestione agricola: superfici d'utilizzazione"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-157-1/collection.json",
+      "type": "application/json",
+      "title": "CH-157.1 - Margini statici della foresta"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-160-1/collection.json",
+      "type": "application/json",
+      "title": "CH-160.1 - Riserve forestali"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-167-1/collection.json",
+      "type": "application/json",
+      "title": "CH-167.1 - Catasto degli eventi naturali (StorMe)"
+    },
+    {
+      "rel": "child",
       "href": "./ch-181-1-cap-localita/collection.json",
       "type": "application/json",
-      "title": "CH-181.1 - CAP e localita"
+      "title": "CH-181.1 - CAP e localitÃ"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-183-1/collection.json",
+      "type": "application/json",
+      "title": "CH-183.1 - Sicurezza dell'approvvigionamento elettrico: comprensori di rete"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-184-1/collection.json",
+      "type": "application/json",
+      "title": "CH-184.1 - Itinerari cantonali dei trasporti speciali"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-185-1/collection.json",
+      "type": "application/json",
+      "title": "CH-185.1 - Dissodamenti e compensazione del dissodamento"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-188-1/collection.json",
+      "type": "application/json",
+      "title": "CH-188.1 - Inventario PBC (regionale e locale)"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-190-1/collection.json",
+      "type": "application/json",
+      "title": "CH-190.1 - Spazio riservato alle acque"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-191-1/collection.json",
+      "type": "application/json",
+      "title": "CH-191.1 - Pianificazione delle rivitalizzazioni dei corsi d'acqua"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-191-2/collection.json",
+      "type": "application/json",
+      "title": "CH-191.2 - Pianificazione della rivitalizzazione delle rive lacustri"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-192-1/collection.json",
+      "type": "application/json",
+      "title": "CH-192.1 - Pianificazione e rapporto concernente il risanamento della forza idrica"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-194-1/collection.json",
+      "type": "application/json",
+      "title": "CH-194.1 - Impianti di accumulazione sottoposti a vigilanza cantonale"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-195-1/collection.json",
+      "type": "application/json",
+      "title": "CH-195.1 - Zone di tranquillitÃ  per la fauna selvatica"
+    },
+    {
+      "rel": "child",
+      "href": "./ch-mu/collection.json",
+      "type": "application/json",
+      "title": "CH-mu - Misurazione ufficiale"
     }
   ]
 }

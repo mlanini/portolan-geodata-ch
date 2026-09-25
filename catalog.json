@@ -7,7 +7,7 @@
   "id": "geodata-ch-ti-complete",
   "title": "Portolan Geodata CH/TI - catalogo completo data.geo.ti.ch",
   "description": "Catalogo STAC completo dei geodati del portale data.geo.ti.ch, ricavato dall'indice ufficiale e arricchito con riferimenti del Geoportale Ticino e di map.geo.ti.ch.",
-  "updated": "2026-09-25T11:09:49Z",
+  "updated": "2026-09-25T11:11:59Z",
   "links": [
     {
       "rel": "root",

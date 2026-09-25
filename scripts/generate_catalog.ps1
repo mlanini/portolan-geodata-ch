@@ -185,6 +185,10 @@ foreach ($item in $datasetRecords) {
     $collectionPath = $item.collectionPath
     $collectionFile = Join-Path $collectionPath 'collection.json'
 
+    if ($pathOverrides.ContainsKey($item.code) -and (Test-Path $collectionFile)) {
+        continue
+    }
+
     if ((Test-Path $collectionFile) -and -not $Force) {
         continue
     }
@@ -201,8 +205,8 @@ foreach ($item in $datasetRecords) {
         description = "Geodato pubblicato su data.geo.ti.ch: $($item.title)."
         license = 'other'
         extent = [ordered]@{
-            spatial = [ordered]@{ bbox = @(@(8.3, 45.8, 9.3, 46.7)) }
-            temporal = [ordered]@{ interval = @(@($null, $null)) }
+            spatial = [ordered]@{ bbox = ,@(8.3, 45.8, 9.3, 46.7) }
+            temporal = [ordered]@{ interval = ,@($null, $null) }
         }
         keywords = @($item.code, $item.title, $item.categoryFolder)
         links = @(

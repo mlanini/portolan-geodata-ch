@@ -192,7 +192,7 @@
       "rel": "child",
       "href": "./ch-145-1/collection.json",
       "type": "application/json",
-      "title": "CH-145.1 - Gradi di sensibilitÃ  al rumore (in zone d'utilizzazione)"
+      "title": "CH-145.1 - Gradi di sensibilità al rumore (in zone d'utilizzazione)"
     },
     {
       "rel": "child",
@@ -228,7 +228,7 @@
       "rel": "child",
       "href": "./ch-181-1-cap-localita/collection.json",
       "type": "application/json",
-      "title": "CH-181.1 - CAP e localitÃ"
+      "title": "CH-181.1 - CAP e località"
     },
     {
       "rel": "child",
@@ -288,7 +288,7 @@
       "rel": "child",
       "href": "./ch-195-1/collection.json",
       "type": "application/json",
-      "title": "CH-195.1 - Zone di tranquillitÃ  per la fauna selvatica"
+      "title": "CH-195.1 - Zone di tranquillità per la fauna selvatica"
     },
     {
       "rel": "child",

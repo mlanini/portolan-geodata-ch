@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./ac-001-1/collection.json",
       "type": "application/json",
-      "title": "AC-001.1 - DisponibilitÃ  del Catasto RDPP"
+      "title": "AC-001.1 - Disponibilità del Catasto RDPP"
     },
     {
       "rel": "child",
@@ -72,7 +72,7 @@
       "rel": "child",
       "href": "./ac-010-1/collection.json",
       "type": "application/json",
-      "title": "AC-010.1 - QualitÃ  dei trasporti pubblici"
+      "title": "AC-010.1 - Qualità dei trasporti pubblici"
     },
     {
       "rel": "child",
@@ -132,7 +132,7 @@
       "rel": "child",
       "href": "./ac-023-2/collection.json",
       "type": "application/json",
-      "title": "AC-023.2 - Rive laghi - FruibilitÃ"
+      "title": "AC-023.2 - Rive laghi - Fruibilità"
     },
     {
       "rel": "child",
@@ -186,7 +186,7 @@
       "rel": "child",
       "href": "./ac-051-1/collection.json",
       "type": "application/json",
-      "title": "AC-051.1 - Piani di mobilitÃ  scolastica"
+      "title": "AC-051.1 - Piani di mobilità scolastica"
     },
     {
       "rel": "child",
@@ -240,13 +240,13 @@
       "rel": "child",
       "href": "./ac-065a-1/collection.json",
       "type": "application/json",
-      "title": "AC-065a.1 - DisponibilitÃ  piani di utilizzazione"
+      "title": "AC-065a.1 - Disponibilità piani di utilizzazione"
     },
     {
       "rel": "child",
       "href": "./ac-065b-1/collection.json",
       "type": "application/json",
-      "title": "AC-065b.1 - DisponibilitÃ  piani regolatori"
+      "title": "AC-065b.1 - Disponibilità piani regolatori"
     },
     {
       "rel": "child",

@@ -41,7 +41,7 @@ Categoria CH raster (Cloud Optimized GeoTIFF):
 ## Note operative
 
 - Questa base e volutamente essenziale e orientata alla documentazione/catalogazione.
-- Il catalogo viene rigenerato da `scripts/generate_catalog.ps1` a partire dall'indice ufficiale di `data.geo.ti.ch`.
+	- Il catalogo viene rigenerato da `scripts/generate_catalog.py` a partire dall'indice ufficiale di `data.geo.ti.ch`.
 - I metadati possono essere estesi in seguito con link di download puntuali, versioni e workflow ETL.
 
 ## Pubblicazione come mirror Portolan

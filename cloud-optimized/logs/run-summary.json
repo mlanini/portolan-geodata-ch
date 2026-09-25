@@ -1,0 +1,149 @@
+[
+  {
+    "code": "CH-063.1",
+    "collection": "ch-base/ch-063-1-suddivisioni-amministrative/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_063_1_v1_7/ch_063_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ch_063_1\\ch_063_1_ticino.itf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__Area_di_numerazione.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__GeometriaAN.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__GeometriaAN_Geometria.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__PosArea_di_numerazione.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 4
+  },
+  {
+    "code": "CH-067.1",
+    "collection": "ch-base/ch-067-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_067_1_v1_0/ch_067_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ch_067_1\\ch_067_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.hpm_type.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.surface.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.obliging_authorities.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.state.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.public_transport_section.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.quality_of_way.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.obliging_land_owner.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.hiking_segment_type.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.route_type.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.route_category.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.hpm_route_type.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.direction_of_signalisation.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.location_category.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.mtb_segment_type.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.metadata.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.base_geometry.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_bike_lv95.way.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.way_route.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.route.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 19
+  },
+  {
+    "code": "CH-068.1",
+    "collection": "ch-base/ch-068-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_068_1_v1_0/ch_068_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ch_068_1\\ch_068_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_068_1\\SurfacesDAssolement_MN95_V1.MetadonneesTransfer.MetadonneesTransfer.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_068_1\\SurfacesDAssolement_MN95_V1.GeodonneesDeBase.SurfaceDAssolement.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_068_1\\SurfacesDAssolement_MN95_V1.GeodonneesDeBase.Qualite_cantonal.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 3
+  },
+  {
+    "code": "CH-181.1",
+    "collection": "ch-base/ch-181-1-cap-localita/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_181_1_v1_0/ch_181_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ch_181_1\\ch_181_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_181_1\\OfficialIndexOfLocalities_V1_Interlis_2_3.OfficialIndexOfLocalities.ZIP.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_181_1\\OfficialIndexOfLocalities_V1_Interlis_2_3.OfficialIndexOfLocalities.Locality.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 2
+  },
+  {
+    "code": "CH-184.1",
+    "collection": "ch-base/ch-184-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_184_1_v1_0/ch_184_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ch_184_1\\ch_184_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_184_1\\ExceptionalLoadsCatalogues_V1.TypeOfRouteCatalogue.TypeOfRoute.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_184_1\\ExceptionalLoadsRoute_LV95_V1.ExceptionalLoad.Route.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ch_184_1\\ExceptionalLoadsRoute_LV95_V1.ExceptionalLoad.Obstacle.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 3
+  },
+  {
+    "code": "TI-005.1",
+    "collection": "ti-base/ti-005-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_005_1_v1_0/ti_005_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ti_005_1\\ti_005_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_005_1\\impianti_fune_metallica_mn95_v1_0.impianti_fune_metallica.linea_fune.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_005_1\\impianti_fune_metallica_mn95_v1_0.impianti_fune_metallica.stazione_fune.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 2
+  },
+  {
+    "code": "TI-006.1",
+    "collection": "ti-base/ti-006-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_006_1_v1_0/ti_006_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ti_006_1\\ti_006_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_006_1\\boschi_particolare_pregio_v1_0.boschi_particolare_pregio.selve_gestite.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_006_1\\boschi_particolare_pregio_v1_0.boschi_particolare_pregio.lariceti_pascolati.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_006_1\\boschi_particolare_pregio_v1_0.boschi_particolare_pregio.formazioni_minoritarie.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 3
+  },
+  {
+    "code": "TI-007.1",
+    "collection": "ti-base/ti-007-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_007_1_v1_0/ti_007_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ti_007_1\\ti_007_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_007_1\\bosco_protezione_v1_0.bosco_protezione.bosco_silvaprotect.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_007_1\\bosco_protezione_v1_0.bosco_protezione.comprensori_silvaprotect.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 2
+  },
+  {
+    "code": "TI-008.1",
+    "collection": "ti-base/ti-008-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_008_1_v1_0/ti_008_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ti_008_1\\ti_008_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.strada_pista.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.piazzale.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.barriera.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.ostacolo.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.aggr_strada_pista_piazzale.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.aggr_strada_pista_barriera.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.aggr_strada_pista_ostacolo.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 7
+  },
+  {
+    "code": "TI-009.1",
+    "collection": "ti-base/ti-009-1/collection.json",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_009_1_v1_0/ti_009_1_ticino.zip",
+    "source": "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\extract\\ti_009_1\\ti_009_1_ticino.xtf",
+    "outputs": [
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_009_1\\circondari_settori_forestali_v1_0.circondari_settori_forestali.circondario.parquet",
+      "C:\\Temp\\portolan-geodata-ch\\cloud-optimized\\parquet\\ti_009_1\\circondari_settori_forestali_v1_0.circondari_settori_forestali.settore.parquet"
+    ],
+    "status": "ok",
+    "generated_count": 2
+  }
+]

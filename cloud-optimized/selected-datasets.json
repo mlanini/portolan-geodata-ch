@@ -1,0 +1,52 @@
+[
+  {
+    "code": "CH-063.1",
+    "collection": "ch-base/ch-063-1-suddivisioni-amministrative/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ch_063_1_v1_7&f=ch_063_1_ticino.zip"
+  },
+  {
+    "code": "CH-067.1",
+    "collection": "ch-base/ch-067-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ch_067_1_v1_0&f=ch_067_1_ticino.zip"
+  },
+  {
+    "code": "CH-068.1",
+    "collection": "ch-base/ch-068-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ch_068_1_v1_0&f=ch_068_1_ticino.zip"
+  },
+  {
+    "code": "CH-181.1",
+    "collection": "ch-base/ch-181-1-cap-localita/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ch_181_1_v1_0&f=ch_181_1_ticino.zip"
+  },
+  {
+    "code": "CH-184.1",
+    "collection": "ch-base/ch-184-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ch_184_1_v1_0&f=ch_184_1_ticino.zip"
+  },
+  {
+    "code": "TI-005.1",
+    "collection": "ti-base/ti-005-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ti_005_1_v1_0&f=ti_005_1_ticino.zip"
+  },
+  {
+    "code": "TI-006.1",
+    "collection": "ti-base/ti-006-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ti_006_1_v1_0&f=ti_006_1_ticino.zip"
+  },
+  {
+    "code": "TI-007.1",
+    "collection": "ti-base/ti-007-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ti_007_1_v1_0&f=ti_007_1_ticino.zip"
+  },
+  {
+    "code": "TI-008.1",
+    "collection": "ti-base/ti-008-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ti_008_1_v1_0&f=ti_008_1_ticino.zip"
+  },
+  {
+    "code": "TI-009.1",
+    "collection": "ti-base/ti-009-1/collection.json",
+    "asset_page": "https://data.geo.ti.ch/?p=ti_009_1_v1_0&f=ti_009_1_ticino.zip"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "dataset": "ch_063_1",
+    "file_count": 4,
+    "total_bytes": 2130906.0,
+    "files": [
+      "cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__Area_di_numerazione.parquet",
+      "cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__GeometriaAN_Geometria.parquet",
+      "cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__GeometriaAN.parquet",
+      "cloud-optimized\\parquet\\ch_063_1\\Aree_di_numerazione__PosArea_di_numerazione.parquet"
+    ]
+  },
+  {
+    "dataset": "ch_067_1",
+    "file_count": 19,
+    "total_bytes": 123950.0,
+    "files": [
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.base_geometry.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.metadata.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.route.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_base.way_route.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_bike_lv95.way.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.direction_of_signalisation.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.hiking_segment_type.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.hpm_route_type.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.hpm_type.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.location_category.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.mtb_segment_type.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.obliging_authorities.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.obliging_land_owner.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.public_transport_section.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.quality_of_way.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.route_category.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.route_type.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.state.parquet",
+      "cloud-optimized\\parquet\\ch_067_1\\hpm_network_V1.hpm_catalogues.surface.parquet"
+    ]
+  },
+  {
+    "dataset": "ch_068_1",
+    "file_count": 3,
+    "total_bytes": 2057812.0,
+    "files": [
+      "cloud-optimized\\parquet\\ch_068_1\\SurfacesDAssolement_MN95_V1.GeodonneesDeBase.Qualite_cantonal.parquet",
+      "cloud-optimized\\parquet\\ch_068_1\\SurfacesDAssolement_MN95_V1.GeodonneesDeBase.SurfaceDAssolement.parquet",
+      "cloud-optimized\\parquet\\ch_068_1\\SurfacesDAssolement_MN95_V1.MetadonneesTransfer.MetadonneesTransfer.parquet"
+    ]
+  },
+  {
+    "dataset": "ch_181_1",
+    "file_count": 2,
+    "total_bytes": 39400.0,
+    "files": [
+      "cloud-optimized\\parquet\\ch_181_1\\OfficialIndexOfLocalities_V1_Interlis_2_3.OfficialIndexOfLocalities.Locality.parquet",
+      "cloud-optimized\\parquet\\ch_181_1\\OfficialIndexOfLocalities_V1_Interlis_2_3.OfficialIndexOfLocalities.ZIP.parquet"
+    ]
+  },
+  {
+    "dataset": "ch_184_1",
+    "file_count": 3,
+    "total_bytes": 124777.0,
+    "files": [
+      "cloud-optimized\\parquet\\ch_184_1\\ExceptionalLoadsCatalogues_V1.TypeOfRouteCatalogue.TypeOfRoute.parquet",
+      "cloud-optimized\\parquet\\ch_184_1\\ExceptionalLoadsRoute_LV95_V1.ExceptionalLoad.Obstacle.parquet",
+      "cloud-optimized\\parquet\\ch_184_1\\ExceptionalLoadsRoute_LV95_V1.ExceptionalLoad.Route.parquet"
+    ]
+  },
+  {
+    "dataset": "ti_005_1",
+    "file_count": 2,
+    "total_bytes": 135875.0,
+    "files": [
+      "cloud-optimized\\parquet\\ti_005_1\\impianti_fune_metallica_mn95_v1_0.impianti_fune_metallica.linea_fune.parquet",
+      "cloud-optimized\\parquet\\ti_005_1\\impianti_fune_metallica_mn95_v1_0.impianti_fune_metallica.stazione_fune.parquet"
+    ]
+  },
+  {
+    "dataset": "ti_006_1",
+    "file_count": 3,
+    "total_bytes": 25884.0,
+    "files": [
+      "cloud-optimized\\parquet\\ti_006_1\\boschi_particolare_pregio_v1_0.boschi_particolare_pregio.formazioni_minoritarie.parquet",
+      "cloud-optimized\\parquet\\ti_006_1\\boschi_particolare_pregio_v1_0.boschi_particolare_pregio.lariceti_pascolati.parquet",
+      "cloud-optimized\\parquet\\ti_006_1\\boschi_particolare_pregio_v1_0.boschi_particolare_pregio.selve_gestite.parquet"
+    ]
+  },
+  {
+    "dataset": "ti_007_1",
+    "file_count": 2,
+    "total_bytes": 485286.0,
+    "files": [
+      "cloud-optimized\\parquet\\ti_007_1\\bosco_protezione_v1_0.bosco_protezione.bosco_silvaprotect.parquet",
+      "cloud-optimized\\parquet\\ti_007_1\\bosco_protezione_v1_0.bosco_protezione.comprensori_silvaprotect.parquet"
+    ]
+  },
+  {
+    "dataset": "ti_008_1",
+    "file_count": 7,
+    "total_bytes": 1208840.0,
+    "files": [
+      "cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.aggr_strada_pista_barriera.parquet",
+      "cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.aggr_strada_pista_ostacolo.parquet",
+      "cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.aggr_strada_pista_piazzale.parquet",
+      "cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.barriera.parquet",
+      "cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.ostacolo.parquet",
+      "cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.piazzale.parquet",
+      "cloud-optimized\\parquet\\ti_008_1\\strade_piste_forestali_v1_0.strade_piste_forestali.strada_pista.parquet"
+    ]
+  },
+  {
+    "dataset": "ti_009_1",
+    "file_count": 2,
+    "total_bytes": 15120.0,
+    "files": [
+      "cloud-optimized\\parquet\\ti_009_1\\circondari_settori_forestali_v1_0.circondari_settori_forestali.circondario.parquet",
+      "cloud-optimized\\parquet\\ti_009_1\\circondari_settori_forestali_v1_0.circondari_settori_forestali.settore.parquet"
+    ]
+  }
+]

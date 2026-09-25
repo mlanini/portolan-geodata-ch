@@ -1,0 +1,178 @@
+[
+  {
+    "code": "CH-063.1",
+    "collection": "ch-base/ch-063-1-suddivisioni-amministrative/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ch_063_1_v1_7&f=ch_063_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_063_1_v1_7/ch_063_1_ticino.zip",
+    "files": [
+      "ch_063_1_ticino.itf",
+      "07.04.2025 09:43:58",
+      "4.98 MB",
+      "ch_063_1_ticino.itf.md5",
+      "07.04.2025 09:44:46",
+      "32 bytes",
+      "MD01MUTI7MN95.toml",
+      "07.04.2025 09:44:46",
+      "122 bytes"
+    ]
+  },
+  {
+    "code": "CH-067.1",
+    "collection": "ch-base/ch-067-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ch_067_1_v1_0&f=ch_067_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_067_1_v1_0/ch_067_1_ticino.zip",
+    "files": [
+      "ch_067_1_ticino.xtf",
+      "09.03.2023 08:42:32",
+      "3.13 MB",
+      "ch_067_1_ticino.xtf.md5",
+      "09.03.2023 08:42:44",
+      "32 bytes",
+      "hpm_network_V1.toml",
+      "09.03.2023 08:42:44",
+      "122 bytes"
+    ]
+  },
+  {
+    "code": "CH-068.1",
+    "collection": "ch-base/ch-068-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ch_068_1_v1_0&f=ch_068_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_068_1_v1_0/ch_068_1_ticino.zip",
+    "files": [
+      "ch_068_1_ticino.xtf",
+      "16.07.2025 14:07:56",
+      "10.72 MB",
+      "ch_068_1_ticino.xtf.md5",
+      "16.07.2025 14:09:04",
+      "32 bytes",
+      "SurfacesDAssolement_MN95_V1.toml",
+      "16.07.2025 14:09:04",
+      "117 bytes"
+    ]
+  },
+  {
+    "code": "CH-181.1",
+    "collection": "ch-base/ch-181-1-cap-localita/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ch_181_1_v1_0&f=ch_181_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_181_1_v1_0/ch_181_1_ticino.zip",
+    "files": [
+      "ch_181_1_ticino.xtf",
+      "01.07.2026 12:04:14",
+      "14.24 MB",
+      "ch_181_1_ticino.xtf.md5",
+      "01.07.2026 12:04:28",
+      "32 bytes",
+      "OfficialIndexOfLocalities_V1_Interlis_2_3.toml",
+      "01.07.2026 12:04:28",
+      "108 bytes"
+    ]
+  },
+  {
+    "code": "CH-184.1",
+    "collection": "ch-base/ch-184-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ch_184_1_v1_0&f=ch_184_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ch_184_1_v1_0/ch_184_1_ticino.zip",
+    "files": [
+      "ch_184_1_ticino.xtf",
+      "28.02.2023 09:01:54",
+      "721.41 KB",
+      "ch_184_1_ticino.xtf.md5",
+      "28.02.2023 09:02:06",
+      "32 bytes",
+      "ExceptionalLoadsRoute_LV95_V1.toml",
+      "28.02.2023 09:02:06",
+      "122 bytes"
+    ]
+  },
+  {
+    "code": "TI-005.1",
+    "collection": "ti-base/ti-005-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ti_005_1_v1_0&f=ti_005_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_005_1_v1_0/ti_005_1_ticino.zip",
+    "files": [
+      "impianti_fune_metallica_mn95_v1_0.toml",
+      "24.09.2026 08:30:22",
+      "122 bytes",
+      "ti_005_1_ticino.xtf",
+      "24.09.2026 08:30:12",
+      "1.32 MB",
+      "ti_005_1_ticino.xtf.md5",
+      "24.09.2026 08:30:22",
+      "32 bytes"
+    ]
+  },
+  {
+    "code": "TI-006.1",
+    "collection": "ti-base/ti-006-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ti_006_1_v1_0&f=ti_006_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_006_1_v1_0/ti_006_1_ticino.zip",
+    "files": [
+      "boschi_particolare_pregio_v1_0.toml",
+      "11.09.2026 16:59:36",
+      "118 bytes",
+      "ti_006_1_ticino.xtf",
+      "11.09.2026 16:59:28",
+      "1.89 MB",
+      "ti_006_1_ticino.xtf.md5",
+      "11.09.2026 16:59:36",
+      "32 bytes"
+    ]
+  },
+  {
+    "code": "TI-007.1",
+    "collection": "ti-base/ti-007-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ti_007_1_v1_0&f=ti_007_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_007_1_v1_0/ti_007_1_ticino.zip",
+    "files": [
+      "bosco_protezione_v1_0.toml",
+      "15.11.2022 16:27:06",
+      "122 bytes",
+      "ti_007_1_ticino.md5",
+      "15.11.2022 16:23:02",
+      "32 bytes",
+      "ti_007_1_ticino.xtf",
+      "15.11.2022 16:23:02",
+      "178.93 MB"
+    ]
+  },
+  {
+    "code": "TI-008.1",
+    "collection": "ti-base/ti-008-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ti_008_1_v1_0&f=ti_008_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_008_1_v1_0/ti_008_1_ticino.zip",
+    "files": [
+      "export_385070_.log",
+      "16.06.2026 15:32:26",
+      "5.20 KB",
+      "strade_piste_forestali_v1_0.toml",
+      "16.06.2026 15:32:36",
+      "122 bytes",
+      "ti_008_1_ticino.xtf",
+      "16.06.2026 15:32:26",
+      "5.23 MB",
+      "ti_008_1_ticino.xtf.md5",
+      "16.06.2026 15:32:36",
+      "32 bytes"
+    ]
+  },
+  {
+    "code": "TI-009.1",
+    "collection": "ti-base/ti-009-1/collection.json",
+    "archive_page": "https://data.geo.ti.ch/?p=ti_009_1_v1_0&f=ti_009_1_ticino.zip",
+    "download_url": "https://data.geo.ti.ch/geodata/ti_009_1_v1_0/ti_009_1_ticino.zip",
+    "files": [
+      "circondari_settori_forestali_v1_0.toml",
+      "09.09.2026 11:29:32",
+      "118 bytes",
+      "export_419355_.log",
+      "09.09.2026 11:29:16",
+      "3.10 KB",
+      "ti_009_1_ticino.xtf",
+      "09.09.2026 11:29:16",
+      "4.75 MB",
+      "ti_009_1_ticino.xtf.md5",
+      "09.09.2026 11:29:32",
+      "32 bytes"
+    ]
+  }
+]

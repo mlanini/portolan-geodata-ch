@@ -4,11 +4,20 @@
 
 Questo repository contiene un catalogo STAC completo dei geodati pubblicati tramite data.geo.ti.ch, arricchito con riferimenti istituzionali da Geoportale Ticino e map.geo.ti.ch e strutturato come mirror statico per Portolan.
 
+Portolan è un progetto open source per la pubblicazione e l'uso di dati geospaziali tramite cataloghi statici, formati cloud-native e metadati leggibili sia da persone sia da agenti. Il progetto combina specifiche aperte, un registry pubblico dei cataloghi e tooling dedicato per validazione, pubblicazione ed esplorazione.
+
 Scopo attuale:
 
 - mantenere una struttura STAC chiara, valida e facilmente rigenerabile;
 - fornire un indice completo dei dataset pubblicati sul portale cantonale;
 - pubblicare un mirror statico compatibile con il profilo Portolan.
+
+Riferimenti Portolan:
+
+- sito del progetto: [portolan-sdi.org](https://www.portolan-sdi.org/)
+- registry pubblico dei cataloghi: [portolan-sdi.org/registry](https://www.portolan-sdi.org/registry)
+- specifica del catalogo: [portolan-spec](https://github.com/portolan-sdi/portolan-spec)
+- strumenti e componenti dell'ecosistema: [ecosystem](https://www.portolan-sdi.org/#ecosystem)
 
 ## Catalogo corrente
 

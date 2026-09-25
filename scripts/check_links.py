@@ -24,14 +24,6 @@ def extract_http_hrefs(data: dict) -> list[str]:
             if isinstance(href, str) and href.startswith(("http://", "https://")):
                 hrefs.append(href)
 
-    assets = data.get("assets", {})
-    if isinstance(assets, dict):
-        for asset in assets.values():
-            if isinstance(asset, dict):
-                href = asset.get("href")
-                if isinstance(href, str) and href.startswith(("http://", "https://")):
-                    hrefs.append(href)
-
     return hrefs
 
 

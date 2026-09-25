@@ -84,17 +84,18 @@
     }
   ],
   "assets": {
-    "ch_184_1_ticino": {
+    "ch_184_1_ticino_ili": {
       "href": "https://data.geo.ti.ch/?p=ch_184_1_v1_0&f=ch_184_1_ticino.zip",
       "type": "application/zip",
-      "title": "ch_184_1_ticino.zip",
+      "title": "ch_184_1_ticino INTERLIS",
       "roles": [
         "data"
       ]
     },
-    "geoparquet": {
-      "href": "../../cloud-optimized/parquet/ch_184_1/",
-      "title": "GeoParquet selezionato",
+    "ch_184_1_ticino_parquet": {
+      "href": "../../cloud-optimized/parquet/ch_184_1/ExceptionalLoadsCatalogues_V1.TypeOfRouteCatalogue.TypeOfRoute.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "ch_184_1_ticino GeoParquet",
       "roles": [
         "data"
       ]

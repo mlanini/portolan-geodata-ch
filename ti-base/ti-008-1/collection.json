@@ -84,17 +84,18 @@
     }
   ],
   "assets": {
-    "ti_008_1_ticino": {
+    "ti_008_1_ticino_ili": {
       "href": "https://data.geo.ti.ch/?p=ti_008_1_v1_0&f=ti_008_1_ticino.zip",
       "type": "application/zip",
-      "title": "ti_008_1_ticino.zip",
+      "title": "ti_008_1_ticino INTERLIS",
       "roles": [
         "data"
       ]
     },
-    "geoparquet": {
-      "href": "../../cloud-optimized/parquet/ti_008_1/",
-      "title": "GeoParquet selezionato",
+    "ti_008_1_ticino_parquet": {
+      "href": "../../cloud-optimized/parquet/ti_008_1/strade_piste_forestali_v1_0.strade_piste_forestali.aggr_strada_pista_barriera.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "ti_008_1_ticino GeoParquet",
       "roles": [
         "data"
       ]

@@ -84,17 +84,18 @@
     }
   ],
   "assets": {
-    "ch_063_1_ticino": {
+    "ch_063_1_ticino_ili": {
       "href": "https://data.geo.ti.ch/?p=ch_063_1_v1_7&f=ch_063_1_ticino.zip",
       "type": "application/zip",
-      "title": "ch_063_1_ticino.zip",
+      "title": "ch_063_1_ticino INTERLIS",
       "roles": [
         "data"
       ]
     },
-    "geoparquet": {
-      "href": "../../cloud-optimized/parquet/ch_063_1/",
-      "title": "GeoParquet selezionato",
+    "ch_063_1_ticino_parquet": {
+      "href": "../../cloud-optimized/parquet/ch_063_1/Aree_di_numerazione__Area_di_numerazione.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "ch_063_1_ticino GeoParquet",
       "roles": [
         "data"
       ]

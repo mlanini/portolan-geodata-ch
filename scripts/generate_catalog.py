@@ -98,12 +98,18 @@ def asset_key_from_filename(filename: str, existing_keys: set[str]) -> str:
     return candidate
 
 
+def asset_title_from_filename(filename: str, suffix: str) -> str:
+    return f"{Path(filename).stem} {suffix}".strip()
+
+
 def asset_media_type(href: str) -> str:
     lowered = href.lower()
     if lowered.endswith(".tif") or lowered.endswith(".tiff"):
         if "/cog/" in lowered:
             return "image/tiff; application=geotiff; profile=cloud-optimized"
         return "image/tiff; application=geotiff"
+    if lowered.endswith(".parquet"):
+        return "application/vnd.apache.parquet"
     if lowered.endswith(".zip"):
         return "application/zip"
     if lowered.endswith(".xtf"):
@@ -194,23 +200,38 @@ def build_preview_asset(item: dict[str, str], wms_layers: dict[str, dict[str, ob
     }
 
 
-def build_geoparquet_asset(item: dict[str, str]) -> dict[str, object] | None:
+def primary_dataset_stem(assets: dict[str, dict[str, object]]) -> str:
+    for value in assets.values():
+        title = value.get("title")
+        if isinstance(title, str) and title.lower().endswith("_ticino.zip"):
+            return Path(title).stem
+
+    for value in assets.values():
+        title = value.get("title")
+        if isinstance(title, str) and title.lower().endswith(".zip"):
+            return Path(title).stem
+
+    return "data"
+
+
+def build_geoparquet_asset(item: dict[str, str], assets: dict[str, dict[str, object]]) -> dict[str, object] | None:
     geoparquet_slug = item["code"].lower().replace("-", "_").replace(".", "_")
     geoparquet_dir = repo_root() / "cloud-optimized" / "parquet" / geoparquet_slug
     if not geoparquet_dir.exists():
         return None
 
+    parquet_files = sorted(path for path in geoparquet_dir.glob("*.parquet") if path.is_file())
+    if not parquet_files:
+        return None
+
     collection_dir = Path(item["collectionPath"]).parent
-    href = os.path.relpath(
-        geoparquet_dir,
-        start=collection_dir,
-    ).replace(os.sep, "/")
-    if not href.endswith("/"):
-        href += "/"
+    href = os.path.relpath(parquet_files[0], start=collection_dir).replace(os.sep, "/")
+    dataset_stem = primary_dataset_stem(assets)
 
     return {
         "href": href,
-        "title": "GeoParquet selezionato",
+        "type": "application/vnd.apache.parquet",
+        "title": f"{dataset_stem} GeoParquet",
         "roles": ["data"],
     }
 
@@ -225,11 +246,11 @@ def parse_dataset_assets(page: str, page_html: str) -> dict[str, dict[str, objec
     for match in zip_pattern.finditer(page_html):
         filename = html_decode(match.group(2))
         href = f"{SITE_URL}?{urlencode({'p': page, 'f': html_decode(match.group(1))})}"
-        key = asset_key_from_filename(filename, set(assets.keys()))
+        key = asset_key_from_filename(filename, set(assets.keys())) + "_ili"
         assets[key] = {
             "href": href,
             "type": asset_media_type(href),
-            "title": filename,
+            "title": asset_title_from_filename(filename, "INTERLIS"),
             "roles": ["data"],
         }
 
@@ -240,11 +261,11 @@ def parse_dataset_assets(page: str, page_html: str) -> dict[str, dict[str, objec
     for match in direct_pattern.finditer(page_html):
         filename = html_decode(match.group(1))
         href = html_decode(match.group(2))
-        key = asset_key_from_filename(filename, set(assets.keys()))
+        key = asset_key_from_filename(filename, set(assets.keys())) + "_ili"
         assets[key] = {
             "href": href,
             "type": asset_media_type(href),
-            "title": filename,
+            "title": asset_title_from_filename(filename, "INTERLIS"),
             "roles": ["data"],
         }
 
@@ -412,9 +433,9 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
 def build_collection(item: dict[str, str], page_html: str, wms_layers: dict[str, dict[str, object]]) -> dict[str, object]:
     describedby_url = external_readme_url()
     assets = parse_dataset_assets(item["page"], page_html)
-    geoparquet_asset = build_geoparquet_asset(item)
+    geoparquet_asset = build_geoparquet_asset(item, assets)
     if geoparquet_asset:
-        assets["geoparquet"] = geoparquet_asset
+        assets[f"{primary_dataset_stem(assets)}_parquet"] = geoparquet_asset
     preview_asset = build_preview_asset(item, wms_layers)
     if preview_asset:
         assets["thumbnail"] = preview_asset

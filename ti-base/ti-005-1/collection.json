@@ -84,17 +84,18 @@
     }
   ],
   "assets": {
-    "ti_005_1_ticino": {
+    "ti_005_1_ticino_ili": {
       "href": "https://data.geo.ti.ch/?p=ti_005_1_v1_0&f=ti_005_1_ticino.zip",
       "type": "application/zip",
-      "title": "ti_005_1_ticino.zip",
+      "title": "ti_005_1_ticino INTERLIS",
       "roles": [
         "data"
       ]
     },
-    "geoparquet": {
-      "href": "../../cloud-optimized/parquet/ti_005_1/",
-      "title": "GeoParquet selezionato",
+    "ti_005_1_ticino_parquet": {
+      "href": "../../cloud-optimized/parquet/ti_005_1/impianti_fune_metallica_mn95_v1_0.impianti_fune_metallica.linea_fune.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "ti_005_1_ticino GeoParquet",
       "roles": [
         "data"
       ]

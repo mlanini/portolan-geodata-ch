@@ -353,9 +353,12 @@ def prune_duplicate_geoparquet_assets(assets: dict[str, object]) -> dict[str, ob
             continue
         parquet_data_keys.append(key)
 
-    if len(parquet_data_keys) > 1 and "data_parquet" in assets:
-        assets = dict(assets)
-        assets.pop("data_parquet", None)
+    if "data_parquet" in assets:
+        # Drop generic duplicate when at least one dataset-specific parquet data asset is present.
+        has_specific_parquet_data = any(key != "data_parquet" for key in parquet_data_keys)
+        if has_specific_parquet_data:
+            assets = dict(assets)
+            assets.pop("data_parquet", None)
     return assets
 
 

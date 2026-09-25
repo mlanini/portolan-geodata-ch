@@ -1,5 +1,7 @@
 # Portolan Geodata CH/TI - subset iniziale da data.geo.ti.ch
 
+![Mirror CI](https://github.com/<owner>/<repo>/actions/workflows/mirror-publish.yml/badge.svg)
+
 Questo repository e stato rifocalizzato su un sottoinsieme minimo di geodati pubblicati dal Cantone Ticino tramite data.geo.ti.ch.
 
 Scopo attuale:
@@ -33,10 +35,38 @@ Categoria CH raster (Cloud Optimized GeoTIFF):
 
 ## Fonte ufficiale
 
-- Portale: https://data.geo.ti.ch/
+- Portale: [data.geo.ti.ch](https://data.geo.ti.ch/)
 - Ente: Repubblica e Cantone Ticino, Ufficio della geomatica
 
 ## Note operative
 
 - Questa base e volutamente essenziale e orientata alla documentazione/catalogazione.
 - I metadati possono essere estesi in seguito con link di download puntuali, versioni e workflow ETL.
+
+## Pubblicazione come mirror Portolan
+
+Questo repository include una pipeline GitHub Actions che:
+
+- valida tutti i file STAC (`Catalog`/`Collection`/`Item`);
+- verifica la raggiungibilita dei link HTTP/HTTPS esterni presenti in `links` e `assets`;
+- pubblica il catalogo statico su GitHub Pages dopo una validazione riuscita su `main`.
+
+Workflow: `.github/workflows/mirror-publish.yml`.
+
+Il workflow gira anche ogni giorno (cron) per monitorare la salute dei link esterni.
+
+### Attivazione
+
+1. Pubblica il repository su GitHub.
+2. In GitHub, abilita Pages con source `GitHub Actions`.
+3. Esegui un push su `main` oppure avvia manualmente il workflow (`workflow_dispatch`).
+
+### URL del catalogo
+
+Una volta completato il deploy, il root STAC e disponibile a:
+
+- `https://<owner>.github.io/<repo>/catalog.json`
+
+Esempio sottocatalogo:
+
+- `https://<owner>.github.io/<repo>/ch-base/catalog.json`

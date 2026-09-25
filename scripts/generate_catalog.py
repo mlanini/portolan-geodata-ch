@@ -240,7 +240,6 @@ def build_geoparquet_asset(item: dict[str, str], assets: dict[str, dict[str, obj
     if not parquet_files:
         return None
 
-    collection_dir = Path(item["collectionPath"]).parent
     relative_path = os.path.relpath(parquet_files[0], start=repo_root()).replace(os.sep, "/")
     href = raw_github_url(relative_path)
     dataset_stem = primary_dataset_stem(assets)
@@ -266,7 +265,7 @@ def parse_dataset_assets(page: str, page_html: str) -> dict[str, dict[str, objec
         key = asset_key_from_filename(filename, set(assets.keys())) + "_ili"
         assets[key] = {
             "href": href,
-            "type": asset_media_type(href),
+            "type": "application/interlis+xml",
             "title": asset_title_from_filename(filename, "INTERLIS"),
             "roles": ["data"],
         }
@@ -281,7 +280,7 @@ def parse_dataset_assets(page: str, page_html: str) -> dict[str, dict[str, objec
         key = asset_key_from_filename(filename, set(assets.keys())) + "_ili"
         assets[key] = {
             "href": href,
-            "type": asset_media_type(href),
+            "type": "application/interlis+xml",
             "title": asset_title_from_filename(filename, "INTERLIS"),
             "roles": ["data"],
         }

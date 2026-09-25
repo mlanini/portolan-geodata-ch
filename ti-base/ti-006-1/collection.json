@@ -86,7 +86,7 @@
   "assets": {
     "ti_006_1_ticino_ili": {
       "href": "https://data.geo.ti.ch/?p=ti_006_1_v1_0&f=ti_006_1_ticino.zip",
-      "type": "application/zip",
+      "type": "application/interlis+xml",
       "title": "ti_006_1_ticino INTERLIS",
       "roles": [
         "data"

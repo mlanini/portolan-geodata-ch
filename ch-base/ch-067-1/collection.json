@@ -86,7 +86,7 @@
   "assets": {
     "ch_067_1_rete_2045_ili": {
       "href": "https://data.geo.ti.ch/?p=ch_067_1_v1_0&f=ch_067_1_rete_2045.zip",
-      "type": "application/zip",
+      "type": "application/interlis+xml",
       "title": "ch_067_1_rete_2045 INTERLIS",
       "roles": [
         "data"
@@ -94,7 +94,7 @@
     },
     "ch_067_1_rete_attuale_ili": {
       "href": "https://data.geo.ti.ch/?p=ch_067_1_v1_0&f=ch_067_1_rete_attuale.zip",
-      "type": "application/zip",
+      "type": "application/interlis+xml",
       "title": "ch_067_1_rete_attuale INTERLIS",
       "roles": [
         "data"
@@ -102,7 +102,7 @@
     },
     "ch_067_1_ticino_ili": {
       "href": "https://data.geo.ti.ch/?p=ch_067_1_v1_0&f=ch_067_1_ticino.zip",
-      "type": "application/zip",
+      "type": "application/interlis+xml",
       "title": "ch_067_1_ticino INTERLIS",
       "roles": [
         "data"

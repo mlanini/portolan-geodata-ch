@@ -93,7 +93,7 @@
       ]
     },
     "ti_009_1_ticino_parquet": {
-      "href": "../../cloud-optimized/parquet/ti_009_1/circondari_settori_forestali_v1_0.circondari_settori_forestali.circondario.parquet",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ti_009_1/circondari_settori_forestali_v1_0.circondari_settori_forestali.circondario.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "ti_009_1_ticino GeoParquet",
       "roles": [

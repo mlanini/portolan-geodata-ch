@@ -93,7 +93,7 @@
       ]
     },
     "ch_063_1_ticino_parquet": {
-      "href": "../../cloud-optimized/parquet/ch_063_1/Aree_di_numerazione__Area_di_numerazione.parquet",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_063_1/Aree_di_numerazione__Area_di_numerazione.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "ch_063_1_ticino GeoParquet",
       "roles": [

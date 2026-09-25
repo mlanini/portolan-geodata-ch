@@ -93,7 +93,7 @@
       ]
     },
     "ch_181_1_ticino_parquet": {
-      "href": "../../cloud-optimized/parquet/ch_181_1/OfficialIndexOfLocalities_V1_Interlis_2_3.OfficialIndexOfLocalities.Locality.parquet",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_181_1/OfficialIndexOfLocalities_V1_Interlis_2_3.OfficialIndexOfLocalities.Locality.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "ch_181_1_ticino GeoParquet",
       "roles": [

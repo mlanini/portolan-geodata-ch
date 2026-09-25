@@ -45,6 +45,22 @@ def external_readme_url() -> str:
     return "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/README.md"
 
 
+def raw_github_url(path: str) -> str:
+    try:
+        remote = subprocess.check_output(
+            ["git", "config", "--get", "remote.origin.url"],
+            cwd=repo_root(),
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
+    except Exception:
+        remote = ""
+
+    match = re.search(r"github\.com[:/](?P<slug>[^/]+/[^/.]+?)(?:\.git)?$", remote)
+    slug = match.group("slug") if match else "mlanini/portolan-geodata-ch"
+    return f"https://raw.githubusercontent.com/{slug}/main/{path.lstrip('/')}"
+
+
 def repo_root() -> Path:
     return Path(__file__).resolve().parent.parent
 
@@ -225,7 +241,8 @@ def build_geoparquet_asset(item: dict[str, str], assets: dict[str, dict[str, obj
         return None
 
     collection_dir = Path(item["collectionPath"]).parent
-    href = os.path.relpath(parquet_files[0], start=collection_dir).replace(os.sep, "/")
+    relative_path = os.path.relpath(parquet_files[0], start=repo_root()).replace(os.sep, "/")
+    href = raw_github_url(relative_path)
     dataset_stem = primary_dataset_stem(assets)
 
     return {

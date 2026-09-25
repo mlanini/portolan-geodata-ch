@@ -93,7 +93,7 @@
       ]
     },
     "ch_068_1_ticino_parquet": {
-      "href": "../../cloud-optimized/parquet/ch_068_1/SurfacesDAssolement_MN95_V1.GeodonneesDeBase.Qualite_cantonal.parquet",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_068_1/SurfacesDAssolement_MN95_V1.GeodonneesDeBase.Qualite_cantonal.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "ch_068_1_ticino GeoParquet",
       "roles": [

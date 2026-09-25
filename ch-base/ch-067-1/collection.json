@@ -109,7 +109,7 @@
       ]
     },
     "ch_067_1_ticino_parquet": {
-      "href": "../../cloud-optimized/parquet/ch_067_1/hpm_network_V1.hpm_base.base_geometry.parquet",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_067_1/hpm_network_V1.hpm_base.base_geometry.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "ch_067_1_ticino GeoParquet",
       "roles": [

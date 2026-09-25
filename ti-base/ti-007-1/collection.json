@@ -93,7 +93,7 @@
       ]
     },
     "ti_007_1_ticino_parquet": {
-      "href": "../../cloud-optimized/parquet/ti_007_1/bosco_protezione_v1_0.bosco_protezione.bosco_silvaprotect.parquet",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ti_007_1/bosco_protezione_v1_0.bosco_protezione.bosco_silvaprotect.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "ti_007_1_ticino GeoParquet",
       "roles": [

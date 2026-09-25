@@ -93,7 +93,7 @@
       ]
     },
     "ti_006_1_ticino_parquet": {
-      "href": "../../cloud-optimized/parquet/ti_006_1/boschi_particolare_pregio_v1_0.boschi_particolare_pregio.formazioni_minoritarie.parquet",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ti_006_1/boschi_particolare_pregio_v1_0.boschi_particolare_pregio.formazioni_minoritarie.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "ti_006_1_ticino GeoParquet",
       "roles": [

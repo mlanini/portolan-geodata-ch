@@ -5,6 +5,16 @@
   "title": "AC-009.1 - Piano direttore cantonale",
   "description": "Geodato AC pubblicato sul portale data.geo.ti.ch: piano direttore cantonale.",
   "license": "other",
+  "providers": [
+    {
+      "name": "Repubblica e Cantone Ticino, Ufficio della geomatica",
+      "url": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home",
+      "roles": [
+        "producer",
+        "licensor"
+      ]
+    }
+  ],
   "extent": {
     "spatial": {
       "bbox": [
@@ -51,6 +61,24 @@
       "rel": "describedby",
       "href": "./README.md",
       "type": "text/markdown"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home",
+      "type": "text/html",
+      "title": "Geoportale Ticino"
+    },
+    {
+      "rel": "related",
+      "href": "https://map.geo.ti.ch/",
+      "type": "text/html",
+      "title": "Geoportale Ticino - Mappa"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/geoportale/condizioni-utilizzo",
+      "type": "text/html",
+      "title": "Condizioni di utilizzo"
     },
     {
       "rel": "via",

@@ -70,3 +70,11 @@ Una volta completato il deploy, il root STAC e disponibile a:
 Esempio sottocatalogo:
 
 - `https://<owner>.github.io/<repo>/ch-base/catalog.json`
+
+## Fonti metadati
+
+Per questo catalogo i metadati dei singoli dataset sono stati incrociati da:
+
+- `data.geo.ti.ch` per schede, file di download e riferimenti ai dataset;
+- `map.geo.ti.ch` per la conferma del contesto cartografico e delle geocategorie;
+- `Geoportale Ticino` e le sue condizioni di utilizzo per contesto istituzionale e riferimenti di responsabilità.

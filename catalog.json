@@ -7,7 +7,7 @@
   "id": "geodata-ch-ti-subset",
   "title": "Portolan Geodata CH/TI - subset data.geo.ti.ch",
   "description": "Catalogo STAC ridotto con 9 dataset del portale cantonale data.geo.ti.ch (categorie CH, TI, AC, CH raster).",
-  "updated": "2026-09-24T00:00:00Z",
+  "updated": "2026-09-25T00:00:00Z",
   "links": [
     {
       "rel": "root",
@@ -54,6 +54,30 @@
       "href": "./README.md",
       "type": "text/markdown",
       "title": "Human-readable documentation"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home",
+      "type": "text/html",
+      "title": "Geoportale Ticino"
+    },
+    {
+      "rel": "related",
+      "href": "https://map.geo.ti.ch/",
+      "type": "text/html",
+      "title": "Geoportale Ticino - Mappa"
+    },
+    {
+      "rel": "related",
+      "href": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/geoportale/condizioni-utilizzo",
+      "type": "text/html",
+      "title": "Condizioni di utilizzo"
+    },
+    {
+      "rel": "related",
+      "href": "https://data.geo.ti.ch/",
+      "type": "text/html",
+      "title": "Portale per il download dei geodati"
     }
   ]
 }

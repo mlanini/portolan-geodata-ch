@@ -1,7 +1,9 @@
 # CH-041.6 Raster - swissALTIregio
 
-Dataset raster CH incluso nel catalogo, disponibile in Cloud Optimized GeoTIFF (COG).
+Collezione raster CH documentata manualmente nel catalogo STAC completo del repository, disponibile in Cloud Optimized GeoTIFF (COG).
 
 - Codice: CH-041.6
 - Prodotto: swissALTIregio
 - Fonte: https://data.geo.ti.ch/
+
+La collezione STAC include il riferimento alla scheda ufficiale e all'asset COG pubblicato dal portale cantonale.

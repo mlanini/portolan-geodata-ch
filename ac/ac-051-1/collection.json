@@ -2,8 +2,8 @@
   "type": "Collection",
   "stac_version": "1.1.0",
   "id": "ac/ac-051-1",
-  "title": "AC-051.1 - Piani di mobilitÃ  scolastica",
-  "description": "Geodato pubblicato su data.geo.ti.ch: Piani di mobilitÃ  scolastica.",
+  "title": "AC-051.1 - Piani di mobilità scolastica",
+  "description": "Geodato pubblicato su data.geo.ti.ch: Piani di mobilità scolastica.",
   "license": "other",
   "extent": {
     "spatial": {
@@ -27,7 +27,7 @@
   },
   "keywords": [
     "AC-051.1",
-    "Piani di mobilitÃ  scolastica",
+    "Piani di mobilità scolastica",
     "ac"
   ],
   "links": [
@@ -45,6 +45,18 @@
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "../../AGENTS.md",
+      "type": "text/markdown",
+      "title": "Repository guidance"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
     },
     {
       "rel": "related",

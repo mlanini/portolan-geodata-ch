@@ -5,6 +5,7 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -16,6 +17,28 @@ SITE_URL = "https://data.geo.ti.ch/"
 GEOPORTALE_URL = "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home"
 MAP_URL = "https://map.geo.ti.ch/"
 CONDITIONS_URL = "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/geoportale/condizioni-utilizzo"
+
+
+def agents_link(href: str) -> dict[str, str]:
+    return {"rel": "agents", "href": href, "type": "text/markdown", "title": "Repository guidance"}
+
+
+def external_readme_url() -> str:
+    try:
+        remote = subprocess.check_output(
+            ["git", "config", "--get", "remote.origin.url"],
+            cwd=repo_root(),
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
+    except Exception:
+        remote = ""
+
+    match = re.search(r"github\.com[:/](?P<slug>[^/]+/[^/.]+?)(?:\.git)?$", remote)
+    if match:
+        return f'https://raw.githubusercontent.com/{match.group("slug")}/main/README.md'
+
+    return "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/README.md"
 
 
 def repo_root() -> Path:
@@ -138,6 +161,7 @@ def build_category_catalog(category: str, items: list[dict[str, str]], definitio
         {"rel": "root", "href": "../catalog.json", "type": "application/json"},
         {"rel": "parent", "href": "../catalog.json", "type": "application/json"},
         {"rel": "self", "href": "./catalog.json", "type": "application/json"},
+        agents_link("../AGENTS.md"),
     ]
 
     for item in items:
@@ -173,6 +197,7 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
         "links": [
             {"rel": "root", "href": "./catalog.json", "type": "application/json"},
             {"rel": "self", "href": "./catalog.json", "type": "application/json"},
+            agents_link("./AGENTS.md"),
             {"rel": "child", "href": "./ch-base/catalog.json", "type": "application/json", "title": definitions["ch-base"]["title"]},
             {"rel": "child", "href": "./ti-base/catalog.json", "type": "application/json", "title": definitions["ti-base"]["title"]},
             {"rel": "child", "href": "./ac/catalog.json", "type": "application/json", "title": definitions["ac"]["title"]},
@@ -187,6 +212,7 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
 
 
 def build_collection(item: dict[str, str]) -> dict[str, object]:
+    describedby_url = external_readme_url()
     return {
         "type": "Collection",
         "stac_version": "1.1.0",
@@ -203,6 +229,8 @@ def build_collection(item: dict[str, str]) -> dict[str, object]:
             {"rel": "root", "href": "../../catalog.json", "type": "application/json"},
             {"rel": "parent", "href": "../catalog.json", "type": "application/json"},
             {"rel": "self", "href": "./collection.json", "type": "application/json"},
+            agents_link("../../AGENTS.md"),
+            {"rel": "describedby", "href": describedby_url, "type": "text/markdown", "title": "Human-readable documentation"},
             {"rel": "related", "href": GEOPORTALE_URL, "type": "text/html", "title": "Geoportale Ticino"},
             {"rel": "related", "href": MAP_URL, "type": "text/html", "title": "Geoportale Ticino - Mappa"},
             {"rel": "related", "href": CONDITIONS_URL, "type": "text/html", "title": "Condizioni di utilizzo"},
@@ -231,8 +259,6 @@ def main(argv: list[str] | None = None) -> int:
 
     for item in records:
         collection_file = Path(item["collectionPath"]) / "collection.json"
-        if item["code"] in {"CH-063.1", "CH-181.1", "TI-028b.1", "TI-034.1", "AC-009.1", "AC-077.1", "CH-041.6", "CH-041.7", "CH-041.6R"} and collection_file.exists() and not args.force:
-            continue
         if collection_file.exists() and not args.force:
             continue
         write_json(collection_file, build_collection(item))

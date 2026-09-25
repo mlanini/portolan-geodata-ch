@@ -2,36 +2,22 @@
 
 ![Mirror CI](https://github.com/mlanini/portolan-geodata-ch/actions/workflows/mirror-publish.yml/badge.svg)
 
-Questo repository contiene un catalogo STAC completo dei geodati pubblicati tramite data.geo.ti.ch, arricchito con riferimenti istituzionali da Geoportale Ticino e map.geo.ti.ch.
+Questo repository contiene un catalogo STAC completo dei geodati pubblicati tramite data.geo.ti.ch, arricchito con riferimenti istituzionali da Geoportale Ticino e map.geo.ti.ch e strutturato come mirror statico per Portolan.
 
 Scopo attuale:
 
-- mantenere una struttura STAC semplice e leggibile;
+- mantenere una struttura STAC chiara, valida e facilmente rigenerabile;
 - fornire un indice completo dei dataset pubblicati sul portale cantonale;
-- evitare riferimenti a pipeline esterne non necessarie.
+- pubblicare un mirror statico compatibile con il profilo Portolan.
 
-## Catalogo corrente (118 dataset)
+## Catalogo corrente
 
-Categoria CH (competenza cantonale):
+Il catalogo contiene 118 dataset distribuiti in quattro sottocataloghi:
 
-- CH-063.1 - Suddivisioni amministrative - AN
-- CH-181.1 - CAP e localita
-
-Categoria TI (diritto cantonale):
-
-- TI-028b.1 - Piani regolatori
-- TI-034.1 - Carta dei pericoli - Gradi
-
-Categoria AC (amministrazione cantonale):
-
-- AC-009.1 - Piano direttore cantonale
-- AC-077.1 - Repertorio toponomastico ticinese
-
-Categoria CH raster (Cloud Optimized GeoTIFF):
-
-- CH-041.6 Raster - swissALTI3D
-- CH-041.6 Raster - swissALTIregio
-- CH-041.7 Raster - swissSURFACE3D
+- CH base
+- TI base
+- AC
+- CH raster
 
 ## Fonte ufficiale
 
@@ -41,8 +27,9 @@ Categoria CH raster (Cloud Optimized GeoTIFF):
 ## Note operative
 
 - Questa base e volutamente essenziale e orientata alla documentazione/catalogazione.
-	- Il catalogo viene rigenerato da `scripts/generate_catalog.py` a partire dall'indice ufficiale di `data.geo.ti.ch`.
-- I metadati possono essere estesi in seguito con link di download puntuali, versioni e workflow ETL.
+- Il catalogo viene rigenerato da `scripts/generate_catalog.py` a partire dall'indice ufficiale di `data.geo.ti.ch`.
+- I documenti STAC root, category e collection devono includere il link `agents` ad AGENTS.md; per le collezioni il link `describedby` punta a una pagina Markdown esterna stabile.
+- Quando cambia la struttura dei link STAC conviene rigenerare con `--force` per riallineare anche le collezioni curate manualmente.
 
 ## Pubblicazione come mirror Portolan
 

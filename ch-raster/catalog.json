@@ -21,6 +21,12 @@
       "type": "application/json"
     },
     {
+      "rel": "agents",
+      "href": "../AGENTS.md",
+      "type": "text/markdown",
+      "title": "Repository guidance"
+    },
+    {
       "rel": "child",
       "href": "./ch-041-6r-swissalti3d/collection.json",
       "type": "application/json",

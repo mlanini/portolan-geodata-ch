@@ -1,14 +1,16 @@
 # AGENTS.md
 
-Repository rifocalizzato su un subset iniziale di geodati da data.geo.ti.ch.
+Repository dedicato a un catalogo STAC completo dei geodati pubblicati da data.geo.ti.ch.
 
 ## Obiettivo
 
-- mantenere una base STAC minima, chiara e facilmente estendibile;
-- lavorare su 9 dataset reali del portale cantonale;
-- escludere il perimetro federale precedente in questa fase.
+- mantenere un catalogo STAC completo, chiaro e facilmente rigenerabile;
+- usare come fonte primaria il portale cantonale e i riferimenti istituzionali collegati;
+- preservare la nomenclatura esplicita con codice dataset nel path.
 
-## Collezioni presenti
+## Collezioni documentate
+
+Il catalogo contiene 118 dataset. Le collezioni sotto elencate hanno anche un README locale dedicato:
 
 - ch-base/ch-063-1-suddivisioni-amministrative
 - ch-base/ch-181-1-cap-localita
@@ -24,4 +26,6 @@ Repository rifocalizzato su un subset iniziale di geodati da data.geo.ti.ch.
 
 - usare come fonte primaria il portale https://data.geo.ti.ch/;
 - non reintrodurre riferimenti alla pipeline federale precedente;
-- mantenere nomenclatura esplicita con codice dataset nel path.
+- mantenere nomenclatura esplicita con codice dataset nel path;
+- mantenere nei documenti STAC i link `describedby` verso il README pertinente e `agents` verso AGENTS.md;
+- preferire aggiornamenti nel generatore quando una modifica deve propagarsi a piu collezioni.

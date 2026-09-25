@@ -2,8 +2,8 @@
   "type": "Collection",
   "stac_version": "1.1.0",
   "id": "ac/ac-065b-1",
-  "title": "AC-065b.1 - DisponibilitÃ  piani regolatori",
-  "description": "Geodato pubblicato su data.geo.ti.ch: DisponibilitÃ  piani regolatori.",
+  "title": "AC-065b.1 - Disponibilità piani regolatori",
+  "description": "Geodato pubblicato su data.geo.ti.ch: Disponibilità piani regolatori.",
   "license": "other",
   "extent": {
     "spatial": {
@@ -27,7 +27,7 @@
   },
   "keywords": [
     "AC-065b.1",
-    "DisponibilitÃ  piani regolatori",
+    "Disponibilità piani regolatori",
     "ac"
   ],
   "links": [
@@ -45,6 +45,18 @@
       "rel": "self",
       "href": "./collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "../../AGENTS.md",
+      "type": "text/markdown",
+      "title": "Repository guidance"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
     },
     {
       "rel": "related",

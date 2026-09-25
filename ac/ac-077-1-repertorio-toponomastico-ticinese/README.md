@@ -1,9 +1,9 @@
 # AC-077.1 - Repertorio toponomastico ticinese
 
-Dataset incluso nel subset iniziale del progetto.
+Collezione documentata manualmente all'interno del catalogo STAC completo del repository.
 
 - Codice: AC-077.1
 - Categoria: Geodati dell'Amministrazione cantonale (AC)
 - Fonte: https://data.geo.ti.ch/
 
-Questa collezione contiene metadati STAC minimi; i link di download puntuali saranno aggiunti in una fase successiva.
+La collezione STAC punta alla scheda ufficiale su data.geo.ti.ch e rimane disponibile come riferimento documentale anche nel mirror Portolan.

@@ -66,9 +66,16 @@
       "type": "application/json"
     },
     {
+      "rel": "agents",
+      "href": "../../AGENTS.md",
+      "type": "text/markdown",
+      "title": "Repository guidance"
+    },
+    {
       "rel": "describedby",
-      "href": "./README.md",
-      "type": "text/markdown"
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
     },
     {
       "rel": "related",

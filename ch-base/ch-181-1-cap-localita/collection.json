@@ -2,19 +2,9 @@
   "type": "Collection",
   "stac_version": "1.1.0",
   "id": "ch-base/ch-181-1-cap-localita",
-  "title": "CH-181.1 - CAP e localita",
-  "description": "Geodato di base CH pubblicato sul portale data.geo.ti.ch: CAP e localita di competenza cantonale.",
+  "title": "CH-181.1 - CAP e località",
+  "description": "Geodato pubblicato su data.geo.ti.ch: CAP e località.",
   "license": "other",
-  "providers": [
-    {
-      "name": "Repubblica e Cantone Ticino, Ufficio della geomatica",
-      "url": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home",
-      "roles": [
-        "producer",
-        "licensor"
-      ]
-    }
-  ],
   "extent": {
     "spatial": {
       "bbox": [
@@ -37,9 +27,8 @@
   },
   "keywords": [
     "CH-181.1",
-    "CAP",
-    "localita",
-    "Ticino"
+    "CAP e località",
+    "ch-base"
   ],
   "links": [
     {
@@ -58,9 +47,16 @@
       "type": "application/json"
     },
     {
+      "rel": "agents",
+      "href": "../../AGENTS.md",
+      "type": "text/markdown",
+      "title": "Repository guidance"
+    },
+    {
       "rel": "describedby",
-      "href": "./README.md",
-      "type": "text/markdown"
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
     },
     {
       "rel": "related",
@@ -85,22 +81,6 @@
       "href": "https://data.geo.ti.ch/?p=ch_181_1_v1_0",
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
-    },
-    {
-      "rel": "enclosure",
-      "href": "https://data.geo.ti.ch/?p=ch_181_1_v1_0&f=ch_181_1_ticino.zip",
-      "type": "application/zip",
-      "title": "Download ch_181_1_ticino.zip"
     }
-  ],
-  "assets": {
-    "zip_interlis": {
-      "href": "https://data.geo.ti.ch/?p=ch_181_1_v1_0&f=ch_181_1_ticino.zip",
-      "type": "application/zip",
-      "title": "Download ch_181_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    }
-  }
+  ]
 }

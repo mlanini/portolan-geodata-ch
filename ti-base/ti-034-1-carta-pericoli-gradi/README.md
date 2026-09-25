@@ -1,9 +1,9 @@
 # TI-034.1 - Carta dei pericoli - Gradi
 
-Dataset incluso nel subset iniziale del progetto.
+Collezione documentata manualmente all'interno del catalogo STAC completo del repository.
 
 - Codice: TI-034.1
 - Categoria: Geodati di base di diritto cantonale, competenza cantonale (TI)
 - Fonte: https://data.geo.ti.ch/
 
-Questa collezione contiene metadati STAC minimi; i link di download puntuali saranno aggiunti in una fase successiva.
+La collezione STAC punta alla scheda ufficiale su data.geo.ti.ch e rimane disponibile come riferimento documentale anche nel mirror Portolan.

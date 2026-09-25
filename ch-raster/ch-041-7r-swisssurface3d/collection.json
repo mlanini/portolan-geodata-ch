@@ -2,26 +2,9 @@
   "type": "Collection",
   "stac_version": "1.1.0",
   "id": "ch-raster/ch-041-7r-swisssurface3d",
-  "title": "CH-041.7 Raster - swissSURFACE3D",
-  "description": "Geodato raster CH disponibile in Cloud Optimized GeoTIFF (COG): swissSURFACE3D.",
+  "title": "CH-041.7 - swissSURFACE3D",
+  "description": "Geodato pubblicato su data.geo.ti.ch: swissSURFACE3D.",
   "license": "other",
-  "providers": [
-    {
-      "name": "Repubblica e Cantone Ticino, Ufficio della geomatica",
-      "url": "https://www4.ti.ch/dt/sg/sai/ugeo/temi/geoportale-ticino/home",
-      "roles": [
-        "producer",
-        "licensor"
-      ]
-    },
-    {
-      "name": "Ufficio federale di topografia (swisstopo)",
-      "url": "https://www.swisstopo.admin.ch/",
-      "roles": [
-        "producer"
-      ]
-    }
-  ],
   "extent": {
     "spatial": {
       "bbox": [
@@ -44,10 +27,8 @@
   },
   "keywords": [
     "CH-041.7",
-    "raster",
-    "COG",
     "swissSURFACE3D",
-    "Ticino"
+    "ch-raster"
   ],
   "links": [
     {
@@ -66,9 +47,16 @@
       "type": "application/json"
     },
     {
+      "rel": "agents",
+      "href": "../../AGENTS.md",
+      "type": "text/markdown",
+      "title": "Repository guidance"
+    },
+    {
       "rel": "describedby",
-      "href": "./README.md",
-      "type": "text/markdown"
+      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
     },
     {
       "rel": "related",
@@ -93,22 +81,6 @@
       "href": "https://data.geo.ti.ch/?p=ch_041_7_v1_1",
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
-    },
-    {
-      "rel": "enclosure",
-      "href": "https://data.geo.ti.ch/cog/ch_041_7_v1_1/ti_swisssurface3d_0.5m.tif",
-      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "COG swissSURFACE3D 0.5 m"
     }
-  ],
-  "assets": {
-    "cog_05m": {
-      "href": "https://data.geo.ti.ch/cog/ch_041_7_v1_1/ti_swisssurface3d_0.5m.tif",
-      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "COG swissSURFACE3D 0.5 m",
-      "roles": [
-        "data"
-      ]
-    }
-  }
+  ]
 }

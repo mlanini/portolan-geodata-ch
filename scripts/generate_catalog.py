@@ -228,6 +228,19 @@ def collection_description(item: dict[str, str], wms_layers: dict[str, dict[str,
 
 
 def primary_dataset_stem(assets: dict[str, dict[str, object]]) -> str:
+    # First, try to find INTERLIS asset and extract stem from its title
+    for value in assets.values():
+        asset_type = value.get("type", "")
+        title = value.get("title", "")
+        
+        if isinstance(asset_type, str) and asset_type == "application/interlis+xml" and isinstance(title, str):
+            # Title format is typically "name_prefix INTERLIS"
+            # Extract the part before the space
+            parts = title.split()
+            if len(parts) > 0:
+                return parts[0]
+    
+    # Fallback to legacy method for backward compatibility
     for value in assets.values():
         title = value.get("title")
         if isinstance(title, str) and title.lower().endswith("_ticino.zip"):

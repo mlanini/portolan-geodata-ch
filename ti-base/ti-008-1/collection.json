@@ -40,10 +40,10 @@
         "data"
       ]
     },
-    "data_parquet": {
-      "href": "https://portolan-cors-proxy.railway.app/?file=https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ti_008_1/ti_008_1_v1_0_strade_piste_forestali_barriera.parquet",
+    "ti_008_1_ticino_parquet": {
+      "href": "../../cloud-optimized/parquet/ti_008_1/ti_008_1_v1_0_strade_piste_forestali_barriera.parquet",
       "type": "application/vnd.apache.parquet",
-      "title": "data GeoParquet",
+      "title": "ti_008_1_ticino GeoParquet",
       "roles": [
         "data"
       ]

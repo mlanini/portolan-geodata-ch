@@ -251,13 +251,10 @@ def build_geoparquet_asset(item: dict[str, str], assets: dict[str, dict[str, obj
     if not parquet_files:
         return None
 
-    # Use CORS proxy for parquet file access with Range request support
-    # Deployed on Railway: https://portolan-cors-proxy.railway.app
-    # This proxy forwards Range requests needed by DuckDB/geoparquet.info
+    # Path relativo dal collection.json ({category}/{dataset_id}/collection.json)
+    # a file parquet (cloud-optimized/parquet/{geoparquet_slug}/file.parquet)
     parquet_filename = parquet_files[0].name
-    cdn_url = f"https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/{geoparquet_slug}/{parquet_filename}"
-    # TODO: Replace with actual Railway URL after deployment
-    href = f"https://portolan-cors-proxy.railway.app/?file={cdn_url}"
+    href = f"../../cloud-optimized/parquet/{geoparquet_slug}/{parquet_filename}"
     dataset_stem = primary_dataset_stem(assets)
 
     return {
@@ -490,8 +487,8 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
         "stac_version": "1.1.0",
         "stac_extensions": ["https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"],
         "id": "geodata-ch-ti-complete",
-        "title": "Portolan geo.ti.ch - catalogo geodati",
-        "description": "Catalogo geodati del Geoportale del Cantone Ticino *.geo.ti.ch, ricavato dall'indice ufficiale e arricchito con riferimenti del Geoportale Ticino e di map.geo.ti.ch.",
+        "title": "Portolan Geodata CH/TI - catalogo completo data.geo.ti.ch",
+        "description": "Catalogo STAC completo dei geodati del portale data.geo.ti.ch, ricavato dall'indice ufficiale e arricchito con riferimenti del Geoportale Ticino e di map.geo.ti.ch.",
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "links": [
             {"rel": "root", "href": "./catalog.json", "type": "application/json"},

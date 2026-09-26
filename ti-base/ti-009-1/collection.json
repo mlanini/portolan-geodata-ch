@@ -41,7 +41,7 @@
       ]
     },
     "data_parquet": {
-      "href": "https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ti_009_1/ti_009_1_v1_0_circondari_settori_forestali_circondari.parquet",
+      "href": "https://portolan-cors-proxy.railway.app/?file=https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ti_009_1/ti_009_1_v1_0_circondari_settori_forestali_circondari.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "data GeoParquet",
       "roles": [

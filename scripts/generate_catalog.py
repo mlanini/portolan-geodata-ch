@@ -251,10 +251,13 @@ def build_geoparquet_asset(item: dict[str, str], assets: dict[str, dict[str, obj
     if not parquet_files:
         return None
 
-    # Use jsDelivr CDN for CORS-enabled access to parquet files
-    # jsDelivr provides CORS headers needed for browser-based access (e.g., geoparquet.info, Portolan)
+    # Use CORS proxy for parquet file access with Range request support
+    # Deployed on Railway: https://portolan-cors-proxy.railway.app
+    # This proxy forwards Range requests needed by DuckDB/geoparquet.info
     parquet_filename = parquet_files[0].name
-    href = f"https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/{geoparquet_slug}/{parquet_filename}"
+    cdn_url = f"https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/{geoparquet_slug}/{parquet_filename}"
+    # TODO: Replace with actual Railway URL after deployment
+    href = f"https://portolan-cors-proxy.railway.app/?file={cdn_url}"
     dataset_stem = primary_dataset_stem(assets)
 
     return {

@@ -41,7 +41,7 @@
       ]
     },
     "data_parquet": {
-      "href": "https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ch_068_1/ch_068_1_v1_0_superfici_avvicendamento_colture.parquet",
+      "href": "https://portolan-cors-proxy.railway.app/?file=https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ch_068_1/ch_068_1_v1_0_superfici_avvicendamento_colture.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "data GeoParquet",
       "roles": [

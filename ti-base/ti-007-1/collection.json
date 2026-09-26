@@ -41,7 +41,7 @@
       ]
     },
     "data_parquet": {
-      "href": "../../cloud-optimized/parquet/ti_007_1/ti_007_1_v1_0_bosco_protezione_comprensori_silvaprotect.parquet",
+      "href": "https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ti_007_1/ti_007_1_v1_0_bosco_protezione_comprensori_silvaprotect.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "data GeoParquet",
       "roles": [

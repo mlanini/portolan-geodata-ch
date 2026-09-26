@@ -41,7 +41,7 @@
       ]
     },
     "data_parquet": {
-      "href": "../../cloud-optimized/parquet/ti_006_1/ti_006_1_v1_0_boschi_particolare_pregio_formazioni_minoritarie.parquet",
+      "href": "https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ti_006_1/ti_006_1_v1_0_boschi_particolare_pregio_formazioni_minoritarie.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "data GeoParquet",
       "roles": [

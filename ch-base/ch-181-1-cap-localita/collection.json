@@ -41,7 +41,7 @@
       ]
     },
     "data_parquet": {
-      "href": "../../cloud-optimized/parquet/ch_181_1/ch_181_1_v1_0_cap_localita.parquet",
+      "href": "https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ch_181_1/ch_181_1_v1_0_cap_localita.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "data GeoParquet",
       "roles": [

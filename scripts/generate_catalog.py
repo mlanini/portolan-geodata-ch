@@ -251,10 +251,10 @@ def build_geoparquet_asset(item: dict[str, str], assets: dict[str, dict[str, obj
     if not parquet_files:
         return None
 
-    # Path relativo dal collection.json ({category}/{dataset_id}/collection.json)
-    # a file parquet (cloud-optimized/parquet/{geoparquet_slug}/file.parquet)
+    # Use jsDelivr CDN for CORS-enabled access to parquet files
+    # jsDelivr provides CORS headers needed for browser-based access (e.g., geoparquet.info, Portolan)
     parquet_filename = parquet_files[0].name
-    href = f"../../cloud-optimized/parquet/{geoparquet_slug}/{parquet_filename}"
+    href = f"https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/{geoparquet_slug}/{parquet_filename}"
     dataset_stem = primary_dataset_stem(assets)
 
     return {

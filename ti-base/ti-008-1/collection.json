@@ -41,7 +41,7 @@
       ]
     },
     "data_parquet": {
-      "href": "../../cloud-optimized/parquet/ti_008_1/ti_008_1_v1_0_strade_piste_forestali_barriera.parquet",
+      "href": "https://cdn.jsdelivr.net/gh/mlanini/portolan-geodata-ch@main/cloud-optimized/parquet/ti_008_1/ti_008_1_v1_0_strade_piste_forestali_barriera.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "data GeoParquet",
       "roles": [

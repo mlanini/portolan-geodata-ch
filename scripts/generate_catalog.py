@@ -487,8 +487,8 @@ def build_root_catalog(definitions: dict[str, dict[str, str]]) -> dict[str, obje
         "stac_version": "1.1.0",
         "stac_extensions": ["https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"],
         "id": "geodata-ch-ti-complete",
-        "title": "Portolan Geodata CH/TI - catalogo completo data.geo.ti.ch",
-        "description": "Catalogo STAC completo dei geodati del portale data.geo.ti.ch, ricavato dall'indice ufficiale e arricchito con riferimenti del Geoportale Ticino e di map.geo.ti.ch.",
+        "title": "Portolan geo.ti.ch - catalogo geodati",
+        "description": "Catalogo geodati del Geoportale del Cantone Ticino *.geo.ti.ch, ricavato dall'indice ufficiale e arricchito con riferimenti del Geoportale Ticino e di map.geo.ti.ch.",
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "links": [
             {"rel": "root", "href": "./catalog.json", "type": "application/json"},

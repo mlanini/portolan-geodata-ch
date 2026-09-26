@@ -5,7 +5,7 @@
     <MDI key="TITLE">Geoservizi WFS dei dati di competenza dell'Amministrazione Cantonale </MDI>
   </Metadata>
   <Metadata domain="xml:capabilities" format="xml">
-    <WFS_Capabilities xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.opengis.net/wfs" updateSequence="0" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ows="http://www.opengis.net/ows" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0">
+    <WFS_Capabilities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ows="http://www.opengis.net/ows" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" updateSequence="0" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" xmlns="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml">
       <ows:ServiceIdentification>
         <ows:Title>Geoservizi WFS dei dati di competenza dell'Amministrazione Cantonale </ows:Title>
         <ows:Abstract>Geoservizi WFS che espongono geodati relativi al territorio della Repubblica e Canton Ticino, di competenza dell'Amministrazion Cantonale.</ows:Abstract>
@@ -1202,8 +1202,8 @@
             <Operation>Query</Operation>
           </Operations>
           <ows:WGS84BoundingBox dimensions="2">
-            <ows:LowerCorner>8.431913 45.829459</ows:LowerCorner>
-            <ows:UpperCorner>9.151888 46.585735</ows:UpperCorner>
+            <ows:LowerCorner>8.431913 45.829529</ows:LowerCorner>
+            <ows:UpperCorner>9.147214 46.585735</ows:UpperCorner>
           </ows:WGS84BoundingBox>
         </FeatureType>
         <FeatureType>

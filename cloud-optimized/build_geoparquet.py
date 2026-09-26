@@ -109,7 +109,7 @@ def run_wfs_layer_to_parquet(layer_name: str, target: Path) -> tuple[bool, str]:
         "-nln",
         layer_name,
         "-lco",
-        "COMPRESSION=UNCOMPRESSED",
+        "COMPRESSION=SNAPPY",
         "-lco",
         "GEOMETRY_ENCODING=WKB",
         "--config",

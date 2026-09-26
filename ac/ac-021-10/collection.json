@@ -4,6 +4,7 @@
   "id": "ac/ac-021-10",
   "title": "AC-021.10 - Spazio riservato ai grandi corsi d'acqua",
   "description": "La legislazione federale sulla protezione delle acque prevede la definizione dello spazio riservato alle acque (regolato dagli articoli 36a della LPAc e 41a dell’OPAc) per la tutela della sicurezza idraulica, delle funzioni ecologiche legate alle acque e della biodiversità. Questo spazio può differire dalle linee di arretramento definite nei PR comunali. I Comuni devono adattare la loro pianificazione per includerlo secondo le più recenti disposizioni legali. Fintanto che le rispettive varianti di PR non saranno approvate valgono delle precise disposizioni transitorie.",
+  "dataset_update_date": "2022-11-15",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Spazio riservato ai grandi corsi d'acqua",
     "ac"
   ],
+  "assets": {
+    "ac_021_10_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_021_10_v1_0&f=ac_021_10_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_021_10_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_021_10_v1_0_spazio_riservato_grandi_corsi_acqua&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Spazio riservato ai grandi corsi d'acqua",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_021_10_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_021_10_v1_0&f=ac_021_10_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_021_10_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_021_10_v1_0_spazio_riservato_grandi_corsi_acqua&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Spazio riservato ai grandi corsi d'acqua",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2022-11-15"
+  ]
 }

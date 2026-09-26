@@ -4,6 +4,7 @@
   "id": "ac/ac-062-1",
   "title": "AC-062.1 - Monitoraggio radar satellitare",
   "description": "Il metodo InSAR-PS (Interferometric synthetic aperture radar - Persistent Scatterer) permette la misurazione di spostamenti di terreno con precisione millimetrica mediante la comparazione di immagini radar satellitari realizzate a intervalli regolari. Tutte le misure degli spostamenti sono elaborate sull’asse di volo del satellite con un angolo d’incidenza variabile e sono quindi disallineate dal consueto nord geografico. L’unità di misura per lo spostamento è definita nel millimetro/anno con dei valori negativi (più frequenti) e positivi su un determinato punto (precisione planimetrica da 3 a 25 m). L’interpretazione dei dati necessita di cautela; in particolare bisogna tenere in considerazione il fatto che i punti visibili sulla carta corrispondono a entità sul terreno che riflettono idealmente le onde radar a ogni passaggio del satellite (tetti di edifici, grandi massi, piloni delle teleferiche, ecc.). Nei casi di vegetazione troppo densa (bosco) e spostamenti troppo rapidi del terreno (frane, ghiacciai e/o di pareti troppo ripide) il segnale radar è troppo impreciso per eseguire misure a lungo termine. Gli spostamenti reali al suolo possono inoltre essere considerevolmente sottostimati con una configurazione satellite/terreno con angolo di misura perpendicolare allo spostamento del terreno. Nel caso di un’analisi di un determinato settore è utile consultare i punti misura dei diversi satelliti disponibili e le loro orbite differenti (ascendenti o discendenti).",
+  "dataset_update_date": "2023-02-10",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,184 @@
     "Monitoraggio radar satellitare",
     "ac"
   ],
+  "assets": {
+    "ac_062_1_cosmo_skymed_lugano_chiasso_discendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_cosmo_skymed_lugano_chiasso_discendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_cosmo_skymed_lugano_chiasso_discendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_sentinel1_discendente_066_s1_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_sentinel1_discendente_066_s1.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_sentinel1_discendente_066_s1 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_valcolla_ascendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_valcolla_ascendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_valcolla_ascendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_simano_discendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_simano_discendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_simano_discendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_osco_discendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_osco_discendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_osco_discendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_loderio_ascendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_loderio_ascendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_loderio_ascendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_faido_ascendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_faido_ascendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_faido_ascendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_blenio_discendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_blenio_discendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_blenio_discendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_blenio_ascendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_blenio_ascendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_blenio_ascendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_arbedo_ascendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_arbedo_ascendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_arbedo_ascendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_sentinel1_ascendente_015_s1_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_sentinel1_ascendente_015_s1.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_sentinel1_ascendente_015_s1 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_env_ascendente_ti13_gst4_events_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_env_ascendente_ti13_gst4_events.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_env_ascendente_ti13_gst4_events INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_radarsat_discendente_t016d_11_21_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_radarsat_discendente_t016d_11_21.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_radarsat_discendente_t016d_11_21 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_radarsat_ascendente_t309a_16_21_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_radarsat_ascendente_t309a_16_21.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_radarsat_ascendente_t309a_16_21 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_radarsat_ascendente_t309a_11_21_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_radarsat_ascendente_t309a_11_21.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_radarsat_ascendente_t309a_11_21 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_palsar2_loderio_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_palsar2_loderio.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_palsar2_loderio INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_palsar2_cerentino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_palsar2_cerentino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_palsar2_cerentino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_ers_discendente_ti_gst4_events_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_ers_discendente_ti_gst4_events.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_ers_discendente_ti_gst4_events INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_ers_ascendente_ti_gst4_events_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_ers_ascendente_ti_gst4_events.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_ers_ascendente_ti_gst4_events INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_env_discendente_ti13_gst4_events_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_env_discendente_ti13_gst4_events.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_env_discendente_ti13_gst4_events INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_062_1_terrasar_verzasca_ascendente_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_verzasca_ascendente.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_062_1_terrasar_verzasca_ascendente INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_062_1_v1_0_insar&styles=&crs=EPSG%3A2056&bbox=2637925.136896114%2C1047154.0292811291%2C2768724.66192315%2C1191440.6689747206&width=348&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Monitoraggio radar satellitare",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,184 +261,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_062_1_cosmo_skymed_lugano_chiasso_discendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_cosmo_skymed_lugano_chiasso_discendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_cosmo_skymed_lugano_chiasso_discendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_sentinel1_discendente_066_s1": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_sentinel1_discendente_066_s1.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_sentinel1_discendente_066_s1.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_valcolla_ascendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_valcolla_ascendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_valcolla_ascendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_simano_discendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_simano_discendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_simano_discendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_osco_discendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_osco_discendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_osco_discendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_loderio_ascendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_loderio_ascendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_loderio_ascendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_faido_ascendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_faido_ascendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_faido_ascendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_blenio_discendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_blenio_discendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_blenio_discendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_blenio_ascendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_blenio_ascendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_blenio_ascendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_arbedo_ascendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_arbedo_ascendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_arbedo_ascendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_sentinel1_ascendente_015_s1": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_sentinel1_ascendente_015_s1.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_sentinel1_ascendente_015_s1.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_env_ascendente_ti13_gst4_events": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_env_ascendente_ti13_gst4_events.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_env_ascendente_ti13_gst4_events.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_radarsat_discendente_t016d_11_21": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_radarsat_discendente_t016d_11_21.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_radarsat_discendente_t016d_11_21.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_radarsat_ascendente_t309a_16_21": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_radarsat_ascendente_t309a_16_21.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_radarsat_ascendente_t309a_16_21.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_radarsat_ascendente_t309a_11_21": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_radarsat_ascendente_t309a_11_21.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_radarsat_ascendente_t309a_11_21.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_palsar2_loderio": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_palsar2_loderio.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_palsar2_loderio.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_palsar2_cerentino": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_palsar2_cerentino.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_palsar2_cerentino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_ers_discendente_ti_gst4_events": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_ers_discendente_ti_gst4_events.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_ers_discendente_ti_gst4_events.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_ers_ascendente_ti_gst4_events": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_ers_ascendente_ti_gst4_events.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_ers_ascendente_ti_gst4_events.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_env_discendente_ti13_gst4_events": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_env_discendente_ti13_gst4_events.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_env_discendente_ti13_gst4_events.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_062_1_terrasar_verzasca_ascendente": {
-      "href": "https://data.geo.ti.ch/?p=ac_062_1_v1_0&f=ac_062_1_terrasar_verzasca_ascendente.zip",
-      "type": "application/zip",
-      "title": "ac_062_1_terrasar_verzasca_ascendente.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_062_1_v1_0_insar&styles=&crs=EPSG%3A2056&bbox=2637925.136896114%2C1047154.0292811291%2C2768724.66192315%2C1191440.6689747206&width=348&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Monitoraggio radar satellitare",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2023-02-10"
+  ]
 }

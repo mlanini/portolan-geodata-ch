@@ -4,6 +4,7 @@
   "id": "ac/ac-065a-1",
   "title": "AC-065a.1 - Disponibilità piani di utilizzazione",
   "description": "Disponibilità piani di utilizzazione cantonali.",
+  "dataset_update_date": null,
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,136 @@
     "Disponibilità piani di utilizzazione",
     "ac"
   ],
+  "assets": {
+    "ac_065a_1_ch20j7dr_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch20j7dr.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch20j7dr INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch22er6y_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch22er6y.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch22er6y INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch08q45f_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch08q45f.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch08q45f INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch0777ab_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch0777ab.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch0777ab INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch13cnnb_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch13cnnb.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch13cnnb INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch18v5ec_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch18v5ec.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch18v5ec INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch08kpss_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch08kpss.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch08kpss INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch08wenf_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch08wenf.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch08wenf INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch082h6s_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch082h6s.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch082h6s INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch082jbc_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch082jbc.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch082jbc INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch13g41c_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch13g41c.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch13g41c INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch14rcvv_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch14rcvv.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch14rcvv INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch17c8yq_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch17c8yq.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch17c8yq INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch0777vv_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch0777vv.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch0777vv INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ac_065a_1_ch184c0e_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch184c0e.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_065a_1_ch184c0e INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_065a_1_v1_0_disponibilita_piani_utilizzazione&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Disponibilità piani di utilizzazione",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,135 +213,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_065a_1_ch20j7dr": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch20j7dr.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch20j7dr.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch22er6y": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch22er6y.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch22er6y.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch08q45f": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch08q45f.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch08q45f.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch0777ab": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch0777ab.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch0777ab.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch13cnnb": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch13cnnb.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch13cnnb.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch18v5ec": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch18v5ec.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch18v5ec.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch08kpss": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch08kpss.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch08kpss.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch08wenf": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch08wenf.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch08wenf.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch082h6s": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch082h6s.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch082h6s.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch082jbc": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch082jbc.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch082jbc.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch13g41c": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch13g41c.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch13g41c.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch14rcvv": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch14rcvv.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch14rcvv.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch17c8yq": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch17c8yq.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch17c8yq.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch0777vv": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch0777vv.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch0777vv.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ac_065a_1_ch184c0e": {
-      "href": "https://data.geo.ti.ch/?p=ac_065a_1_v1_0&f=ac_065a_1_ch184c0e.zip",
-      "type": "application/zip",
-      "title": "ac_065a_1_ch184c0e.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_065a_1_v1_0_disponibilita_piani_utilizzazione&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Disponibilità piani di utilizzazione",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  ]
 }

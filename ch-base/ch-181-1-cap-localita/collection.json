@@ -4,6 +4,7 @@
   "id": "ch-base/ch-181-1-cap-localita",
   "title": "CH-181.1 - CAP e località",
   "description": "Con l’articolo 24 dell’Ordinanza sui nomi geografici (ONGeo) l’Ufficio federale di topografia è stato incaricato di realizzare, amministrare e pubblicare il nuovo elenco ufficiale delle località con il numero postale d’avviamento e il perimetro. Questo set di dati è gestito a livello centralizzato presso swisstopo e corrisponde ad esclusione del rimosso del identificatore «IDENT CAP, cifre_supplementari» nella tabella «CAP6» al set di dati TOPIC «CAP_localita» della misurazione ufficiale. Il set di dati è capillare per tutto il territorio svizzero e può essere ottenuto gratuitamente (aggiornato con cadenza mensile).",
+  "dataset_update_date": "2026-07-01",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,32 @@
     "CAP e località",
     "ch-base"
   ],
+  "assets": {
+    "ch_181_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_181_1_v1_0&f=ch_181_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_181_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "data_parquet": {
+      "href": "../../cloud-optimized/parquet/ch_181_1/ch_181_1_v1_0_cap_localita.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "data GeoParquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_181_1_v1_0_cap_localita&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - CAP e località",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +109,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_181_1_ticino_ili": {
-      "href": "https://data.geo.ti.ch/?p=ch_181_1_v1_0&f=ch_181_1_ticino.zip",
-      "type": "application/interlis+xml",
-      "title": "ch_181_1_ticino INTERLIS",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_181_1_ticino_parquet": {
-      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_181_1/OfficialIndexOfLocalities_V1_Interlis_2_3.OfficialIndexOfLocalities.Locality.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "ch_181_1_ticino GeoParquet",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_181_1_v1_0_cap_localita&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - CAP e località",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-07-01"
+  ]
 }

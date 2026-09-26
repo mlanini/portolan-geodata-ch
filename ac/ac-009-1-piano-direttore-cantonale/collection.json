@@ -4,6 +4,7 @@
   "id": "ac/ac-009-1-piano-direttore-cantonale",
   "title": "AC-009.1 - Piano direttore cantonale",
   "description": "Il Piano direttore (PD) è il principale strumento per orientare le trasformazioni territoriali dell'insieme del Cantone quale premessa per lo sviluppo socioeconomico. In conformità ai disposti della Confederazione (art. 6 OPT), la scala ufficiale di rappresentazione del PD è 1:50’000.",
+  "dataset_update_date": "2025-11-26",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Piano direttore cantonale",
     "ac"
   ],
+  "assets": {
+    "ac_009_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_009_1_v1_1&f=ac_009_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_009_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_009_1_v1_1_piano_direttore_cantonale&styles=&crs=EPSG%3A2056&bbox=2637888.594837813%2C1047154.0292811291%2C2768887.49646917%2C1197215.1535732828&width=335&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piano direttore cantonale",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_009_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_009_1_v1_1&f=ac_009_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_009_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_009_1_v1_1_piano_direttore_cantonale&styles=&crs=EPSG%3A2056&bbox=2637888.594837813%2C1047154.0292811291%2C2768887.49646917%2C1197215.1535732828&width=335&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Piano direttore cantonale",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2025-11-26"
+  ]
 }

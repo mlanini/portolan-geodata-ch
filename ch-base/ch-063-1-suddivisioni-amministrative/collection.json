@@ -4,6 +4,7 @@
   "id": "ch-base/ch-063-1-suddivisioni-amministrative",
   "title": "CH-063.1 - Suddivisioni amministrative - AN",
   "description": "Ripartizioni e aree in relazione all'esecuzione dei lavori, alla gestione e alla precisione della MU.",
+  "dataset_update_date": "2025-04-07",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,32 @@
     "Suddivisioni amministrative - AN",
     "ch-base"
   ],
+  "assets": {
+    "ch_063_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_063_1_v1_7&f=ch_063_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_063_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "data_parquet": {
+      "href": "../../cloud-optimized/parquet/ch_063_1/ch_063_1_v1_7_suddivisioni_amministrative_an.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "data GeoParquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_063_1_v1_7_suddivisioni_amministrative_an&styles=&crs=EPSG%3A2056&bbox=2586494.452159633%2C1044004.8619909539%2C2861762.247161158%2C1240221.116541182&width=384&height=274&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Suddivisioni amministrative - AN",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +109,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_063_1_ticino_ili": {
-      "href": "https://data.geo.ti.ch/?p=ch_063_1_v1_7&f=ch_063_1_ticino.zip",
-      "type": "application/interlis+xml",
-      "title": "ch_063_1_ticino INTERLIS",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_063_1_ticino_parquet": {
-      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_063_1/Aree_di_numerazione__Area_di_numerazione.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "ch_063_1_ticino GeoParquet",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_063_1_v1_7_suddivisioni_amministrative_an&styles=&crs=EPSG%3A2056&bbox=2586494.452159633%2C1044004.8619909539%2C2861762.247161158%2C1240221.116541182&width=384&height=274&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Suddivisioni amministrative - AN",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2025-04-07"
+  ]
 }

@@ -4,6 +4,7 @@
   "id": "ti-base/ti-002-1",
   "title": "TI-002.1 - Decreti di protezione",
   "description": "Decreti di protezione della natura e del paesaggio.",
+  "dataset_update_date": "2025-06-18",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,224 @@
     "Decreti di protezione",
     "ti-base"
   ],
+  "assets": {
+    "ti_002_1_decreto_di_protezione_alpe_vicania_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_Alpe_Vicania.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_Alpe_Vicania INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_dello_stagno_agra_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_dello_Stagno_Agra.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_dello_Stagno_Agra INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_pr_cantonale_di_protezione_delle_torbiere_di_importanza_nazionale_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_delle_torbiere_di_importanza_nazionale.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_PR_cantonale_di_protezione_delle_torbiere_di_importanza_nazionale INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_pr_cantonale_di_protezione_della_bolla_di_san_martino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_della_Bolla_di_San_Martino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_PR_cantonale_di_protezione_della_Bolla_di_San_Martino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_pr_cantonale_di_protezione_del_laghetto_di_origlio_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Origlio.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Origlio INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_pr_cantonale_di_protezione_del_laghetto_di_muzzano_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Muzzano.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Muzzano INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_ordinanza_per_la_protezione_delle_bolle_di_magadino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Ordinanza_per_la_protezione_delle_Bolle_di_Magadino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Ordinanza_per_la_protezione_delle_Bolle_di_Magadino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_di_torrazza_pau_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_Torrazza-Pau.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_di_Torrazza-Pau INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_di_premurin_vigna_pavu_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_PreMurin-Vigna-Pavu.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_di_PreMurin-Vigna-Pavu INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_di_palazzetta_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_Palazzetta.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_di_Palazzetta INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_di_molino_colombera_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_Molino-Colombera.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_di_Molino-Colombera INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_dello_stagno_paron_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_dello_Stagno_Paron.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_dello_Stagno_Paron INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_delle_golene_della_valle_maggia_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Maggia.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Maggia INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_dei_siti_di_anfibi_del_comune_di_tresa_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_dei_siti_di_anfibi_del_Comune_di_Tresa.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_dei_siti_di_anfibi_del_Comune_di_Tresa INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_delle_golene_della_valle_bedretto_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Bedretto.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Bedretto INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_delle_golene_della_tresa_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_della_Tresa.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_delle_golene_della_Tresa INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_delle_golene_del_brenno_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_del_Brenno.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_delle_golene_del_Brenno INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_della_zona_golenale_della_valle_bavona_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Valle_Bavona.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Valle_Bavona INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_della_zona_golenale_della_magliasina_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Magliasina.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Magliasina INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_della_palude_s_giorgio_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Palude_S_Giorgio.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_della_Palude_S_Giorgio INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_della_palude_di_la_dall_acqua_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Palude_Di_la_dall_Acqua.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_della_Palude_Di_la_dall_Acqua INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_della_legiuna_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Legiuna.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_della_Legiuna INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_della_foce_della_magliasina_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Foce_della_Magliasina.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_della_Foce_della_Magliasina INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_del_prato_secco_ex_aerodromo_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_del_prato_secco_Ex_Aerodromo.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_del_prato_secco_Ex_Aerodromo INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_decreto_di_protezione_del_laghetto_di_astano_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_del_Laghetto_di_Astano.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Decreto_di_protezione_del_Laghetto_di_Astano INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_002_1_regolamento_sulla_protezione_della_flora_della_fauna_e_dei_funghi_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Regolamento_sulla_protezione_della_flora_della_fauna_e_dei_funghi.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_002_1_Regolamento_sulla_protezione_della_flora_della_fauna_e_dei_funghi INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_002_1_v1_0_decreti_protezione&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Decreti di protezione",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,224 +301,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_002_1_decreto_di_protezione_alpe_vicania": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_Alpe_Vicania.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_Alpe_Vicania.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_dello_stagno_agra": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_dello_Stagno_Agra.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_dello_Stagno_Agra.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_pr_cantonale_di_protezione_delle_torbiere_di_importanza_nazionale": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_delle_torbiere_di_importanza_nazionale.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_PR_cantonale_di_protezione_delle_torbiere_di_importanza_nazionale.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_pr_cantonale_di_protezione_della_bolla_di_san_martino": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_della_Bolla_di_San_Martino.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_PR_cantonale_di_protezione_della_Bolla_di_San_Martino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_pr_cantonale_di_protezione_del_laghetto_di_origlio": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Origlio.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Origlio.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_pr_cantonale_di_protezione_del_laghetto_di_muzzano": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Muzzano.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_PR_cantonale_di_protezione_del_laghetto_di_Muzzano.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_ordinanza_per_la_protezione_delle_bolle_di_magadino": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Ordinanza_per_la_protezione_delle_Bolle_di_Magadino.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Ordinanza_per_la_protezione_delle_Bolle_di_Magadino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_di_torrazza_pau": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_Torrazza-Pau.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_di_Torrazza-Pau.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_di_premurin_vigna_pavu": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_PreMurin-Vigna-Pavu.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_di_PreMurin-Vigna-Pavu.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_di_palazzetta": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_Palazzetta.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_di_Palazzetta.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_di_molino_colombera": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_di_Molino-Colombera.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_di_Molino-Colombera.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_dello_stagno_paron": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_dello_Stagno_Paron.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_dello_Stagno_Paron.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_delle_golene_della_valle_maggia": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Maggia.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Maggia.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_dei_siti_di_anfibi_del_comune_di_tresa": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_dei_siti_di_anfibi_del_Comune_di_Tresa.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_dei_siti_di_anfibi_del_Comune_di_Tresa.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_delle_golene_della_valle_bedretto": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Bedretto.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_delle_golene_della_Valle_Bedretto.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_delle_golene_della_tresa": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_della_Tresa.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_delle_golene_della_Tresa.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_delle_golene_del_brenno": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_delle_golene_del_Brenno.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_delle_golene_del_Brenno.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_della_zona_golenale_della_valle_bavona": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Valle_Bavona.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Valle_Bavona.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_della_zona_golenale_della_magliasina": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Magliasina.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_della_zona_golenale_della_Magliasina.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_della_palude_s_giorgio": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Palude_S_Giorgio.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_della_Palude_S_Giorgio.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_della_palude_di_la_dall_acqua": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Palude_Di_la_dall_Acqua.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_della_Palude_Di_la_dall_Acqua.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_della_legiuna": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Legiuna.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_della_Legiuna.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_della_foce_della_magliasina": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_della_Foce_della_Magliasina.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_della_Foce_della_Magliasina.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_del_prato_secco_ex_aerodromo": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_del_prato_secco_Ex_Aerodromo.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_del_prato_secco_Ex_Aerodromo.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_decreto_di_protezione_del_laghetto_di_astano": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Decreto_di_protezione_del_Laghetto_di_Astano.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Decreto_di_protezione_del_Laghetto_di_Astano.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_002_1_regolamento_sulla_protezione_della_flora_della_fauna_e_dei_funghi": {
-      "href": "https://data.geo.ti.ch/?p=ti_002_1_v1_0&f=ti_002_1_Regolamento_sulla_protezione_della_flora_della_fauna_e_dei_funghi.zip",
-      "type": "application/zip",
-      "title": "ti_002_1_Regolamento_sulla_protezione_della_flora_della_fauna_e_dei_funghi.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_002_1_v1_0_decreti_protezione&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Decreti di protezione",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2025-06-18"
+  ]
 }

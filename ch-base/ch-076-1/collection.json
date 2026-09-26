@@ -4,6 +4,7 @@
   "id": "ch-base/ch-076-1",
   "title": "CH-076.1 - Zone di pianificazione",
   "description": "Zone di pianificazione per gli atti pianificatori che hanno seguito un iter procedurale ai sensi della LST.",
+  "dataset_update_date": "2026-09-24",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,56 @@
     "Zone di pianificazione",
     "ch-base"
   ],
+  "assets": {
+    "ch_076_1_ch08nvh3074100021_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch08nvh3074100021.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_076_1_ch08nvh3074100021 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_076_1_ch08r024105100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch08r024105100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_076_1_ch08r024105100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_076_1_ch170t8e008100043_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch170t8e008100043.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_076_1_ch170t8e008100043 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_076_1_ch20ahgh008100003_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch20ahgh008100003.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_076_1_ch20ahgh008100003 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_076_1_ch21vajn012100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch21vajn012100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_076_1_ch21vajn012100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_076_1_v1_1_zone_pianificazione&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Zone di pianificazione",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,56 +133,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_076_1_ch08nvh3074100021": {
-      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch08nvh3074100021.zip",
-      "type": "application/zip",
-      "title": "ch_076_1_ch08nvh3074100021.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_076_1_ch08r024105100001": {
-      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch08r024105100001.zip",
-      "type": "application/zip",
-      "title": "ch_076_1_ch08r024105100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_076_1_ch170t8e008100043": {
-      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch170t8e008100043.zip",
-      "type": "application/zip",
-      "title": "ch_076_1_ch170t8e008100043.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_076_1_ch20ahgh008100003": {
-      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch20ahgh008100003.zip",
-      "type": "application/zip",
-      "title": "ch_076_1_ch20ahgh008100003.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_076_1_ch21vajn012100001": {
-      "href": "https://data.geo.ti.ch/?p=ch_076_1_v1_1&f=ch_076_1_ch21vajn012100001.zip",
-      "type": "application/zip",
-      "title": "ch_076_1_ch21vajn012100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_076_1_v1_1_zone_pianificazione&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Zone di pianificazione",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-09-24"
+  ]
 }

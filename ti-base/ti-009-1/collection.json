@@ -4,6 +4,7 @@
   "id": "ti-base/ti-009-1",
   "title": "TI-009.1 - Circondari e settori forestali",
   "description": "Circondari e settori della Sezione forestale - Canton Ticino.",
+  "dataset_update_date": "2026-09-09",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,32 @@
     "Circondari e settori forestali",
     "ti-base"
   ],
+  "assets": {
+    "ti_009_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_009_1_v1_0&f=ti_009_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_009_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "data_parquet": {
+      "href": "../../cloud-optimized/parquet/ti_009_1/ti_009_1_v1_0_circondari_settori_forestali_circondari.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "data GeoParquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_009_1_v1_0_circondari_settori_forestali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Circondari e settori forestali",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +109,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_009_1_ticino_ili": {
-      "href": "https://data.geo.ti.ch/?p=ti_009_1_v1_0&f=ti_009_1_ticino.zip",
-      "type": "application/interlis+xml",
-      "title": "ti_009_1_ticino INTERLIS",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_009_1_ticino_parquet": {
-      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ti_009_1/circondari_settori_forestali_v1_0.circondari_settori_forestali.circondario.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "ti_009_1_ticino GeoParquet",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_009_1_v1_0_circondari_settori_forestali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Circondari e settori forestali",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-09-09"
+  ]
 }

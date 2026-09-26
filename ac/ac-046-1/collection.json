@@ -4,6 +4,7 @@
   "id": "ac/ac-046-1",
   "title": "AC-046.1 - Rilievi \"praTiva\" e contributo \"in situ\"",
   "description": "Il contributo in situ è un nuovo contributo con l'obiettivo di mantenere e sostenere la diversità genetica delle piante foraggere grazie a una continuità nella gestione. Nel 2021 verranno selezionate le superfici e dal 2022 sarà concesso il contributo alle aziende agricole che ne fanno richiesta e che hanno diritto ai pagamenti diretti. Grazie ai rilievi botanici eseguiti nell’ambito dello studio praTiva, promosso e finanziato dall’Associazione per il Promovimento della Foraggicoltura (APF), è possibile visualizzare le potenziali superfici con le rispettive fitocenosi che potrebbero ricevere il contributo in situ. Diverse altre superfici non analizzate nello studio praTiva potrebbero potenzialmente rientrare in queste categorie. Lo studio praTiva ha analizzato la composizione botanica di 276 prati e pascoli in Ticino, con lo scopo di individuare le categorie principali di prati e pascoli associandole a dei consigli gestionali.",
+  "dataset_update_date": "2023-02-28",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Rilievi \"praTiva\" e contributo \"in situ\"",
     "ac"
   ],
+  "assets": {
+    "ac_046_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_046_1_v1_0&f=ac_046_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_046_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_046_1_v1_0_rilievi_prativa&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Rilievi \"praTiva\" e contributo \"in situ\"",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_046_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_046_1_v1_0&f=ac_046_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_046_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_046_1_v1_0_rilievi_prativa&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Rilievi \"praTiva\" e contributo \"in situ\"",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2023-02-28"
+  ]
 }

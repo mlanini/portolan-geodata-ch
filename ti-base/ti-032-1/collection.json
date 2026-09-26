@@ -4,6 +4,7 @@
   "id": "ti-base/ti-032-1",
   "title": "TI-032.1 - Aree pianificate dai progetti stradali cantonali",
   "description": "Aree pianificate dai progetti stradali cantonali.",
+  "dataset_update_date": "2026-07-13",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,96 @@
     "Aree pianificate dai progetti stradali cantonali",
     "ti-base"
   ],
+  "assets": {
+    "ti_032_1_ch23dhvx004100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx004100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx004100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx005100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx005100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx005100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx007100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx007100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx007100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx008100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx008100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx008100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx011100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx011100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx011100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx021100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx021100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx021100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx022100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx022100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx022100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx023100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx023100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx023100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx025100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx025100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx025100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ti_032_1_ch23dhvx033100001_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx033100001.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_032_1_ch23dhvx033100001 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_032_1_v1_0_aree_pianificate_progetti_stradali_cantonali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Aree pianificate dai progetti stradali cantonali",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,96 +173,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_032_1_ch23dhvx004100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx004100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx004100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx005100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx005100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx005100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx007100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx007100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx007100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx008100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx008100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx008100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx011100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx011100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx011100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx021100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx021100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx021100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx022100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx022100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx022100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx023100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx023100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx023100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx025100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx025100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx025100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_032_1_ch23dhvx033100001": {
-      "href": "https://data.geo.ti.ch/?p=ti_032_1_v1_0&f=ti_032_1_ch23dhvx033100001.zip",
-      "type": "application/zip",
-      "title": "ti_032_1_ch23dhvx033100001.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_032_1_v1_0_aree_pianificate_progetti_stradali_cantonali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Aree pianificate dai progetti stradali cantonali",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-07-13"
+  ]
 }

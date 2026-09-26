@@ -4,6 +4,7 @@
   "id": "ch-base/ch-151-1",
   "title": "CH-151.1 - Catasto viticolo",
   "description": "Il Catasto viticolo è un geodato di base di diritto federale e indica, secondo i principi della Confederazione, le superfici con impianti di vigneti e quelle oggetto di una ricostituzione. Per i nuovi impianti di vigneti è necessaria l’autorizzazione del Cantone e in Ticino bisogna seguire una procedura specifica (vedi impianti, ampliamenti, ricostituzioni), così come bisogna notificare allo stesso eventuali ricostituzioni. Per l’allestimento del catasto viticolo può essere utilizzata come base la misurazione ufficiale.",
+  "dataset_update_date": "2026-04-17",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Catasto viticolo",
     "ch-base"
   ],
+  "assets": {
+    "ch_151_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_151_1_v2_0&f=ch_151_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_151_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_151_1_v2_0_catasto_viticolo&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Catasto viticolo",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_151_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_151_1_v2_0&f=ch_151_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_151_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_151_1_v2_0_catasto_viticolo&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Catasto viticolo",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-04-17"
+  ]
 }

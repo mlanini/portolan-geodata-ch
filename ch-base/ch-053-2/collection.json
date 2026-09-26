@@ -4,6 +4,7 @@
   "id": "ch-base/ch-053-2",
   "title": "CH-053.2 - Punti fissi altimetrici PFA 1",
   "description": "Punti fissi altimetrici di 1. categoria (PFA1), di competenza federale (swisstopo D+M).",
+  "dataset_update_date": "2022-11-21",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Punti fissi altimetrici PFA 1",
     "ch-base"
   ],
+  "assets": {
+    "ch_053_2_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_053_2_v24_0&f=ch_053_2_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_053_2_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_053_2_v24_0_punti_fissi_altimetrici_pfa1&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Punti fissi altimetrici PFA 1",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_053_2_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_053_2_v24_0&f=ch_053_2_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_053_2_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_053_2_v24_0_punti_fissi_altimetrici_pfa1&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Punti fissi altimetrici PFA 1",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2022-11-21"
+  ]
 }

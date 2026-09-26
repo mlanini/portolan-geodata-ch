@@ -4,6 +4,7 @@
   "id": "ac/ac-011-1",
   "title": "AC-011.1 - Malattie delle api",
   "description": "Zone attive di sequestro, prescritte sulla base dell'OFE, e vecchi focolai relativi all'apparizione di casi di peste americana e di peste europea delle api.",
+  "dataset_update_date": "2026-07-13",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Malattie delle api",
     "ac"
   ],
+  "assets": {
+    "ac_011_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_011_1_v1_0&f=ac_011_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_011_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_011_1_v1_0_malattia_api&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Malattie delle api",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_011_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_011_1_v1_0&f=ac_011_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_011_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_011_1_v1_0_malattia_api&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Malattie delle api",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-07-13"
+  ]
 }

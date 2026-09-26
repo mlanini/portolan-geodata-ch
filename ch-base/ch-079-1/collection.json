@@ -4,6 +4,7 @@
   "id": "ch-base/ch-079-1",
   "title": "CH-079.1 - Reti di percorsi pedonali e sentieri",
   "description": "Sentieri escursionistici del Piano cantonale art. 7 LCPS. La Legge affida la pianificazione dei percorsi pedonali ai Comuni. I sentieri escursionistici del piano cantonale sono segnalati mediante la tipica segnaletica gialla o bianco-rosso-bianco (sentieri di montagna). Il piano comprende anche alcuni itinerari alpini segnalati in bianco-blu-bianco.",
+  "dataset_update_date": "2025-12-10",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Reti di percorsi pedonali e sentieri",
     "ch-base"
   ],
+  "assets": {
+    "ch_079_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_079_1_v1_0&f=ch_079_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_079_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_079_1_v1_0_reti_percorsi_pedonali_sentieri&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Reti di percorsi pedonali e sentieri",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_079_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_079_1_v1_0&f=ch_079_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_079_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_079_1_v1_0_reti_percorsi_pedonali_sentieri&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Reti di percorsi pedonali e sentieri",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2025-12-10"
+  ]
 }

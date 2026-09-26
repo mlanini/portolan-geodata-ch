@@ -4,6 +4,7 @@
   "id": "ti-base/ti-011-2",
   "title": "TI-011.2 - Assi delle strade cantonali - Rete OATE",
   "description": "Geodato pubblicato su data.geo.ti.ch: Assi delle strade cantonali - Rete OATE.",
+  "dataset_update_date": "2026-06-19",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,16 @@
     "Assi delle strade cantonali - Rete OATE",
     "ti-base"
   ],
+  "assets": {
+    "ti_011_2_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_011_2_v2_1&f=ti_011_2_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_011_2_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,16 +93,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_011_2_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ti_011_2_v2_1&f=ti_011_2_ticino.zip",
-      "type": "application/zip",
-      "title": "ti_011_2_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-06-19"
+  ]
 }

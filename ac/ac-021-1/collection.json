@@ -4,6 +4,7 @@
   "id": "ac/ac-021-1",
   "title": "AC-021.1 - Rete di rilevamento meteo",
   "description": "Rete di rilevamento meteo.",
+  "dataset_update_date": "2024-02-15",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Rete di rilevamento meteo",
     "ac"
   ],
+  "assets": {
+    "ac_021_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_021_1_v1_0&f=ac_021_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_021_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_021_1_v1_0_rete_rilevamento_meteo&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Rete di rilevamento meteo",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_021_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_021_1_v1_0&f=ac_021_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_021_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_021_1_v1_0_rete_rilevamento_meteo&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Rete di rilevamento meteo",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2024-02-15"
+  ]
 }

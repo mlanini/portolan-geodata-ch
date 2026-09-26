@@ -4,6 +4,7 @@
   "id": "ti-base/ti-041-1",
   "title": "TI-041.1 - Interventi selvicolturali",
   "description": "Interventi di cura del bosco finanziati con contributi pubblici. Le superfici d’intervento indicano le aree in cui sono in corso degli interventi; i relativi perimetri potranno subire delle variazioni al termine dei lavori. Le superfici consuntivate rappresentano le aree in cui gli interventi sono stati completati, ripartite secondo l’anno di conclusione.",
+  "dataset_update_date": "2026-08-25",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Interventi selvicolturali",
     "ti-base"
   ],
+  "assets": {
+    "ti_041_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_041_1_v1_0&f=ti_041_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_041_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_041_1_v1_0_interventi_selvicolturali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Interventi selvicolturali",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_041_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ti_041_1_v1_0&f=ti_041_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ti_041_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_041_1_v1_0_interventi_selvicolturali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Interventi selvicolturali",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-08-25"
+  ]
 }

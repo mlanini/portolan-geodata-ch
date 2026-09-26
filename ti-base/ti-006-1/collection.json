@@ -4,6 +4,7 @@
   "id": "ti-base/ti-006-1",
   "title": "TI-006.1 - Boschi di particolare pregio",
   "description": "Sono considerati boschi di particolare pregio naturalistico o culturale in base all’art. 46 RLCFo, le selve castanili gestite, i lariceti pascolati e le formazioni forestali rare o poco diffuse, tra cui i boschi golenali. Le formazioni forestali rare o poco diffuse non presentano in modo esaustivo tutti gli ambienti naturali degni di protezione menzionati nell’allegato dell’Ordinanza federale sulla protezione della natura e del paesaggio del 16 gennaio 1991 (OPN), considerati anch’essi boschi di pregio. I boschi golenali sono inseriti nell’inventario delle zone golenali di importanza nazionale, regionale e locale.",
+  "dataset_update_date": "2026-09-11",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,32 @@
     "Boschi di particolare pregio",
     "ti-base"
   ],
+  "assets": {
+    "ti_006_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_006_1_v1_0&f=ti_006_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_006_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "data_parquet": {
+      "href": "../../cloud-optimized/parquet/ti_006_1/ti_006_1_v1_0_boschi_particolare_pregio_formazioni_minoritarie.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "data GeoParquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_006_1_v1_0_boschi_particolare_pregio&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Boschi di particolare pregio",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +109,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_006_1_ticino_ili": {
-      "href": "https://data.geo.ti.ch/?p=ti_006_1_v1_0&f=ti_006_1_ticino.zip",
-      "type": "application/interlis+xml",
-      "title": "ti_006_1_ticino INTERLIS",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_006_1_ticino_parquet": {
-      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ti_006_1/boschi_particolare_pregio_v1_0.boschi_particolare_pregio.formazioni_minoritarie.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "ti_006_1_ticino GeoParquet",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_006_1_v1_0_boschi_particolare_pregio&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Boschi di particolare pregio",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-09-11"
+  ]
 }

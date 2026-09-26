@@ -4,6 +4,7 @@
   "id": "ac/ac-032-1",
   "title": "AC-032.1 - Mappa archeologica",
   "description": "L’elemento di Mappa archeologica consente di visualizzare geograficamente un Ritrovamento (o un gruppo di Ritrovamenti) archeologici in base alla loro tipologia e alla loro epoca. La sua rappresentazione avviene mediante l’utilizzo di un codice di simboli (Tipologia) e colori (Epoca).",
+  "dataset_update_date": "2026-09-25",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Mappa archeologica",
     "ac"
   ],
+  "assets": {
+    "ac_032_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_032_1_v1_0&f=ac_032_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_032_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_032_1_v1_0_mappa_archeologica&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Mappa archeologica",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_032_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_032_1_v1_0&f=ac_032_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_032_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_032_1_v1_0_mappa_archeologica&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Mappa archeologica",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-09-25"
+  ]
 }

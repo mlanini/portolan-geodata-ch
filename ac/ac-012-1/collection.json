@@ -4,6 +4,7 @@
   "id": "ac/ac-012-1",
   "title": "AC-012.1 - Limitazioni d'altezze",
   "description": "Limitazioni d'altezze per il traffico pesante sulle strade cantonali.",
+  "dataset_update_date": "2026-03-26",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Limitazioni d'altezze",
     "ac"
   ],
+  "assets": {
+    "ac_012_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_012_1_v1_0&f=ac_012_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_012_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_012_1_v1_0_limitazioni&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Limitazioni d'altezze",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_012_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_012_1_v1_0&f=ac_012_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_012_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_012_1_v1_0_limitazioni&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Limitazioni d'altezze",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-03-26"
+  ]
 }

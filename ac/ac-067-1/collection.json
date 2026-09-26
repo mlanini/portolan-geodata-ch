@@ -4,6 +4,7 @@
   "id": "ac/ac-067-1",
   "title": "AC-067.1 - Portate di piena",
   "description": "Portate di piena dei corsi d'acqua calcolate/stimate in base ai periodi di ritorno.",
+  "dataset_update_date": "2026-09-25",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Portate di piena",
     "ac"
   ],
+  "assets": {
+    "ac_067_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_067_1_v1_0&f=ac_067_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_067_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_067_1_v1_0_portate_piena&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Portate di piena",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_067_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_067_1_v1_0&f=ac_067_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_067_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_067_1_v1_0_portate_piena&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Portate di piena",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-09-25"
+  ]
 }

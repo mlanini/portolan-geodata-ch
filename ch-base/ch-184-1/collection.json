@@ -4,6 +4,7 @@
   "id": "ch-base/ch-184-1",
   "title": "CH-184.1 - Itinerari cantonali dei trasporti speciali",
   "description": "Itinerari cantonali dei trasporti speciali.",
+  "dataset_update_date": "2023-02-28",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Itinerari cantonali dei trasporti speciali",
     "ch-base"
   ],
+  "assets": {
+    "ch_184_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_184_1_v1_0&f=ch_184_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_184_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_184_1_v1_0_itinerari_cantonali_trasporti_speciali&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Itinerari cantonali dei trasporti speciali",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_184_1_ticino_ili": {
-      "href": "https://data.geo.ti.ch/?p=ch_184_1_v1_0&f=ch_184_1_ticino.zip",
-      "type": "application/interlis+xml",
-      "title": "ch_184_1_ticino INTERLIS",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_184_1_ticino_parquet": {
-      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_184_1/ExceptionalLoadsCatalogues_V1.TypeOfRouteCatalogue.TypeOfRoute.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "ch_184_1_ticino GeoParquet",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_184_1_v1_0_itinerari_cantonali_trasporti_speciali&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Itinerari cantonali dei trasporti speciali",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2023-02-28"
+  ]
 }

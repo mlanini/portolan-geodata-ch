@@ -4,6 +4,7 @@
   "id": "ac/ac-052-1",
   "title": "AC-052.1 - Bandite cantonali di caccia",
   "description": "Bandite cantonali di caccia valide per il periodo 2021-2026.",
+  "dataset_update_date": "2022-11-15",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Bandite cantonali di caccia",
     "ac"
   ],
+  "assets": {
+    "ac_052_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_052_1_v1_0&f=ac_052_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_052_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_052_1_v1_0_bandite_cantonali_caccia&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Bandite cantonali di caccia",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_052_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_052_1_v1_0&f=ac_052_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_052_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_052_1_v1_0_bandite_cantonali_caccia&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Bandite cantonali di caccia",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2022-11-15"
+  ]
 }

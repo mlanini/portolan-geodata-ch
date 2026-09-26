@@ -4,6 +4,7 @@
   "id": "ch-base/ch-040-7",
   "title": "CH-040.7 - Nomi geografici (Misurazione nazionale)",
   "description": "I nomi geografici della misurazione nazionale (swissNAMES3D) rappresentano, con oltre 400’000 voci geo referenziate, la più vasta raccolta di toponimi della Svizzera. Questa paletta dati di nomi gratuita si basa su un modello dati semplice e fornisce la base di dati ideale per molte applicazioni. La paletta dati vettoriali è una panoramica di nomi derivante geometricamente dal Modello topografico del paesaggio (SwissTLM3D) a cui è strettamente correlato anche l’aggiornamento che avviene in un ciclo di 6 anni. Il modello dati semplice si compone di tre livelli che si differenziano tra loro in base al tipo di geometria (punto, linea, poligono).",
+  "dataset_update_date": "2026-06-18",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Nomi geografici (Misurazione nazionale)",
     "ch-base"
   ],
+  "assets": {
+    "ch_040_7_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_040_7_v1_0&f=ch_040_7_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_040_7_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_040_7_v1_0_nomi_geografici&styles=&crs=EPSG%3A2056&bbox=2621046.837307777%2C1041574.0563558005%2C2778959.109025007%2C1210427.1472522814&width=359&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Nomi geografici (Misurazione nazionale)",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_040_7_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_040_7_v1_0&f=ch_040_7_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_040_7_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_040_7_v1_0_nomi_geografici&styles=&crs=EPSG%3A2056&bbox=2621046.837307777%2C1041574.0563558005%2C2778959.109025007%2C1210427.1472522814&width=359&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Nomi geografici (Misurazione nazionale)",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-06-18"
+  ]
 }

@@ -4,6 +4,7 @@
   "id": "ac/ac-077-1-repertorio-toponomastico-ticinese",
   "title": "AC-077.1 - Repertorio toponomastico ticinese",
   "description": "Il progetto si occupa della raccolta dei nomi di luogo nella forma tramandata dalla tradizione orale, quindi nel dialetto locale. Esso si basa principalmente sull’intervista di informatori che per esperienza di vita e di lavoro sono riconosciuti come i migliori conoscitori dei toponimi in uso nella propria comunità. I risultati dell’inventario, che prende in esame singolarmente comuni o ex comuni, sono pubblicati nelle collane «Repertorio toponomastico ticinese» (1982- ) e «Archivio dei nomi di luogo» (2001-2013), cui si rimanda per approfondimenti riguardo alla genesi del progetto, alla situazione e alle caratteristiche dialettali dei singoli comuni e alle citazioni bibliografiche. Possono riscontrarsi alcune differenze rispetto alla versione a stampa. La grafia dei toponimi dialettali segue il Sistema di trascrizione. Per visualizzare correttamente i caratteri speciali (come accenti e simboli) quando si utilizzano i geoservizi WFS e WMS o dati Interlis, è necessario aver installato sul proprio computer il font CDE2020, scaricabile direttamente dal sito del CDE.",
+  "dataset_update_date": "2026-03-11",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Repertorio toponomastico ticinese",
     "ac"
   ],
+  "assets": {
+    "ac_077_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_077_1_v1_0&f=ac_077_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_077_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_077_1_v1_0_repertorio_toponomastico_ticinese&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Repertorio toponomastico ticinese",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_077_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_077_1_v1_0&f=ac_077_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_077_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_077_1_v1_0_repertorio_toponomastico_ticinese&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Repertorio toponomastico ticinese",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-03-11"
+  ]
 }

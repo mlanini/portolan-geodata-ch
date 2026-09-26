@@ -4,6 +4,7 @@
   "id": "ti-base/ti-037-1",
   "title": "TI-037.1 - Aule nel bosco",
   "description": "Aule nel bosco",
+  "dataset_update_date": "2026-01-29",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Aule nel bosco",
     "ti-base"
   ],
+  "assets": {
+    "ti_037_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_037_1_v1_0&f=ti_037_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_037_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_037_1_v1_0_aule_bosco&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Aule nel bosco",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_037_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ti_037_1_v1_0&f=ti_037_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ti_037_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_037_1_v1_0_aule_bosco&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Aule nel bosco",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-01-29"
+  ]
 }

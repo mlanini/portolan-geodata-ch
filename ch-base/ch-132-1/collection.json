@@ -4,6 +4,7 @@
   "id": "ch-base/ch-132-1",
   "title": "CH-132.1 - Aree di protezione delle acque sotterranee",
   "description": "Le aree di protezione sono delimitate dal Cantone con lo scopo di assicurare il futuro sfruttamento di acque sotterranee per uso potabile: le stesse sono delimitate in modo da permettere la determinazione ottimale dei luoghi per la captazione nonché la delimitazione delle corrispondenti zone di protezione delle acque sotterranee.",
+  "dataset_update_date": "2026-04-29",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Aree di protezione delle acque sotterranee",
     "ch-base"
   ],
+  "assets": {
+    "ch_132_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_132_1_v1_2&f=ch_132_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_132_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_132_1_v1_2_aree_protezione_acque_sotterranee&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Aree di protezione delle acque sotterranee",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_132_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_132_1_v1_2&f=ch_132_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_132_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_132_1_v1_2_aree_protezione_acque_sotterranee&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Aree di protezione delle acque sotterranee",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-04-29"
+  ]
 }

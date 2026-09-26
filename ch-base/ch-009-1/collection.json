@@ -4,6 +4,7 @@
   "id": "ch-base/ch-009-1",
   "title": "CH-009.1 - Registro federale degli edifici e delle abitazioni REA",
   "description": "Il Registro federale degli edifici e delle abitazioni REA contiene i principali dati di base relativi agli edifici e alle abitazioni. Viene utilizzato per finalità statistiche, di ricerca e di pianificazione e serve ai Cantoni e ai Comuni per lo svolgimento dei compiti assegnati loro dalla legge. L'aggiornamento ha luogo in coordinamento con la statistica delle costruzioni e dell'edilizia abitativa. Ogni edificio e ogni abitazione dispongono di un numero di identificazione unico e univoco (EGID, risp. EWID) nonché di un indirizzo geocodificato e standardizzato secondo la norma SN 612040. I numeri delle particelle e degli edifici nonché le coordinate metriche degli edifici consentono una localizzazione geografica esatta degli edifici. Il seti di dati è fornito da Swisstopo per tutta la Svizzera all'indirizzo https://data.geo.admin.ch/ch.bfs.gebaeude_wohnungs_register.",
+  "dataset_update_date": "2026-09-25",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Registro federale degli edifici e delle abitazioni REA",
     "ch-base"
   ],
+  "assets": {
+    "ch_009_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_009_1_v1_0&f=ch_009_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_009_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_009_1_v1_0_registro_federale_edifici_abitazioni_rea&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Registro federale degli edifici e delle abitazioni REA",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_009_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_009_1_v1_0&f=ch_009_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_009_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_009_1_v1_0_registro_federale_edifici_abitazioni_rea&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Registro federale degli edifici e delle abitazioni REA",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-09-25"
+  ]
 }

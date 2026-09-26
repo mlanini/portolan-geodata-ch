@@ -4,6 +4,7 @@
   "id": "ch-base/ch-038-1",
   "title": "CH-038.1 - SwissTLM3D - Modello topografico del paesaggio",
   "description": "SwissTLM3D è il modello topografico dettagliato del paesaggio svizzero che rappresenta gli oggetti naturali e artificiali con i dati toponimici in formato vettoriale. Contiene la descrizione di quasi 20 milioni di oggetti indicandone ubicazione, forma, rispettivo tipo di oggetto e numerosi altri attributi. È composto 8 livelli tematici (Topics), ciascuno dei quali comprende diverse classi di oggetti (Feature Classes). Questo prodotto che offre un'alta precisione (per oggetti ben definiti come strade ed edifici: 0.2 – 1.5m in ognuna delle tre dimensioni e per gli oggetti non facilmente delimitabili, come le foreste: 1 – 3m in ognuna delle tre dimensioni), rappresenta la raccolta più precisa e completa di dati vettoriali in 3D sul territorio svizzero.",
+  "dataset_update_date": "2026-08-21",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,80 @@
     "SwissTLM3D - Modello topografico del paesaggio",
     "ch-base"
   ],
+  "assets": {
+    "ch_038_1_ticino_tlm_areale_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_areale.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_areale INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_038_1_ticino_tlm_bauten_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_bauten.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_bauten INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_038_1_ticino_tlm_bb_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_bb.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_bb INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_038_1_ticino_tlm_eo_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_eo.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_eo INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_038_1_ticino_tlm_gewaesser_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_gewaesser.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_gewaesser INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_038_1_ticino_tlm_namen_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_namen.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_namen INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_038_1_ticino_tlm_oev_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_oev.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_oev INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_038_1_ticino_tlm_strassen_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_strassen.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_038_1_ticino_tlm_strassen INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_038_1_v2_4_modello_topografico_paesaggio_swisstlm&styles=&crs=EPSG%3A2056&bbox=2637896.197161975%2C1041844.9395406045%2C2771541.953724348%2C1190967.3488439214&width=344&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - SwissTLM3D - Modello topografico del paesaggio",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,80 +157,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_038_1_ticino_tlm_areale": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_areale.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_areale.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_038_1_ticino_tlm_bauten": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_bauten.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_bauten.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_038_1_ticino_tlm_bb": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_bb.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_bb.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_038_1_ticino_tlm_eo": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_eo.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_eo.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_038_1_ticino_tlm_gewaesser": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_gewaesser.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_gewaesser.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_038_1_ticino_tlm_namen": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_namen.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_namen.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_038_1_ticino_tlm_oev": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_oev.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_oev.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_038_1_ticino_tlm_strassen": {
-      "href": "https://data.geo.ti.ch/?p=ch_038_1_v2_4&f=ch_038_1_ticino_tlm_strassen.zip",
-      "type": "application/zip",
-      "title": "ch_038_1_ticino_tlm_strassen.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_038_1_v2_4_modello_topografico_paesaggio_swisstlm&styles=&crs=EPSG%3A2056&bbox=2637896.197161975%2C1041844.9395406045%2C2771541.953724348%2C1190967.3488439214&width=344&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - SwissTLM3D - Modello topografico del paesaggio",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-08-21"
+  ]
 }

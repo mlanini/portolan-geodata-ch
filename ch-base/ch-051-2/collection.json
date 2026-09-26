@@ -4,6 +4,7 @@
   "id": "ch-base/ch-051-2",
   "title": "CH-051.2 - Piano Registro Fondiario - Deposito pubblico",
   "description": "Rappresentazione dei geodati da 54 a 64 secondo il modello di rappresentazione federale e cantonale, in bianco e nero o a colori del piano del registro fonciario deposito pubblico.",
+  "dataset_update_date": "2026-09-17",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,32 @@
     "Piano Registro Fondiario - Deposito pubblico",
     "ch-base"
   ],
+  "assets": {
+    "ch_051_2_5254030101_dpmu_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_051_2_v1_7&f=ch_051_2_5254030101_dpmu.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_051_2_5254030101_dpmu INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_051_2_5315000101_dpmu_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_051_2_v1_7&f=ch_051_2_5315000101_dpmu.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_051_2_5315000101_dpmu INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_051_2_v1_7_piano_registro_fondiario_deposito&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piano Registro Fondiario - Deposito pubblico",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +109,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_051_2_5254030101_dpmu": {
-      "href": "https://data.geo.ti.ch/?p=ch_051_2_v1_7&f=ch_051_2_5254030101_dpmu.zip",
-      "type": "application/zip",
-      "title": "ch_051_2_5254030101_dpmu.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_051_2_5315000101_dpmu": {
-      "href": "https://data.geo.ti.ch/?p=ch_051_2_v1_7&f=ch_051_2_5315000101_dpmu.zip",
-      "type": "application/zip",
-      "title": "ch_051_2_5315000101_dpmu.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_051_2_v1_7_piano_registro_fondiario_deposito&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Piano Registro Fondiario - Deposito pubblico",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-09-17"
+  ]
 }

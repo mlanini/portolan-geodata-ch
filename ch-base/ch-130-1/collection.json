@@ -4,6 +4,7 @@
   "id": "ch-base/ch-130-1",
   "title": "CH-130.1 - Settori di protezione delle acque",
   "description": "Delimitazione dei settori di protezione delle acque sotterranee (Au) e superficiali (Ao). Attività di competenza cantonale volta a proteggere qualitativamente e quantitativamente le falde potenzialmente sfruttabili e a tutelare la qualità delle acque superficiali, per garantirne un loro utilizzo a scopo potabile.",
+  "dataset_update_date": "2026-04-29",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Settori di protezione delle acque",
     "ch-base"
   ],
+  "assets": {
+    "ch_130_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_130_1_v1_2&f=ch_130_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_130_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_130_1_v1_2_settori_protezione_acque&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Settori di protezione delle acque",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_130_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_130_1_v1_2&f=ch_130_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_130_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_130_1_v1_2_settori_protezione_acque&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Settori di protezione delle acque",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-04-29"
+  ]
 }

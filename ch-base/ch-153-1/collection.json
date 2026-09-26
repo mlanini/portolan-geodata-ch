@@ -4,6 +4,7 @@
   "id": "ch-base/ch-153-1",
   "title": "CH-153.1 - Gestione agricola: superfici d'utilizzazione",
   "description": "Le Superfici d’utilizzazione comprendono le superfici agricole di cui all’ordinanza sulla terminologia agricola (OTerm), all’ordinanza sui pagamenti diretti (OPD) e alle definizioni risultanti (codifici incl.) dalle utilizzazioni. Rientrano inoltre anche quelle superfici escluse dai pagamenti diretti e /o non riconosciute come superfici agricole utili (SAU). Le superfici d’utilizzazione e i simboli puntiformi (alberi) da registrare devono trovarsi all’interno delle Unità di gestione attribuite al gestore.",
+  "dataset_update_date": "2026-03-12",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Gestione agricola: superfici d'utilizzazione",
     "ch-base"
   ],
+  "assets": {
+    "ch_153_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_153_1_v3_0&f=ch_153_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_153_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_153_1_v3_0_gestione_agricola_superfici_utilizzazione&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Gestione agricola: superfici d'utilizzazione",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_153_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_153_1_v3_0&f=ch_153_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_153_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_153_1_v3_0_gestione_agricola_superfici_utilizzazione&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Gestione agricola: superfici d'utilizzazione",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-03-12"
+  ]
 }

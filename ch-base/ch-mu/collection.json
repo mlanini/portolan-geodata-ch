@@ -4,6 +4,7 @@
   "id": "ch-base/ch-mu",
   "title": "CH-mu - Misurazione ufficiale",
   "description": "Geodato pubblicato su data.geo.ti.ch: Misurazione ufficiale.",
+  "dataset_update_date": null,
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,1056 @@
     "Misurazione ufficiale",
     "ch-base"
   ],
+  "assets": {
+    "5048010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5048010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5048010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5141000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5141000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5141000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5061000301_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5061000301.zip",
+      "type": "application/interlis+xml",
+      "title": "5061000301 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5237010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5237010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5237010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5143000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5143000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5143000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5001000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5001000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5001000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5144000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5144000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5144000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5091000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5091000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5091000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5324010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5324010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5324010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5242000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5242000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5242000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5148000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5148000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5148000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5063000301_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5063000301.zip",
+      "type": "application/interlis+xml",
+      "title": "5063000301 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5002010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5002010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5002010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5281000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5281000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5281000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5151010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5151010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5151010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5154000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5154000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5154000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5049010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5049010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5049010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5304000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5304000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5304000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5269030101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5269030101.zip",
+      "type": "application/interlis+xml",
+      "title": "5269030101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5269040101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5269040101.zip",
+      "type": "application/interlis+xml",
+      "title": "5269040101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5269060101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5269060101.zip",
+      "type": "application/interlis+xml",
+      "title": "5269060101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5096000301_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5096000301.zip",
+      "type": "application/interlis+xml",
+      "title": "5096000301 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5097000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5097000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5097000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5160000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5160000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5160000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5161000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5161000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5161000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5162000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5162000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5162000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5003010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5003010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5003010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5003990301_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5003990301.zip",
+      "type": "application/interlis+xml",
+      "title": "5003990301 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5307000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5307000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5307000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5167000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5167000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5167000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5226010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5226010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5226010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5226990101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5226990101.zip",
+      "type": "application/interlis+xml",
+      "title": "5226990101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5171000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5171000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5171000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5249010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5249010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5249010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5397010101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5397010101.zip",
+      "type": "application/interlis+xml",
+      "title": "5397010101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5397020101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5397020101.zip",
+      "type": "application/interlis+xml",
+      "title": "5397020101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5397030101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5397030101.zip",
+      "type": "application/interlis+xml",
+      "title": "5397030101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5309000301_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5309000301.zip",
+      "type": "application/interlis+xml",
+      "title": "5309000301 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5310010101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5310010101.zip",
+      "type": "application/interlis+xml",
+      "title": "5310010101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5310020101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5310020101.zip",
+      "type": "application/interlis+xml",
+      "title": "5310020101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5310030101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5310030101.zip",
+      "type": "application/interlis+xml",
+      "title": "5310030101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5250010200_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5250010200.zip",
+      "type": "application/interlis+xml",
+      "title": "5250010200 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5251000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5251000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5251000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5236010200_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5236010200.zip",
+      "type": "application/interlis+xml",
+      "title": "5236010200 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5176000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5176000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5176000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5138010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5138010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5138010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5180000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5180000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5180000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5071000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5071000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5071000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5072010200_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5072010200.zip",
+      "type": "application/interlis+xml",
+      "title": "5072010200 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398010101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398010101.zip",
+      "type": "application/interlis+xml",
+      "title": "5398010101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398020101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398020101.zip",
+      "type": "application/interlis+xml",
+      "title": "5398020101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398030201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398030201.zip",
+      "type": "application/interlis+xml",
+      "title": "5398030201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398040101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398040101.zip",
+      "type": "application/interlis+xml",
+      "title": "5398040101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398050101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398050101.zip",
+      "type": "application/interlis+xml",
+      "title": "5398050101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398060201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398060201.zip",
+      "type": "application/interlis+xml",
+      "title": "5398060201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398070201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398070201.zip",
+      "type": "application/interlis+xml",
+      "title": "5398070201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398080201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398080201.zip",
+      "type": "application/interlis+xml",
+      "title": "5398080201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5398090101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398090101.zip",
+      "type": "application/interlis+xml",
+      "title": "5398090101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5073010101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5073010101.zip",
+      "type": "application/interlis+xml",
+      "title": "5073010101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5073020101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5073020101.zip",
+      "type": "application/interlis+xml",
+      "title": "5073020101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5108000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5108000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5108000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5186000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5186000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5186000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5187000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5187000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5187000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5009000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5009000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5009000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5189000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5189000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5189000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5112000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5112000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5112000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5323010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5323010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5323010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5395010101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395010101.zip",
+      "type": "application/interlis+xml",
+      "title": "5395010101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5395020101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395020101.zip",
+      "type": "application/interlis+xml",
+      "title": "5395020101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5395030101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395030101.zip",
+      "type": "application/interlis+xml",
+      "title": "5395030101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5395040101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395040101.zip",
+      "type": "application/interlis+xml",
+      "title": "5395040101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5395050101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395050101.zip",
+      "type": "application/interlis+xml",
+      "title": "5395050101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5315000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5315000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5315000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5113000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5113000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5113000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5115000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5115000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5115000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5192010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5192010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5192010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5010000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5010000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5010000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5317010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5317010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5317010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5193000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5193000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5193000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5194000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5194000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5194000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5196000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5196000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5196000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5198000301_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5198000301.zip",
+      "type": "application/interlis+xml",
+      "title": "5198000301 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5254010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5254010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5254010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5117000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5117000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5117000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5199000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5199000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5199000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5118000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5118000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5118000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5238010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5238010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5238010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5257000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5257000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5257000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5203000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5203000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5203000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5120000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5120000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5120000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5205000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5205000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5205000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5206000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5206000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5206000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5260000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5260000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5260000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5136040100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136040100.zip",
+      "type": "application/interlis+xml",
+      "title": "5136040100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5136010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5136010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5136060100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136060100.zip",
+      "type": "application/interlis+xml",
+      "title": "5136060100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5136070101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136070101.zip",
+      "type": "application/interlis+xml",
+      "title": "5136070101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5136080101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136080101.zip",
+      "type": "application/interlis+xml",
+      "title": "5136080101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5208000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5208000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5208000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5121000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5121000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5121000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5210000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5210000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5210000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5076000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5076000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5076000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5077000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5077000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5077000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5212000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5212000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5212000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5214000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5214000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5214000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5216000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5216000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5216000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5079010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5079010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5079010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5263000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5263000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5263000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5287010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5287010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5287010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5125000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5125000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5125000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5017000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5017000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5017000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5221000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5221000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5221000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5050010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5050010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5050010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5225000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5225000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5225000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5266000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5266000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5266000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5131000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5131000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5131000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5396010200_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5396010200.zip",
+      "type": "application/interlis+xml",
+      "title": "5396010200 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5227000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5227000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5227000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5239010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5239010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5239010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5268000201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5268000201.zip",
+      "type": "application/interlis+xml",
+      "title": "5268000201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5240010100_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5240010100.zip",
+      "type": "application/interlis+xml",
+      "title": "5240010100 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5230000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5230000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5230000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5399010201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399010201.zip",
+      "type": "application/interlis+xml",
+      "title": "5399010201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5399020101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399020101.zip",
+      "type": "application/interlis+xml",
+      "title": "5399020101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5399030101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399030101.zip",
+      "type": "application/interlis+xml",
+      "title": "5399030101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5399040101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399040101.zip",
+      "type": "application/interlis+xml",
+      "title": "5399040101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5399050101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399050101.zip",
+      "type": "application/interlis+xml",
+      "title": "5399050101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5399060101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399060101.zip",
+      "type": "application/interlis+xml",
+      "title": "5399060101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5399070201_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399070201.zip",
+      "type": "application/interlis+xml",
+      "title": "5399070201 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5231000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5231000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5231000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "5233000101_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5233000101.zip",
+      "type": "application/interlis+xml",
+      "title": "5233000101 INTERLIS",
+      "roles": [
+        "data"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,1055 +1133,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "5048010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5048010100.zip",
-      "type": "application/zip",
-      "title": "5048010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5141000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5141000201.zip",
-      "type": "application/zip",
-      "title": "5141000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5061000301": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5061000301.zip",
-      "type": "application/zip",
-      "title": "5061000301.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5237010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5237010100.zip",
-      "type": "application/zip",
-      "title": "5237010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5143000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5143000101.zip",
-      "type": "application/zip",
-      "title": "5143000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5001000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5001000101.zip",
-      "type": "application/zip",
-      "title": "5001000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5144000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5144000101.zip",
-      "type": "application/zip",
-      "title": "5144000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5091000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5091000201.zip",
-      "type": "application/zip",
-      "title": "5091000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5324010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5324010100.zip",
-      "type": "application/zip",
-      "title": "5324010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5242000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5242000201.zip",
-      "type": "application/zip",
-      "title": "5242000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5148000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5148000201.zip",
-      "type": "application/zip",
-      "title": "5148000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5063000301": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5063000301.zip",
-      "type": "application/zip",
-      "title": "5063000301.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5002010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5002010100.zip",
-      "type": "application/zip",
-      "title": "5002010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5281000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5281000201.zip",
-      "type": "application/zip",
-      "title": "5281000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5151010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5151010100.zip",
-      "type": "application/zip",
-      "title": "5151010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5154000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5154000201.zip",
-      "type": "application/zip",
-      "title": "5154000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5049010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5049010100.zip",
-      "type": "application/zip",
-      "title": "5049010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5304000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5304000101.zip",
-      "type": "application/zip",
-      "title": "5304000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5269030101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5269030101.zip",
-      "type": "application/zip",
-      "title": "5269030101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5269040101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5269040101.zip",
-      "type": "application/zip",
-      "title": "5269040101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5269060101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5269060101.zip",
-      "type": "application/zip",
-      "title": "5269060101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5096000301": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5096000301.zip",
-      "type": "application/zip",
-      "title": "5096000301.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5097000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5097000201.zip",
-      "type": "application/zip",
-      "title": "5097000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5160000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5160000101.zip",
-      "type": "application/zip",
-      "title": "5160000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5161000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5161000101.zip",
-      "type": "application/zip",
-      "title": "5161000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5162000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5162000101.zip",
-      "type": "application/zip",
-      "title": "5162000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5003010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5003010100.zip",
-      "type": "application/zip",
-      "title": "5003010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5003990301": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5003990301.zip",
-      "type": "application/zip",
-      "title": "5003990301.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5307000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5307000101.zip",
-      "type": "application/zip",
-      "title": "5307000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5167000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5167000101.zip",
-      "type": "application/zip",
-      "title": "5167000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5226010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5226010100.zip",
-      "type": "application/zip",
-      "title": "5226010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5226990101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5226990101.zip",
-      "type": "application/zip",
-      "title": "5226990101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5171000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5171000201.zip",
-      "type": "application/zip",
-      "title": "5171000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5249010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5249010100.zip",
-      "type": "application/zip",
-      "title": "5249010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5397010101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5397010101.zip",
-      "type": "application/zip",
-      "title": "5397010101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5397020101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5397020101.zip",
-      "type": "application/zip",
-      "title": "5397020101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5397030101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5397030101.zip",
-      "type": "application/zip",
-      "title": "5397030101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5309000301": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5309000301.zip",
-      "type": "application/zip",
-      "title": "5309000301.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5310010101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5310010101.zip",
-      "type": "application/zip",
-      "title": "5310010101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5310020101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5310020101.zip",
-      "type": "application/zip",
-      "title": "5310020101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5310030101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5310030101.zip",
-      "type": "application/zip",
-      "title": "5310030101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5250010200": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5250010200.zip",
-      "type": "application/zip",
-      "title": "5250010200.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5251000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5251000201.zip",
-      "type": "application/zip",
-      "title": "5251000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5236010200": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5236010200.zip",
-      "type": "application/zip",
-      "title": "5236010200.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5176000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5176000201.zip",
-      "type": "application/zip",
-      "title": "5176000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5138010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5138010100.zip",
-      "type": "application/zip",
-      "title": "5138010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5180000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5180000101.zip",
-      "type": "application/zip",
-      "title": "5180000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5071000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5071000101.zip",
-      "type": "application/zip",
-      "title": "5071000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5072010200": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5072010200.zip",
-      "type": "application/zip",
-      "title": "5072010200.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398010101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398010101.zip",
-      "type": "application/zip",
-      "title": "5398010101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398020101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398020101.zip",
-      "type": "application/zip",
-      "title": "5398020101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398030201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398030201.zip",
-      "type": "application/zip",
-      "title": "5398030201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398040101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398040101.zip",
-      "type": "application/zip",
-      "title": "5398040101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398050101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398050101.zip",
-      "type": "application/zip",
-      "title": "5398050101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398060201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398060201.zip",
-      "type": "application/zip",
-      "title": "5398060201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398070201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398070201.zip",
-      "type": "application/zip",
-      "title": "5398070201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398080201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398080201.zip",
-      "type": "application/zip",
-      "title": "5398080201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5398090101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5398090101.zip",
-      "type": "application/zip",
-      "title": "5398090101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5073010101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5073010101.zip",
-      "type": "application/zip",
-      "title": "5073010101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5073020101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5073020101.zip",
-      "type": "application/zip",
-      "title": "5073020101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5108000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5108000201.zip",
-      "type": "application/zip",
-      "title": "5108000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5186000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5186000101.zip",
-      "type": "application/zip",
-      "title": "5186000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5187000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5187000101.zip",
-      "type": "application/zip",
-      "title": "5187000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5009000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5009000101.zip",
-      "type": "application/zip",
-      "title": "5009000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5189000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5189000101.zip",
-      "type": "application/zip",
-      "title": "5189000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5112000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5112000101.zip",
-      "type": "application/zip",
-      "title": "5112000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5323010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5323010100.zip",
-      "type": "application/zip",
-      "title": "5323010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5395010101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395010101.zip",
-      "type": "application/zip",
-      "title": "5395010101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5395020101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395020101.zip",
-      "type": "application/zip",
-      "title": "5395020101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5395030101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395030101.zip",
-      "type": "application/zip",
-      "title": "5395030101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5395040101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395040101.zip",
-      "type": "application/zip",
-      "title": "5395040101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5395050101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5395050101.zip",
-      "type": "application/zip",
-      "title": "5395050101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5315000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5315000101.zip",
-      "type": "application/zip",
-      "title": "5315000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5113000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5113000101.zip",
-      "type": "application/zip",
-      "title": "5113000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5115000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5115000101.zip",
-      "type": "application/zip",
-      "title": "5115000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5192010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5192010100.zip",
-      "type": "application/zip",
-      "title": "5192010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5010000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5010000101.zip",
-      "type": "application/zip",
-      "title": "5010000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5317010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5317010100.zip",
-      "type": "application/zip",
-      "title": "5317010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5193000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5193000201.zip",
-      "type": "application/zip",
-      "title": "5193000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5194000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5194000101.zip",
-      "type": "application/zip",
-      "title": "5194000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5196000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5196000101.zip",
-      "type": "application/zip",
-      "title": "5196000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5198000301": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5198000301.zip",
-      "type": "application/zip",
-      "title": "5198000301.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5254010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5254010100.zip",
-      "type": "application/zip",
-      "title": "5254010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5117000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5117000101.zip",
-      "type": "application/zip",
-      "title": "5117000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5199000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5199000101.zip",
-      "type": "application/zip",
-      "title": "5199000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5118000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5118000201.zip",
-      "type": "application/zip",
-      "title": "5118000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5238010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5238010100.zip",
-      "type": "application/zip",
-      "title": "5238010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5257000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5257000201.zip",
-      "type": "application/zip",
-      "title": "5257000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5203000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5203000201.zip",
-      "type": "application/zip",
-      "title": "5203000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5120000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5120000101.zip",
-      "type": "application/zip",
-      "title": "5120000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5205000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5205000201.zip",
-      "type": "application/zip",
-      "title": "5205000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5206000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5206000101.zip",
-      "type": "application/zip",
-      "title": "5206000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5260000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5260000101.zip",
-      "type": "application/zip",
-      "title": "5260000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5136040100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136040100.zip",
-      "type": "application/zip",
-      "title": "5136040100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5136010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136010100.zip",
-      "type": "application/zip",
-      "title": "5136010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5136060100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136060100.zip",
-      "type": "application/zip",
-      "title": "5136060100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5136070101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136070101.zip",
-      "type": "application/zip",
-      "title": "5136070101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5136080101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5136080101.zip",
-      "type": "application/zip",
-      "title": "5136080101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5208000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5208000201.zip",
-      "type": "application/zip",
-      "title": "5208000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5121000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5121000101.zip",
-      "type": "application/zip",
-      "title": "5121000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5210000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5210000201.zip",
-      "type": "application/zip",
-      "title": "5210000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5076000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5076000201.zip",
-      "type": "application/zip",
-      "title": "5076000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5077000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5077000101.zip",
-      "type": "application/zip",
-      "title": "5077000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5212000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5212000201.zip",
-      "type": "application/zip",
-      "title": "5212000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5214000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5214000101.zip",
-      "type": "application/zip",
-      "title": "5214000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5216000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5216000101.zip",
-      "type": "application/zip",
-      "title": "5216000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5079010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5079010100.zip",
-      "type": "application/zip",
-      "title": "5079010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5263000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5263000101.zip",
-      "type": "application/zip",
-      "title": "5263000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5287010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5287010100.zip",
-      "type": "application/zip",
-      "title": "5287010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5125000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5125000201.zip",
-      "type": "application/zip",
-      "title": "5125000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5017000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5017000101.zip",
-      "type": "application/zip",
-      "title": "5017000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5221000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5221000201.zip",
-      "type": "application/zip",
-      "title": "5221000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5050010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5050010100.zip",
-      "type": "application/zip",
-      "title": "5050010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5225000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5225000101.zip",
-      "type": "application/zip",
-      "title": "5225000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5266000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5266000201.zip",
-      "type": "application/zip",
-      "title": "5266000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5131000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5131000101.zip",
-      "type": "application/zip",
-      "title": "5131000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5396010200": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5396010200.zip",
-      "type": "application/zip",
-      "title": "5396010200.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5227000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5227000201.zip",
-      "type": "application/zip",
-      "title": "5227000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5239010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5239010100.zip",
-      "type": "application/zip",
-      "title": "5239010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5268000201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5268000201.zip",
-      "type": "application/zip",
-      "title": "5268000201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5240010100": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5240010100.zip",
-      "type": "application/zip",
-      "title": "5240010100.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5230000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5230000101.zip",
-      "type": "application/zip",
-      "title": "5230000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5399010201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399010201.zip",
-      "type": "application/zip",
-      "title": "5399010201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5399020101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399020101.zip",
-      "type": "application/zip",
-      "title": "5399020101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5399030101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399030101.zip",
-      "type": "application/zip",
-      "title": "5399030101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5399040101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399040101.zip",
-      "type": "application/zip",
-      "title": "5399040101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5399050101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399050101.zip",
-      "type": "application/zip",
-      "title": "5399050101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5399060101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399060101.zip",
-      "type": "application/zip",
-      "title": "5399060101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5399070201": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5399070201.zip",
-      "type": "application/zip",
-      "title": "5399070201.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5231000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5231000101.zip",
-      "type": "application/zip",
-      "title": "5231000101.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "5233000101": {
-      "href": "https://data.geo.ti.ch/?p=ti_mu_version1_7_mn95&f=5233000101.zip",
-      "type": "application/zip",
-      "title": "5233000101.zip",
-      "roles": [
-        "data"
-      ]
-    }
-  }
+  ]
 }

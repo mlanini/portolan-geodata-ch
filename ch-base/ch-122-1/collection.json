@@ -4,6 +4,7 @@
   "id": "ch-base/ch-122-1",
   "title": "CH-122.1 - Rilevamenti cantonali dell'inquinamento atmosferico (reti di rilevamento)",
   "description": "La rete di rilevamento gestita dall'Ufficio dell'aria, del clima e delle energie rinnovabili (UACER) include una decina di stazioni di analisi dell'aria. Per stazione di analisi si intende un sistema di misura con una serie di apparecchi ciascuno predisposto per l'analisi della concentrazione di una determinata sostanza nell'aria. Una stazione può misurare anche più sostanze a dipendenza della dotazione strumentale. Non tutte sono equipaggiate al massimo delle possibilità.",
+  "dataset_update_date": "2023-03-14",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Rilevamenti cantonali dell'inquinamento atmosferico (reti di rilevamento)",
     "ch-base"
   ],
+  "assets": {
+    "ch_122_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_122_1_v1_1&f=ch_122_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_122_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_122_1_v1_1_stazioni_rilevamento_aria&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Rilevamenti cantonali dell'inquinamento atmosferico (reti di rilevamento)",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_122_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_122_1_v1_1&f=ch_122_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_122_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_122_1_v1_1_stazioni_rilevamento_aria&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Rilevamenti cantonali dell'inquinamento atmosferico (reti di rilevamento)",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2023-03-14"
+  ]
 }

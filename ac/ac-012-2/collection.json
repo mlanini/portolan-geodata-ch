@@ -4,6 +4,7 @@
   "id": "ac/ac-012-2",
   "title": "AC-012.2 - Restrizioni alla circolazione",
   "description": "Restrizioni alla circolazione stradale sulle strade cantonali.",
+  "dataset_update_date": "2026-07-01",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Restrizioni alla circolazione",
     "ac"
   ],
+  "assets": {
+    "ac_012_2_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_012_2_v1_0&f=ac_012_2_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_012_2_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_012_2_v1_0_restrizioni&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Restrizioni alla circolazione",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_012_2_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_012_2_v1_0&f=ac_012_2_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_012_2_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_012_2_v1_0_restrizioni&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Restrizioni alla circolazione",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-07-01"
+  ]
 }

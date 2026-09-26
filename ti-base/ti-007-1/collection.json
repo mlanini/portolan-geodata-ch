@@ -4,6 +4,7 @@
   "id": "ti-base/ti-007-1",
   "title": "TI-007.1 - Bosco di protezione",
   "description": "Il bosco di protezione contribuisce a mitigare l’incidenza dei pericoli naturali, quali valanghe, frane, caduta di sassi e alluvionamenti, su insediamenti e vie di comunicazione. I perimetri sono stati delimitati in base a metodi uniformi su tutto il territorio nazionale nell’ambito del progetto SilvaProtect-CH. A livello cantonale viene fatta una distinzione tra comparti di bosco con funzione di protezione diretta e quelli di protezione generale, questi ultimi situati principalmente nei bacini imbriferi.",
+  "dataset_update_date": "2022-11-15",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,32 @@
     "Bosco di protezione",
     "ti-base"
   ],
+  "assets": {
+    "ti_007_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_007_1_v1_0&f=ti_007_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_007_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "data_parquet": {
+      "href": "../../cloud-optimized/parquet/ti_007_1/ti_007_1_v1_0_bosco_protezione_comprensori_silvaprotect.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "data GeoParquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_007_1_v1_0_bosco_protezione&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Bosco di protezione",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +109,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_007_1_ticino_ili": {
-      "href": "https://data.geo.ti.ch/?p=ti_007_1_v1_0&f=ti_007_1_ticino.zip",
-      "type": "application/interlis+xml",
-      "title": "ti_007_1_ticino INTERLIS",
-      "roles": [
-        "data"
-      ]
-    },
-    "ti_007_1_ticino_parquet": {
-      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ti_007_1/bosco_protezione_v1_0.bosco_protezione.bosco_silvaprotect.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "ti_007_1_ticino GeoParquet",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_007_1_v1_0_bosco_protezione&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Bosco di protezione",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2022-11-15"
+  ]
 }

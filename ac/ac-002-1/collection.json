@@ -4,6 +4,7 @@
   "id": "ac/ac-002-1",
   "title": "AC-002.1 - Limiti giurisdizionali indicativi",
   "description": "Confini giurisdizionali indicativi cantonali, distrettuali, comunali e sezionali. Rispetto a quelli contenuti nei dati MU-TI (geodato CH-062.1), questi limiti sono completati con i confini generalizzati della carta nazionale 1:25'000, sono aggiornati immediatamente dopo ogni aggregazione comunale e sono rettificati topologicamente. Essi non sono contenuti nei dati MU-TI, ma sono gestiti e aggiornati dall’UCR.",
+  "dataset_update_date": "2025-04-07",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Limiti giurisdizionali indicativi",
     "ac"
   ],
+  "assets": {
+    "ac_002_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_002_1_v1_1&f=ac_002_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_002_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_002_1_v1_1_limiti_giurisdizionali_indicativi&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Limiti giurisdizionali indicativi",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_002_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_002_1_v1_1&f=ac_002_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_002_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_002_1_v1_1_limiti_giurisdizionali_indicativi&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Limiti giurisdizionali indicativi",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2025-04-07"
+  ]
 }

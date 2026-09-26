@@ -4,6 +4,7 @@
   "id": "ch-base/ch-081-1",
   "title": "CH-081.1 - Rete di misura dei sedimenti (SOLID)",
   "description": "Rete di misura dei sedimenti (SOLID) Posizione dei punti di misura.",
+  "dataset_update_date": "2024-03-27",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Rete di misura dei sedimenti (SOLID)",
     "ch-base"
   ],
+  "assets": {
+    "ch_081_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_081_1_v1_0&f=ch_081_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_081_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_081_1_v1_0_rete_misura_sedimenti_solid&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Rete di misura dei sedimenti (SOLID)",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_081_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ch_081_1_v1_0&f=ch_081_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ch_081_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_081_1_v1_0_rete_misura_sedimenti_solid&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Rete di misura dei sedimenti (SOLID)",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2024-03-27"
+  ]
 }

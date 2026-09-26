@@ -4,6 +4,7 @@
   "id": "ac/ac-051-1",
   "title": "AC-051.1 - Piani di mobilità scolastica",
   "description": "Comuni dotati di Piani di mobilità scolastica ossia quel documento-progetto che partendo dall’analisi della situazione esistente, propone una o più strategie mirate alla soluzione dei problemi di mobilità scolastica locale, incentivando il traffico lento e l’autonomia dei bambini sui percorsi casa-scuola. Le soluzioni proposte possono essere di tipo infrastrutturale, ma anche legate alla gestione della mobilità, e/o alla sensibilizzazione (ad esempio sicurezza, continuità del tracciato, qualità dell’ambiente circostante, percorsi preferenziali, cartine, pettorine,…). Tutte le scuole e tutti i Comuni possono facilmente dotarsi di un PMS, frutto di un lavoro di gruppo tra Comuni, scuola e famiglie. Il Dipartimento ha censito i Comuni dotati di PMS e che hanno fatto richiesta di contributo.",
+  "dataset_update_date": "2022-11-30",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Piani di mobilità scolastica",
     "ac"
   ],
+  "assets": {
+    "ac_051_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_051_1_v1_0&f=ac_051_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_051_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_051_1_v1_0_piani_mobilita_scolastica&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piani di mobilità scolastica",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_051_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_051_1_v1_0&f=ac_051_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_051_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_051_1_v1_0_piani_mobilita_scolastica&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Piani di mobilità scolastica",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2022-11-30"
+  ]
 }

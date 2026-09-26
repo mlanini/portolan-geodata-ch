@@ -4,6 +4,7 @@
   "id": "ti-base/ti-011-1",
   "title": "TI-011.1 - Assi delle strade cantonali",
   "description": "Assi delle strade cantonali comprendenti di punti di riferimento e punti ettometrici.",
+  "dataset_update_date": "2026-08-19",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Assi delle strade cantonali",
     "ti-base"
   ],
+  "assets": {
+    "ti_011_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_011_1_v1_1&f=ti_011_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_011_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_011_1_v1_1_assi_strade_cantonali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Assi delle strade cantonali",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_011_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ti_011_1_v1_1&f=ti_011_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ti_011_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_011_1_v1_1_assi_strade_cantonali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Assi delle strade cantonali",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-08-19"
+  ]
 }

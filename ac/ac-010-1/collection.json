@@ -4,6 +4,7 @@
   "id": "ac/ac-010-1",
   "title": "AC-010.1 - Qualità dei trasporti pubblici",
   "description": "Livello di qualità del trasporto pubblico determinato in funzione della categoria delle fermate del trasporto pubblico a sua volta classificata in base al tipo di trasporto pubblico e all'intervallo tra una corsa e l'altra. Questo dato interviene nel calcolo del numero di parcheggi privati ammessi ad ogni domanda di costruzione.",
+  "dataset_update_date": "2026-01-07",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Qualità dei trasporti pubblici",
     "ac"
   ],
+  "assets": {
+    "ac_010_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_010_1_v1_0&f=ac_010_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_010_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_010_1_v1_0_qualita_trasporti_pubblici&styles=&crs=EPSG%3A2056&bbox=2637893.7815723754%2C1047154.0292811291%2C2768864.364788635%2C1196395.5290349494&width=337&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Qualità dei trasporti pubblici",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_010_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_010_1_v1_0&f=ac_010_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_010_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_010_1_v1_0_qualita_trasporti_pubblici&styles=&crs=EPSG%3A2056&bbox=2637893.7815723754%2C1047154.0292811291%2C2768864.364788635%2C1196395.5290349494&width=337&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Qualità dei trasporti pubblici",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-01-07"
+  ]
 }

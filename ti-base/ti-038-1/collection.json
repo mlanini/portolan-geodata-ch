@@ -4,6 +4,7 @@
   "id": "ti-base/ti-038-1",
   "title": "TI-038.1 - Autorizzazioni di taglio del bosco",
   "description": "Autorizzazioni di taglio del bosco ai sensi dell’art. 19 LCFo e art. 39 RLCFo. Chi vuole tagliare alberi in bosco deve fare domanda preventiva all’Ufficio forestale competente. Il circondario rilascia un’autorizzazione scritta corredata da eventuali clausole accessorie e marca le piante da tagliare (martellata). Nel geodato sono comprese unicamente le autorizzazioni rilasciate negli ultimi 6 anni che contengono un riferimento territoriale.",
+  "dataset_update_date": "2026-01-29",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Autorizzazioni di taglio del bosco",
     "ti-base"
   ],
+  "assets": {
+    "ti_038_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ti_038_1_v1_0&f=ti_038_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ti_038_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_038_1_v1_0_autorizzazioni_taglio_bosco&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Autorizzazioni di taglio del bosco",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ti_038_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ti_038_1_v1_0&f=ti_038_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ti_038_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ti_038_1_v1_0_autorizzazioni_taglio_bosco&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Autorizzazioni di taglio del bosco",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2026-01-29"
+  ]
 }

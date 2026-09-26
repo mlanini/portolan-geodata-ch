@@ -4,6 +4,7 @@
   "id": "ch-base/ch-073a-1",
   "title": "CH-073a.1 - Piani di utilizzazione (cantonali)",
   "description": "Piani di utilizzazione (cantonali) per gli atti pianificatori che hanno seguito un iter procedurale ai sensi della LST.",
+  "dataset_update_date": null,
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,80 @@
     "Piani di utilizzazione (cantonali)",
     "ch-base"
   ],
+  "assets": {
+    "ch_073a_1_ch20j7dr_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch20j7dr.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch20j7dr INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073a_1_ch17c8yq_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch17c8yq.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch17c8yq INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073a_1_ch22er6y_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch22er6y.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch22er6y INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073a_1_ch18v5ec_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch18v5ec.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch18v5ec INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073a_1_ch082h6s_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch082h6s.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch082h6s INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073a_1_ch0777vv_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch0777vv.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch0777vv INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073a_1_ch184c0e_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch184c0e.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch184c0e INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "ch_073a_1_ch0777ab_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch0777ab.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_073a_1_ch0777ab INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_073a_1_v1_2_piani_utilizzazione_cantonali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piani di utilizzazione (cantonali)",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,79 +157,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_073a_1_ch20j7dr": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch20j7dr.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch20j7dr.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_073a_1_ch17c8yq": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch17c8yq.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch17c8yq.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_073a_1_ch22er6y": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch22er6y.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch22er6y.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_073a_1_ch18v5ec": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch18v5ec.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch18v5ec.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_073a_1_ch082h6s": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch082h6s.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch082h6s.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_073a_1_ch0777vv": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch0777vv.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch0777vv.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_073a_1_ch184c0e": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch184c0e.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch184c0e.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_073a_1_ch0777ab": {
-      "href": "https://data.geo.ti.ch/?p=ch_073a_1_v1_2&f=ch_073a_1_ch0777ab.zip",
-      "type": "application/zip",
-      "title": "ch_073a_1_ch0777ab.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_073a_1_v1_2_piani_utilizzazione_cantonali&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Piani di utilizzazione (cantonali)",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  ]
 }

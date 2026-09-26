@@ -127,9 +127,9 @@ def asset_media_type(href: str) -> str:
     if lowered.endswith(".parquet"):
         return "application/vnd.apache.parquet"
     if lowered.endswith(".zip"):
-        return "application/zip"
+        return "application/interlis+xml"
     if lowered.endswith(".xtf"):
-        return "application/interlis"
+        return "application/interlis+xml"
     return "application/octet-stream"
 
 
@@ -251,8 +251,10 @@ def build_geoparquet_asset(item: dict[str, str], assets: dict[str, dict[str, obj
     if not parquet_files:
         return None
 
-    relative_path = os.path.relpath(parquet_files[0], start=repo_root()).replace(os.sep, "/")
-    href = raw_github_url(relative_path)
+    # Path relativo dal collection.json ({category}/{dataset_id}/collection.json)
+    # a file parquet (cloud-optimized/parquet/{geoparquet_slug}/file.parquet)
+    parquet_filename = parquet_files[0].name
+    href = f"../../cloud-optimized/parquet/{geoparquet_slug}/{parquet_filename}"
     dataset_stem = primary_dataset_stem(assets)
 
     return {

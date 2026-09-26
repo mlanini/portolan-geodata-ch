@@ -4,6 +4,7 @@
   "id": "ch-base/ch-068-1",
   "title": "CH-068.1 - Superfici per l'avvicendamento delle colture",
   "description": "Le superfici per l'avvicendamento delle colture (SAC) rappresentano i migliori terreni agricoli della Svizzera. Grazie al piano settoriale delle SAC, vengono salvaguardate le superfici migliori per la campicoltura.",
+  "dataset_update_date": "2025-07-16",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,32 @@
     "Superfici per l'avvicendamento delle colture",
     "ch-base"
   ],
+  "assets": {
+    "ch_068_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ch_068_1_v1_0&f=ch_068_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ch_068_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "data_parquet": {
+      "href": "../../cloud-optimized/parquet/ch_068_1/ch_068_1_v1_0_superfici_avvicendamento_colture.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "data GeoParquet",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_068_1_v1_0_superfici_avvicendamento_colture&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Superfici per l'avvicendamento delle colture",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,32 +109,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ch_068_1_ticino_ili": {
-      "href": "https://data.geo.ti.ch/?p=ch_068_1_v1_0&f=ch_068_1_ticino.zip",
-      "type": "application/interlis+xml",
-      "title": "ch_068_1_ticino INTERLIS",
-      "roles": [
-        "data"
-      ]
-    },
-    "ch_068_1_ticino_parquet": {
-      "href": "https://raw.githubusercontent.com/mlanini/portolan-geodata-ch/main/cloud-optimized/parquet/ch_068_1/SurfacesDAssolement_MN95_V1.GeodonneesDeBase.Qualite_cantonal.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "ch_068_1_ticino GeoParquet",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ch_068_1_v1_0_superfici_avvicendamento_colture&styles=&crs=EPSG%3A2056&bbox=2638811.8%2C1049250.5%2C2764867.7%2C1187972.3&width=349&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Superfici per l'avvicendamento delle colture",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2025-07-16"
+  ]
 }

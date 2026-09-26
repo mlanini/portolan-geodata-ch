@@ -4,6 +4,7 @@
   "id": "ac/ac-008-1",
   "title": "AC-008.1 - Piani di evacuazione",
   "description": "Piani di evacuazione in caso di allarme acqua allestiti per Comune-Sezione contenenti le zone d'inondazione, le direzioni d'evacuazione e i punti di raccolta.",
+  "dataset_update_date": "2023-04-13",
   "license": "other",
   "extent": {
     "spatial": {
@@ -30,6 +31,24 @@
     "Piani di evacuazione",
     "ac"
   ],
+  "assets": {
+    "ac_008_1_ticino_ili": {
+      "href": "https://data.geo.ti.ch/?p=ac_008_1_v1_0&f=ac_008_1_ticino.zip",
+      "type": "application/interlis+xml",
+      "title": "ac_008_1_ticino INTERLIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_008_1_v1_0_piani_evacuazione&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
+      "type": "image/png",
+      "title": "Anteprima WMS - Piani di evacuazione",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
   "links": [
     {
       "rel": "root",
@@ -82,24 +101,5 @@
       "type": "text/html",
       "title": "Scheda dataset su data.geo.ti.ch"
     }
-  ],
-  "assets": {
-    "ac_008_1_ticino": {
-      "href": "https://data.geo.ti.ch/?p=ac_008_1_v1_0&f=ac_008_1_ticino.zip",
-      "type": "application/zip",
-      "title": "ac_008_1_ticino.zip",
-      "roles": [
-        "data"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://wms.geo.ti.ch/service?service=WMS&version=1.3.0&request=GetMap&layers=ac_008_1_v1_0_piani_evacuazione&styles=&crs=EPSG%3A2056&bbox=2637933.5198950153%2C1047154.0292811291%2C2768687.3508520415%2C1190115.965921472&width=351&height=384&format=image%2Fpng&transparent=true",
-      "type": "image/png",
-      "title": "Anteprima WMS - Piani di evacuazione",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  },
-  "dataset_update_date": "2023-04-13"
+  ]
 }

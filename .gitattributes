@@ -1,0 +1,2 @@
+*.parquet binary diff=parquet
+*.parquet -text -diff
